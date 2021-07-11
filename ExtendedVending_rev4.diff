@@ -28,3 +28,55 @@
 		sd->state.prevend = 0;
 		return;
 	}
+	
+		z += ((double)vsd->vending[j].value * (double)amount);	
+		/**
+		* Extended Vending system [Lilith]
+		**/
+		if (battle_config.extended_vending) {
+			if (vsd->vend_loot == ITEMID_ZENY || !vsd->vend_loot) {
+				if (z > (double)sd->status.zeny || z < 0. || z >(double)MAX_ZENY)
+				{
+					//clif_buyvending(sd, idx, amount, 1); // you don't have enough zeny
+					return;
+				}
+				if (z + (double)vsd->status.zeny > (double)MAX_ZENY && !battle_config.vending_over_max)
+				{
+					clif_buyvending(sd, idx, vsd->vending[j].amount, 4); // too much zeny = overflow
+					return;
+				}
+			}
+			else if (vsd->vend_loot == ITEMID_CASH) {
+				if (z > sd->cashPoints || z < 0. || z >(double)MAX_ZENY) {
+					clif_messagecolor(&sd->bl, color_table[COLOR_CYAN], msg_txt(sd, 1590), false, SELF);
+					return;
+				}
+			}
+			else {
+				int k, loot_count = 0, vsd_w = 0;
+				for (k = 0; k < MAX_INVENTORY; k++) {
+					if (sd->inventory.u.items_inventory[k].bound) {
+						clif_displaymessage(sd->fd, "Cannot buy with Bound Items.");
+						return;
+					}
+					if (sd->inventory.u.items_inventory[k].nameid == vsd->vend_loot)
+						loot_count += sd->inventory.u.items_inventory[k].amount;
+				}
+ 
+				if (z > loot_count || z < 0)
+				{
+					clif_messagecolor(&sd->bl, color_table[COLOR_CYAN], msg_txt(sd, 1591), false, SELF);
+					return;
+				}
+				if (pc_inventoryblank(vsd) <= 0)
+				{
+					clif_messagecolor(&sd->bl, color_table[COLOR_CYAN], msg_txt(sd, 1592), false, SELF);
+					return;
+				}
+				vsd_w += itemdb_weight(vsd->vend_loot) * (int)z;
+				if (vsd_w + vsd->weight > vsd->max_weight)
+				{
+					clif_messagecolor(&sd->bl, color_table[COLOR_CYAN], msg_txt(sd, 1593), false, SELF);
+					return;
+				}
+			}
