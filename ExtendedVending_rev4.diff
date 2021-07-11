@@ -34,7 +34,7 @@
 		* Extended Vending system [Lilith]
 		**/
 		if (battle_config.extended_vending) {
-			if (vsd->vend_loot == ITEMID_ZENY || !vsd->vend_loot) {
+			if (vsd->vend_loot == battle_config.item_zeny || !vsd->vend_loot) {
 				if (z > (double)sd->status.zeny || z < 0. || z >(double)MAX_ZENY)
 				{
 					//clif_buyvending(sd, idx, amount, 1); // you don't have enough zeny
@@ -46,7 +46,7 @@
 					return;
 				}
 			}
-			else if (vsd->vend_loot == ITEMID_CASH) {
+			else if (vsd->vend_loot == battle_config.item_cash) {
 				if (z > sd->cashPoints || z < 0. || z >(double)MAX_ZENY) {
 					clif_messagecolor(&sd->bl, color_table[COLOR_CYAN], msg_txt(sd, 1590), false, SELF);
 					return;
