@@ -8,3 +8,23 @@
 	{ "ex_vending_report",					&battle_config.ex_vending_report,				1,		0,		1,				}, // [Easycore]
 	{ "item_zeny",							&battle_config.item_zeny,						0,		0,		MAX_ITEMID,		},
 	{ "item_cash",							&battle_config.item_cash,						0,		0,		MAX_ITEMID,		},
+
+	/**
+	* Extended Vending system [Lilith]
+	**/
+	int extended_vending;
+	int show_broadcas_info;
+	int show_item_vending;
+	int ex_vending_info;
+	int ex_vending_report;
+	int item_zeny;
+	int item_cash;
+	
+	unsigned short vend_loot;		// Extended Vending system [Lilith]
+	
+	// Vending shouldn't open if vend_loot is 0 and extended vending is enabled [Easycore]
+	ShowWarning("vend loot = %d\n", sd->vend_loot);
+	if (battle_config.extended_vending && sd->vend_loot == 0) {
+		sd->state.prevend = 0;
+		return;
+	}
