@@ -80,3 +80,85 @@
 					return;
 				}
 			}
+
+	/**
+	* Extended Vending system [Lilith]
+	**/
+	if (battle_config.extended_vending) {
+		if (vsd->vend_loot == ITEMID_ZENY || !vsd->vend_loot) {
+			pc_payzeny(sd, (int)z, LOG_TYPE_VENDING, vsd);
+			achievement_update_objective(sd, AG_SPEND_ZENY, 1, (int)z);
+			z = vending_calc_tax(sd, z);
+			pc_getzeny(vsd, (int)z, LOG_TYPE_VENDING, sd);
+		}
+		else if (vsd->vend_loot == ITEMID_CASH) {
+			pc_paycash(sd, (int)z, 0, LOG_TYPE_VENDING);
+			pc_getcash(vsd, (int)z, 0, LOG_TYPE_VENDING);
+		}
+		else {
+			for (i = 0; i < MAX_INVENTORY; i++)
+				if (sd->inventory.u.items_inventory[i].nameid == vsd->vend_loot)
+				{
+					struct item *item;
+					item = &sd->inventory.u.items_inventory[i];
+					pc_additem(vsd, item, (int)z, LOG_TYPE_VENDING);
+				}
+			pc_delitem(sd, pc_search_inventory(sd, vsd->vend_loot), (int)z, 0, 6, LOG_TYPE_VENDING);
+		}
+	}
+	else {
+		pc_payzeny(sd, (int)z, LOG_TYPE_VENDING, vsd);
+		achievement_update_objective(sd, AG_SPEND_ZENY, 1, (int)z);
+		z = vending_calc_tax(sd, z);
+		pc_getzeny(vsd, (int)z, LOG_TYPE_VENDING, sd);
+	}
+	int mailprofit = 0;
+
+			if (battle_config.ex_vending_info) {// Extended Vending system [Lilith]
+				double rev = ((double)vsd->vending[vend_list[i]].value * (double)amount);
+				if (vsd->vend_loot == ITEMID_ZENY)
+					sprintf(temp, msg_txt(sd, 1597), sd->status.name, item_name, amount, (int)(rev -= rev * (battle_config.vending_tax / 10000.)),"Zeny");
+				else
+					sprintf(temp, msg_txt(sd, 1597), sd->status.name, item_name, amount, (int)rev, itemdb_jname(vsd->vend_loot)); //No Tax for Items/Cash [Easycore]
+			} else
+				sprintf(temp, msg_txt(sd, 265), sd->status.name);
+			clif_displaymessage(vsd->fd, temp);
+		}
+		if (battle_config.ex_vending_info) { // Extended Vending system [Lilith]
+			char temp[256];
+			double frev = ((double)vsd->vending[vend_list[i]].value * (double)amount);
+			sprintf(temp, msg_txt(sd,1598), sd->status.name, (int)frev, vsd->vend_loot?itemdb_jname(vsd->vend_loot):"Zeny");
+			clif_displaymessage(vsd->fd, temp);
+		}
+		if (battle_config.ex_vending_report && pc_readglobalreg(vsd, add_str("NOVREPORT")) == 0 ) { // Vending Report MailBox [Easycore]
+			const char *sender, *title, *body;
+			struct mail_message msg;
+			char message[1000];
+			mailprofit += vsd->vending[vend_list[i]].value *amount;
+			memset(&msg, 0, sizeof(struct mail_message));
+			msg.dest_id = vsd->status.char_id;
+			sender = "Server";
+			safestrncpy(msg.send_name, sender, NAME_LENGTH);
+			title = "Vending Report";
+			safestrncpy(msg.title, title, MAIL_TITLE_LENGTH);
+			if (i == 0)
+				sprintf(message, "[%s] has bought in your store: \r\n", sd->status.name);
+			#if PACKETVER >= 20150513 // Old mail box is too shorter [Easycore]
+			if (i >= 0 && strlen(message)<180)
+				sprintf(message + strlen(message), "   - %s x %d ea\r\n", item_name, amount);
+			else if (strlen(message)<200)
+				sprintf(message + strlen(message), "......and more\r\n");
+			#endif
+			if (i == count-1) {
+				if (vsd->vend_loot == ITEMID_ZENY)
+					sprintf(message + strlen(message), "Total profit: %s x %d", "Zeny" ,(mailprofit -= mailprofit * (int)(battle_config.vending_tax / 10000.)));
+				else
+					sprintf(message + strlen(message), "Total profit: %s x %d",itemdb_jname(vsd->vend_loot) ,mailprofit); //No Tax for Items/Cash [Easycore]
+			}
+			body = message;
+			safestrncpy(msg.body, body, MAIL_BODY_LENGTH);
+			msg.status = MAIL_NEW;
+			msg.type = MAIL_INBOX_NORMAL;
+			msg.timestamp = time(NULL);
+			if (i==count-1)
+				intif_Mail_send(0, &msg);
