@@ -170,42 +170,49 @@
 **/
 int clif_vend(struct map_session_data *sd, int skill_lv) {
 
-	struct item_data *item;
-	int c, i, d = 0;
-	int fd;
+	nullpo_ret( sd );
 
-	nullpo_ret(sd);
+	int fd = sd->fd;
 
-	fd = sd->fd;
-	WFIFOHEAD(fd, 8 * 8 + 8);
-	WFIFOW(fd, 0) = 0x1ad;
-	if (battle_config.item_zeny) {
-		WFIFOW(fd, d * 2 + 4) = ITEMID_ZENY;
-		d++;
-
+	if( !session_isActive( fd ) ){
+		return 0;
 	}
-	if (battle_config.item_cash) {
-		WFIFOW(fd, d * 2 + 4) = ITEMID_CASH;
-		d++;
-	}
-	for (c = d, i = 0; i < ARRAYLENGTH(item_vend); i++) {
-		if ((item = itemdb_exists(item_vend[i].itemid)) != NULL &&
-			item->nameid != ITEMID_ZENY && item->nameid != ITEMID_CASH) {
-			WFIFOW(fd, c * 2 + 4) = item->nameid;
-			c++;
 
+	WFIFOHEAD( fd, sizeof( struct PACKET_ZC_MAKINGARROW_LIST ) + (ARRAYLENGTH(item_vend)+2) * sizeof( struct PACKET_ZC_MAKINGARROW_LIST_sub ) );
+	struct PACKET_ZC_MAKINGARROW_LIST *p = (struct PACKET_ZC_MAKINGARROW_LIST *)WFIFOP( fd, 0 );
+	p->packetType = HEADER_ZC_MAKINGARROW_LIST;
+
+	int i, count = 0;
+	if (battle_config.item_zeny && itemdb_exists(battle_config.item_zeny) ) {
+		p->items[count].itemId = client_nameid(battle_config.item_zeny);
+		count++;
+	}
+
+	if (battle_config.item_cash && itemdb_exists(battle_config.item_cash) ) {
+		p->items[count].itemId = client_nameid(battle_config.item_cash);
+		count++;
+	}
+
+	for ( i = 0; i < ARRAYLENGTH(item_vend); i++) {
+		struct item_data* item;
+		t_itemid nameid = item_vend[i].itemid;
+
+		if( nameid != battle_config.item_zeny && nameid != battle_config.item_cash && (item = itemdb_exists(nameid)) ) {
+			p->items[count].itemId = client_nameid(nameid);
+			count++;
 		}
 	}
-	if (c > 0) {
+
+	p->packetLength = sizeof( struct PACKET_ZC_MAKINGARROW_LIST ) + count * sizeof( struct PACKET_ZC_MAKINGARROW_LIST_sub );
+	WFIFOSET( fd, p->packetLength );
+
+	if( count > 0 ){
 		sd->menuskill_id = MC_VENDING;
 		sd->menuskill_val = skill_lv;
-		WFIFOW(fd, 2) = c * 2 + 4;
-		WFIFOSET(fd, WFIFOW(fd, 2));
 	}
 	else {
 		clif_skill_fail(sd, MC_VENDING, USESKILL_FAIL_LEVEL, 0);
 		return 0;
 	}
-
 	return 1;
 }
