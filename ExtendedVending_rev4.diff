@@ -115,45 +115,6 @@
      AegisName: VERIT
      Name: Verit
      Level: 52
-@@ -1743,11 +1743,11 @@ Body:
-     Name: Osiris
-     Level: 68
-     Hp: 1175840
-     BaseExp: 122760
-     JobExp: 100440
--    MvpExp: 122760
-+    MvpExp: 61380
-     Attack: 1980
-     Attack2: 1503
-     Defense: 172
-     MagicDefense: 164
-     Str: 97
-@@ -1802,11 +1802,11 @@ Body:
-     Name: Baphomet
-     Level: 81
-     Hp: 668000
-     BaseExp: 218089
-     JobExp: 167053
--    MvpExp: 198262
-+    MvpExp: 109044
-     Attack: 3150
-     Attack2: 1984
-     Defense: 379
-     MagicDefense: 45
-     Str: 120
-@@ -2122,11 +2122,11 @@ Body:
-     Name: Doppelganger
-     Level: 77
-     Hp: 380000
-     BaseExp: 172260
-     JobExp: 125280
--    MvpExp: 156600
-+    MvpExp: 86130
-     Attack: 2103
-     Attack2: 1176
-     Defense: 246
-     MagicDefense: 86
-     Str: 122
 @@ -2303,11 +2303,11 @@ Body:
        - Item: Yellow_Gemstone
          Rate: 60
@@ -193,19 +154,6 @@
      AegisName: ROCKER
      Name: Rocker
      Level: 15
-@@ -2740,11 +2740,11 @@ Body:
-     Name: Mistress
-     Level: 78
-     Hp: 378000
-     BaseExp: 184140
-     JobExp: 150660
--    MvpExp: 184140
-+    MvpExp: 92070
-     Attack: 985
-     Attack2: 1967
-     Defense: 287
-     MagicDefense: 192
-     Str: 76
 @@ -2974,11 +2974,11 @@ Body:
        - Item: Carrot
          Rate: 3000
@@ -271,7 +219,7 @@
      AegisName: RED_MUSHROOM
      Name: Red Mushroom
      Level: 1
-@@ -3950,20 +3950,20 @@ Body:
+@@ -3950,11 +3950,11 @@ Body:
        - Item: Mushroom_Spore
          Rate: 5000
        - Item: Mushroom_Spore
@@ -284,42 +232,6 @@
      AegisName: GOLDEN_BUG
      Name: Golden Thief Bug
      Level: 65
-     Hp: 222750
-     BaseExp: 102060
-     JobExp: 77760
--    MvpExp: 97200
-+    MvpExp: 51030
-     Attack: 952
-     Attack2: 843
-     Defense: 159
-     MagicDefense: 81
-     Str: 71
-@@ -4016,11 +4016,11 @@ Body:
-     Name: Orc Hero
-     Level: 50
-     Hp: 362000
-     BaseExp: 53460
-     JobExp: 48600
--    MvpExp: 53460
-+    MvpExp: 26730
-     Attack: 662
-     Attack2: 441
-     Defense: 197
-     MagicDefense: 70
-     Str: 97
-@@ -5222,11 +5222,11 @@ Body:
-     Name: Drake
-     Level: 91
-     Hp: 804500
-     BaseExp: 309096
-     JobExp: 208980
--    MvpExp: 257580
-+    MvpExp: 154548
-     Attack: 2519
-     Attack2: 1403
-     Defense: 279
-     MagicDefense: 135
-     Str: 121
 @@ -5313,11 +5313,11 @@ Body:
        - Item: Apple
          Rate: 400
@@ -333,71 +245,6 @@
      AegisName: DUSTINESS
      Name: Dustiness
      Level: 62
-@@ -5369,11 +5369,11 @@ Body:
-     Name: Eddga
-     Level: 65
-     Hp: 947500
-     BaseExp: 103950
-     JobExp: 74250
--    MvpExp: 99000
-+    MvpExp: 51975
-     Attack: 1509
-     Attack2: 776
-     Defense: 166
-     MagicDefense: 70
-     Str: 92
-@@ -6905,11 +6905,11 @@ Body:
-     Name: Maya
-     Level: 55
-     Hp: 380000
-     BaseExp: 89280
-     JobExp: 66960
--    MvpExp: 89280
-+    MvpExp: 44640
-     Attack: 555
-     Attack2: 265
-     Defense: 183
-     MagicDefense: 50
-     Str: 88
-@@ -7060,11 +7060,11 @@ Body:
-     Name: Moonlight Flower
-     Level: 79
-     Hp: 324000
-     BaseExp: 183744
-     JobExp: 135720
--    MvpExp: 167040
-+    MvpExp: 91872
-     Attack: 2232
-     Attack2: 1251
-     Defense: 254
-     MagicDefense: 81
-     Str: 86
-@@ -7396,11 +7396,11 @@ Body:
-     Name: Pharaoh
-     Level: 85
-     Hp: 900000
-     BaseExp: 229680
-     JobExp: 167040
--    MvpExp: 208800
-+    MvpExp: 104400
-     Attack: 1624
-     Attack2: 1782
-     Defense: 124
-     MagicDefense: 269
-     Str: 98
-@@ -7502,11 +7502,11 @@ Body:
-     Name: Phreeoni
-     Level: 71
-     Hp: 300000
-     BaseExp: 63800
-     JobExp: 90000
--    MvpExp: 58000
-+    MvpExp: 31900
-     Attack: 693
-     Attack2: 967
-     Defense: 269
-     MagicDefense: 98
-     Str: 88
 @@ -8669,11 +8669,11 @@ Body:
        - Item: Green_Herb
          Rate: 175
@@ -411,19 +258,6 @@
      AegisName: WHISPER_
      Name: Whisper
      Level: 34
-@@ -8852,11 +8852,11 @@ Body:
-     Name: Orc Lord
-     Level: 55
-     Hp: 552000
-     BaseExp: 78120
-     JobExp: 61380
--    MvpExp: 31102
-+    MvpExp: 15553
-     Attack: 780
-     Attack2: 648
-     Defense: 256
-     MagicDefense: 92
-     Str: 95
 @@ -11125,11 +11125,11 @@ Body:
        - Item: Milk
          Rate: 1000
@@ -537,58 +371,6 @@
      Name: Cruiser
      Level: 41
      Hp: 919
-@@ -11602,11 +11554,11 @@ Body:
-     JapaneseName: Knight of Windstorm
-     Level: 92
-     Hp: 630500
-     BaseExp: 248280
-     JobExp: 151100
--    MvpExp: 206900
-+    MvpExp: 124140
-     Attack: 3480
-     Attack2: 1433
-     Defense: 306
-     MagicDefense: 166
-     Str: 126
-@@ -11662,11 +11614,11 @@ Body:
-     JapaneseName: Garm
-     Level: 98
-     Hp: 1275500
-     BaseExp: 455328
-     JobExp: 306900
--    MvpExp: 379440
-+    MvpExp: 227664
-     Attack: 2421
-     Attack2: 1733
-     Defense: 173
-     MagicDefense: 103
-     Str: 122
-@@ -12618,11 +12570,11 @@ Body:
-     Name: Dark Lord
-     Level: 96
-     Hp: 1190900
-     BaseExp: 428544
-     JobExp: 279000
--    MvpExp: 357120
-+    MvpExp: 214272
-     Attack: 3935
-     Attack2: 2585
-     Defense: 330
-     MagicDefense: 168
-     Str: 118
-@@ -14487,11 +14439,11 @@ Body:
-     Name: Turtle General
-     Level: 110
-     Hp: 1442000
-     BaseExp: 559872
-     JobExp: 411642
--    MvpExp: 466560
-+    MvpExp: 279936
-     Attack: 3169
-     Attack2: 2066
-     Defense: 394
-     MagicDefense: 123
-     Str: 116
 @@ -15088,11 +15040,11 @@ Body:
        - Item: Siege_Supply_Box
          Rate: 400
@@ -1109,32 +891,6 @@
      AegisName: G_ASSULTER
      Name: Assaulter
      Level: 98
-@@ -16669,11 +16621,11 @@ Body:
-     JapaneseName: Lord of Death
-     Level: 94
-     Hp: 603883
-     BaseExp: 262272
-     JobExp: 172626
--    MvpExp: 218560
-+    MvpExp: 131136
-     Attack: 5351
-     Attack2: 1962
-     Defense: 336
-     MagicDefense: 73
-     Str: 140
-@@ -17410,11 +17362,11 @@ Body:
-     Name: Dracula
-     Level: 75
-     Hp: 350000
-     BaseExp: 171864
-     JobExp: 122760
--    MvpExp: 156240
-+    MvpExp: 85932
-     Attack: 2454
-     Attack2: 1812
-     Defense: 252
-     MagicDefense: 146
-     Str: 86
 @@ -17764,11 +17716,11 @@ Body:
        - Item: Candy_Striper
          Rate: 5000
@@ -1148,7 +904,7 @@
      AegisName: CRYSTAL_4
      Name: Water Crystal
      Level: 1
-@@ -17802,20 +17754,20 @@ Body:
+@@ -17802,11 +17754,11 @@ Body:
        - Item: Candy_Striper
          Rate: 5000
        - Item: Chocolate
@@ -1161,16 +917,6 @@
      AegisName: EVENT_BAPHO
      Name: Baphomet
      Level: 68
-     Hp: 1264000
-     BaseExp: 41225
-     JobExp: 12553
--    MvpExp: 130875
-+    MvpExp: 68709
-     Attack: 1939
-     Attack2: 420
-     Defense: 35
-     MagicDefense: 45
-     Agi: 152
 @@ -17859,11 +17811,11 @@ Body:
        - Item: Herald_Of_GOD
          Rate: 250
@@ -1184,58 +930,6 @@
      AegisName: KARAKASA
      Name: Karakasa
      Level: 72
-@@ -18613,11 +18565,11 @@ Body:
-     Name: Evil Snake Lord
-     Level: 105
-     Hp: 1101000
-     BaseExp: 432000
-     JobExp: 346500
--    MvpExp: 78120
-+    MvpExp: 46872
-     Attack: 2882
-     Attack2: 1986
-     Defense: 314
-     MagicDefense: 185
-     Str: 122
-@@ -20020,11 +19972,11 @@ Body:
-     AttackMotion: 780
-     DamageMotion: 420
-     Ai: 04
-   - Id: 1468
-     AegisName: G_REQUIEM
--    Name: Requim
-+    Name: Requiem
-     Level: 71
-     Hp: 3089
-     Attack: 348
-     Attack2: 48
-     Defense: 88
-@@ -20688,11 +20640,11 @@ Body:
-     JapaneseName: Incantation Samurai
-     Level: 100
-     Hp: 901000
-     BaseExp: 451008
-     JobExp: 327294
--    MvpExp: 375840
-+    MvpExp: 225504
-     Attack: 2855
-     Attack2: 936
-     Defense: 296
-     MagicDefense: 140
-     Str: 145
-@@ -21088,11 +21040,11 @@ Body:
-     JapaneseName: Pori Pori
-     Level: 99
-     Hp: 95000000
-     BaseExp: 47115
-     JobExp: 12553
--    MvpExp: 43625
-+    MvpExp: 26177
-     Attack: 6500
-     Attack2: 5000
-     MagicDefense: 10
-     Str: 100
-     Agi: 100
 @@ -21117,11 +21069,11 @@ Body:
        Mvp: true
      MvpDrops:
@@ -1262,19 +956,6 @@
      AegisName: GIBBET
      Name: Gibbet
      Level: 105
-@@ -21524,11 +21476,11 @@ Body:
-     Name: Amon Ra
-     Level: 69
-     Hp: 1009000
-     BaseExp: 120060
-     JobExp: 93960
--    MvpExp: 120060
-+    MvpExp: 60030
-     Attack: 2090
-     Attack2: 2052
-     Defense: 213
-     MagicDefense: 123
-     Str: 86
 @@ -21756,52 +21708,11 @@ Body:
        - Item: Cold_Scroll_2_5
          Rate: 50
@@ -1387,32 +1068,6 @@
      Name: Alice
      Level: 100
      Hp: 9230
-@@ -22560,11 +22426,11 @@ Body:
-     AttackDelay: 1152
-     AttackMotion: 1152
-     DamageMotion: 384
-     Ai: 10
-   - Id: 1542
--    AegisName: G_INCANTATION_SAMURA
-+    AegisName: G_INCANTATION_SAMURAI
-     Name: Incantation Samurai
-     Level: 100
-     Hp: 901000
-     Attack: 2855
-     Attack2: 936
-@@ -23710,11 +23576,11 @@ Body:
-     Name: Tao Gunka
-     Level: 110
-     Hp: 1252000
-     BaseExp: 540000
-     JobExp: 396000
--    MvpExp: 450000
-+    MvpExp: 270000
-     Attack: 3757
-     Attack2: 1260
-     Defense: 404
-     MagicDefense: 143
-     Str: 135
 @@ -23975,11 +23841,11 @@ Body:
        - Item: Gift_Box
          Rate: 500
@@ -1533,32 +1188,6 @@
      AegisName: METALING
      Name: Metaling
      Level: 81
-@@ -25172,11 +24996,11 @@ Body:
-     JapaneseName: RSX 0806
-     Level: 100
-     Hp: 1001000
-     BaseExp: 432000
-     JobExp: 316800
--    MvpExp: 360000
-+    MvpExp: 216000
-     Attack: 3010
-     Attack2: 976
-     Defense: 317
-     MagicDefense: 96
-     Str: 153
-@@ -25450,11 +25274,11 @@ Body:
-     JapaneseName: Bacsojin
-     Level: 97
-     Hp: 720500
-     BaseExp: 400896
-     JobExp: 271440
--    MvpExp: 334080
-+    MvpExp: 200448
-     Attack: 1414
-     Attack2: 2036
-     Defense: 210
-     MagicDefense: 178
-     Str: 118
 @@ -25978,11 +25802,11 @@ Body:
      Class: Boss
      Drops:
@@ -1624,7 +1253,7 @@
      AegisName: G_KATRINN
      Name: High Wizard Kathryne
      JapaneseName: High Wizard Katrinn
-@@ -26167,20 +25991,20 @@ Body:
+@@ -26167,11 +25991,11 @@ Body:
      Class: Boss
      Drops:
        - Item: Carnium
@@ -1637,94 +1266,6 @@
      AegisName: B_SEYREN
      Name: Lord Knight Seyren
      Level: 160
-     Hp: 4680000
-     BaseExp: 3017664
-     JobExp: 1915056
--    MvpExp: 2321280
-+    MvpExp: 1508832
-     Attack: 6435
-     Attack2: 2342
-     Defense: 567
-     MagicDefense: 155
-     Str: 303
-@@ -26236,11 +26060,11 @@ Body:
-     Name: Assassin Cross Eremes
-     Level: 160
-     Hp: 4230000
-     BaseExp: 2720250
-     JobExp: 1730916
--    MvpExp: 2092500
-+    MvpExp: 1360125
-     Attack: 6083
-     Attack2: 1378
-     Defense: 445
-     MagicDefense: 98
-     Str: 211
-@@ -26297,11 +26121,11 @@ Body:
-     JapaneseName: Whitesmith Harword
-     Level: 160
-     Hp: 6750000
-     BaseExp: 2310750
-     JobExp: 1465200
--    MvpExp: 1777500
-+    MvpExp: 1155375
-     Attack: 5250
-     Attack2: 1465
-     Defense: 301
-     MagicDefense: 106
-     Str: 275
-@@ -26358,11 +26182,11 @@ Body:
-     JapaneseName: High Priest Magaleta
-     Level: 160
-     Hp: 4800000
-     BaseExp: 2252250
-     JobExp: 1386000
--    MvpExp: 1732500
-+    MvpExp: 1126125
-     Attack: 2499
-     Attack2: 3396
-     Defense: 231
-     MagicDefense: 349
-     Str: 172
-@@ -26419,11 +26243,11 @@ Body:
-     JapaneseName: Sniper Shecil
-     Level: 160
-     Hp: 4140000
-     BaseExp: 2669472
-     JobExp: 1694088
--    MvpExp: 2053440
-+    MvpExp: 1334736
-     Attack: 4155
-     Attack2: 1550
-     Defense: 178
-     MagicDefense: 135
-     Str: 176
-@@ -26480,11 +26304,11 @@ Body:
-     JapaneseName: High Wizard Katrinn
-     Level: 160
-     Hp: 4500000
-     BaseExp: 2106000
-     JobExp: 1336500
--    MvpExp: 1620000
-+    MvpExp: 1053000
-     Attack: 2097
-     Attack2: 4254
-     Defense: 215
-     MagicDefense: 555
-     Str: 165
-@@ -26841,11 +26665,11 @@ Body:
-     JapaneseName: Ygnizem
-     Level: 141
-     Hp: 2910088
-     BaseExp: 685360
-     JobExp: 1023000
--    MvpExp: 527200
-+    MvpExp: 342680
-     Attack: 5986
-     Attack2: 2351
-     Defense: 373
-     MagicDefense: 175
-     Str: 188
 @@ -27496,11 +27320,11 @@ Body:
      Class: Boss
      Drops:
@@ -1738,19 +1279,6 @@
      AegisName: VENATU
      Name: Venatu
      Level: 77
-@@ -27916,11 +27740,11 @@ Body:
-     Name: Vesper
-     Level: 128
-     Hp: 3802000
-     BaseExp: 1755000
-     JobExp: 1237500
--    MvpExp: 100000
-+    MvpExp: 64935
-     Attack: 3668
-     Attack2: 4656
-     Defense: 402
-     MagicDefense: 109
-     Str: 177
 @@ -28013,11 +27837,11 @@ Body:
          Rate: 100
        - Item: Bib
@@ -1764,45 +1292,6 @@
    - Id: 1687
      AegisName: GREEN_IGUANA
      Name: Grove
-@@ -28071,11 +27895,11 @@ Body:
-     Name: Lady Tanee
-     Level: 80
-     Hp: 360000
-     BaseExp: 183744
-     JobExp: 130500
--    MvpExp: 167040
-+    MvpExp: 91872
-     Attack: 1936
-     Attack2: 925
-     Defense: 241
-     MagicDefense: 104
-     Str: 86
-@@ -28974,11 +28798,11 @@ Body:
-     JapaneseName: Thanatos
-     Level: 99
-     Hp: 1445660
-     BaseExp: 779640
-     JobExp: 965277
--    MvpExp: 649700
-+    MvpExp: 389820
-     Attack: 4956
-     Attack2: 1671
-     Defense: 364
-     MagicDefense: 35
-     Str: 100
-@@ -29454,11 +29278,11 @@ Body:
-     JapaneseName: Detale
-     Level: 135
-     Hp: 6005000
-     BaseExp: 2808000
-     JobExp: 1881000
--    MvpExp: 2160000
-+    MvpExp: 1404000
-     Attack: 6108
-     Attack2: 2662
-     Defense: 364
-     MagicDefense: 166
-     Str: 165
 @@ -29634,11 +29458,11 @@ Body:
        - Item: Pumpkin_Head
          Rate: 500
@@ -1816,19 +1305,6 @@
      AegisName: A_SHECIL
      Name: Cecil Damon
      JapaneseName: Shecil Damon
-@@ -29929,11 +29753,11 @@ Body:
-     Name: Kiel D-01
-     Level: 125
-     Hp: 2502000
-     BaseExp: 1170000
-     JobExp: 792000
--    MvpExp: 900000
-+    MvpExp: 585000
-     Attack: 4112
-     Attack2: 3580
-     Defense: 314
-     MagicDefense: 232
-     Str: 166
 @@ -30166,11 +29990,11 @@ Body:
        - Item: Tube
          Rate: 5
@@ -1894,19 +1370,6 @@
      AegisName: G_SNAKE
      Name: Boa
      JapaneseName: Snake
-@@ -30530,11 +30354,11 @@ Body:
-     Name: Valkyrie Randgris
-     Level: 141
-     Hp: 3205000
-     BaseExp: 1300000
-     JobExp: 1210000
--    MvpExp: 1000000
-+    MvpExp: 650000
-     Attack: 7343
-     Attack2: 4412
-     Defense: 588
-     MagicDefense: 506
-     Str: 196
 @@ -31071,11 +30895,11 @@ Body:
        - Item: Valhalla_Flower
          Rate: 80
@@ -1920,45 +1383,6 @@
      AegisName: EM_ANGELING
      Name: Angeling
      Level: 99
-@@ -31154,11 +30978,11 @@ Body:
-     Name: Gloom Under Night
-     Level: 139
-     Hp: 3005000
-     BaseExp: 1404000
-     JobExp: 990000
--    MvpExp: 1080000
-+    MvpExp: 702000
-     Attack: 6592
-     Attack2: 2785
-     Defense: 479
-     MagicDefense: 262
-     Str: 191
-@@ -31681,11 +31505,11 @@ Body:
-     Name: Ktullanux
-     Level: 98
-     Hp: 2626000
-     BaseExp: 621345
-     JobExp: 474971
--    MvpExp: 517788
-+    MvpExp: 310672
-     Attack: 3754
-     Attack2: 2680
-     Defense: 129
-     MagicDefense: 78
-     Str: 85
-@@ -31972,11 +31796,11 @@ Body:
-     Name: Atroce
-     Level: 113
-     Hp: 1502000
-     BaseExp: 702000
-     JobExp: 470250
--    MvpExp: 540000
-+    MvpExp: 351000
-     Attack: 2843
-     Attack2: 1503
-     Defense: 316
-     MagicDefense: 176
-     Str: 121
 @@ -32156,11 +31980,11 @@ Body:
        - Item: Ice_Piece
          Rate: 250
@@ -2011,162 +1435,6 @@
      AegisName: AUNOE
      Name: Aunoe
      Level: 110
-@@ -32459,11 +32283,11 @@ Body:
-     Class: Event
-     Drops:
-       - Item: Gem_Of_Ruin
-         Rate: 5000
-   - Id: 1799
--    AegisName: G_SEYREN_
-+    AegisName: B_SEYREN_
-     Name: Lord Knight Seyren
-     Level: 99
-     Hp: 1647590
-     BaseExp: 2611224
-     JobExp: 706486
-@@ -32492,11 +32316,11 @@ Body:
-     Class: Boss
-     Drops:
-       - Item: Evil_Mind
-         Rate: 5000
-   - Id: 1800
--    AegisName: G_EREMES_
-+    AegisName: B_EREMES_
-     Name: Assassin Cross Eremes
-     Level: 99
-     Hp: 1411230
-     BaseExp: 2205036
-     JobExp: 716571
-@@ -32525,11 +32349,11 @@ Body:
-     Class: Boss
-     Drops:
-       - Item: Evil_Mind
-         Rate: 5000
-   - Id: 1801
--    AegisName: G_HARWORD_
-+    AegisName: B_HARWORD_
-     Name: Mastersmith Howard
-     JapaneseName: Whitesmith Harword
-     Level: 99
-     Hp: 1460000
-     BaseExp: 2161263
-@@ -32559,11 +32383,11 @@ Body:
-     Class: Boss
-     Drops:
-       - Item: Evil_Mind
-         Rate: 5000
-   - Id: 1802
--    AegisName: G_MAGALETA_
-+    AegisName: B_MAGALETA_
-     Name: High Priest Margaretha
-     JapaneseName: High Priest Magaleta
-     Level: 99
-     Hp: 1092910
-     BaseExp: 2298780
-@@ -32592,11 +32416,11 @@ Body:
-     Class: Boss
-     Drops:
-       - Item: Evil_Mind
-         Rate: 5000
-   - Id: 1803
--    AegisName: G_SHECIL_
-+    AegisName: B_SHECIL_
-     Name: Sniper Cecil
-     JapaneseName: Sniper Shecil
-     Level: 99
-     Hp: 1349000
-     BaseExp: 2210220
-@@ -32625,11 +32449,11 @@ Body:
-     Class: Boss
-     Drops:
-       - Item: Evil_Mind
-         Rate: 5000
-   - Id: 1804
--    AegisName: G_KATRINN_
-+    AegisName: B_KATRINN_
-     Name: High Wizard Kathryne
-     JapaneseName: High Wizard Katrinn
-     Level: 99
-     Hp: 1069920
-     BaseExp: 2164428
-@@ -32658,11 +32482,11 @@ Body:
-     Class: Boss
-     Drops:
-       - Item: Evil_Mind
-         Rate: 5000
-   - Id: 1805
--    AegisName: B_SEYREN_
-+    AegisName: G_SEYREN_
-     Name: Lord Knight Seyren
-     Level: 10
-     Hp: 10
-     BaseExp: 1
-     JobExp: 1
-@@ -32690,11 +32514,11 @@ Body:
-       IgnoreRanged: true
-     Drops:
-       - Item: 3D_Glasses_Box
-         Rate: 2500
-   - Id: 1806
--    AegisName: B_EREMES_
-+    AegisName: G_EREMES_
-     Name: Assassin Cross Eremes
-     Level: 10
-     Hp: 10
-     BaseExp: 1
-     JobExp: 1
-@@ -32722,11 +32546,11 @@ Body:
-       IgnoreRanged: true
-     Drops:
-       - Item: 3D_Glasses_Box
-         Rate: 2500
-   - Id: 1807
--    AegisName: B_HARWORD_
-+    AegisName: G_HARWORD_
-     Name: Mastersmith Howard
-     JapaneseName: Whitesmith Harword
-     Level: 10
-     Hp: 10
-     BaseExp: 1
-@@ -32755,11 +32579,11 @@ Body:
-       IgnoreRanged: true
-     Drops:
-       - Item: 3D_Glasses_Box
-         Rate: 2500
-   - Id: 1808
--    AegisName: B_MAGALETA_
-+    AegisName: G_MAGALETA_
-     Name: High Priest Margaretha
-     JapaneseName: High Priest Magaleta
-     Level: 10
-     Hp: 10
-     BaseExp: 1
-@@ -32788,11 +32612,11 @@ Body:
-       IgnoreRanged: true
-     Drops:
-       - Item: 3D_Glasses_Box
-         Rate: 2500
-   - Id: 1809
--    AegisName: B_SHECIL_
-+    AegisName: G_SHECIL_
-     Name: Sniper Cecil
-     JapaneseName: Sniper Shecil
-     Level: 10
-     Hp: 10
-     BaseExp: 1
-@@ -32821,11 +32645,11 @@ Body:
-       IgnoreRanged: true
-     Drops:
-       - Item: 3D_Glasses_Box
-         Rate: 2500
-   - Id: 1810
--    AegisName: B_KATRINN_
-+    AegisName: G_KATRINN_
-     Name: High Wizard Kathryne
-     JapaneseName: High Wizard Katrinn
-     Level: 10
-     Hp: 10
-     BaseExp: 1
 @@ -33058,11 +32882,11 @@ Body:
        - Item: White_Herb
          Rate: 3000
@@ -2180,19 +1448,6 @@
      AegisName: EVENT_GOURD
      Name: Gourd
      Level: 12
-@@ -33089,11 +32913,11 @@ Body:
-     Drops:
-       - Item: Apple
-         Rate: 5000
-   - Id: 1817
-     AegisName: EVENT_DETALE
--    Name: Detarderous
-+    Name: Detardeurus
-     JapaneseName: Detale
-     Level: 99
-     Hp: 8880000
-     BaseExp: 2430000
-     JobExp: 1125000
 @@ -33163,11 +32987,11 @@ Body:
      AttackDelay: 1020
      AttackMotion: 500
@@ -2206,32 +1461,6 @@
      AegisName: EVENT_BATHORY
      Name: Bathory
      Level: 86
-@@ -33436,11 +33260,11 @@ Body:
-     Drops:
-       - Item: Wooden_Block_
-         Rate: 1500
-   - Id: 1828
-     AegisName: EVENT_GULLINBURSTI
--    Name: Gullinbrusti
-+    Name: Gullinbursti
-     Level: 20
-     Hp: 20
-     Attack: 59
-     Attack2: 13
-     Defense: 160
-@@ -33617,11 +33441,11 @@ Body:
-     Name: Ifrit
-     Level: 146
-     Hp: 6935000
-     BaseExp: 4352400
-     JobExp: 2673000
--    MvpExp: 3348000
-+    MvpExp: 2176200
-     Attack: 8063
-     Attack2: 3389
-     Defense: 436
-     MagicDefense: 218
-     Str: 180
 @@ -33997,11 +33821,11 @@ Body:
        - Item: Golden_Gear_
          Rate: 1
@@ -2311,58 +1540,6 @@
      AegisName: DREAMMETAL
      Name: Dream Metal
      Level: 90
-@@ -35157,11 +34941,11 @@ Body:
-     JapaneseName: Fallen Bishop
-     Level: 138
-     Hp: 5655000
-     BaseExp: 1755000
-     JobExp: 1039500
--    MvpExp: 1350000
-+    MvpExp: 877500
-     Attack: 4290
-     Attack2: 4636
-     Defense: 274
-     MagicDefense: 382
-     Str: 186
-@@ -35272,11 +35056,11 @@ Body:
-     Name: Beelzebub
-     Level: 147
-     Hp: 4805000
-     BaseExp: 4582500
-     JobExp: 3877500
--    MvpExp: 3525000
-+    MvpExp: 2291250
-     Attack: 6666
-     Attack2: 4444
-     Defense: 418
-     MagicDefense: 265
-     Str: 178
-@@ -35365,11 +35149,11 @@ Body:
-     Name: Lord of the Dead
-     Level: 99
-     Hp: 99000000
-     BaseExp: 70925
-     JobExp: 19505
--    MvpExp: 59104
-+    MvpExp: 35462
-     Attack: 4459
-     Attack2: 802
-     Defense: 75
-     MagicDefense: 73
-     Str: 120
-@@ -35735,11 +35519,11 @@ Body:
-     Name: Gopinich
-     Level: 97
-     Hp: 1120500
-     BaseExp: 428544
-     JobExp: 290160
--    MvpExp: 357120
-+    MvpExp: 214272
-     Attack: 2584
-     Attack2: 1861
-     Defense: 355
-     MagicDefense: 121
-     Str: 127
 @@ -36076,11 +35860,11 @@ Body:
        - Item: Unknown_Fish
          Rate: 5000
@@ -2376,19 +1553,6 @@
      AegisName: EVENT_SEYREN
      Name: Seyren Windsor
      JapaneseName: Seyren
-@@ -36648,11 +36432,11 @@ Body:
-     Name: Wounded Morocc
-     Level: 151
-     Hp: 5000000
-     BaseExp: 2632500
-     JobExp: 1673100
--    MvpExp: 2025000
-+    MvpExp: 1316250
-     Attack: 4530
-     Attack2: 2880
-     Defense: 425
-     MagicDefense: 65
-     Str: 165
 @@ -37025,11 +36809,11 @@ Body:
        - Item: Pumpkin_Cake
          Rate: 500
@@ -2584,32 +1748,6 @@
      AegisName: NAGHT_SIEGER
      Name: Naght Sieger
      Level: 99
-@@ -38838,11 +38622,11 @@ Body:
-     JapaneseName: Kubkin
-     Level: 85
-     Hp: 633600
-     BaseExp: 49500
-     JobExp: 45000
--    MvpExp: 45000
-+    MvpExp: 24750
-     Attack: 1298
-     Attack2: 220
-     Defense: 22
-     MagicDefense: 10
-     Str: 85
-@@ -40504,11 +40288,11 @@ Body:
-     JapaneseName: Nidhoggr's Shadow
-     Level: 117
-     Hp: 3452000
-     BaseExp: 2808000
-     JobExp: 1930500
--    MvpExp: 2160000
-+    MvpExp: 1404000
-     Attack: 6656
-     Attack2: 3840
-     Defense: 60
-     MagicDefense: 75
-     Agi: 34
 @@ -40689,11 +40473,11 @@ Body:
        - Item: Chocolate_Drink
          Rate: 500
@@ -2649,32 +1787,7 @@
      AegisName: VALKYRIE_A
      Name: Valkyrie Randgris
      Level: 90
-@@ -41468,11 +41252,11 @@ Body:
-     Name: Dark Lord
-     Level: 96
-     Hp: 100000000
-     BaseExp: 428544
-     JobExp: 279000
--    MvpExp: 1005
-+    MvpExp: 214272
-     Attack: 3935
-     Attack2: 2585
-     Defense: 330
-     MagicDefense: 168
-     Str: 118
-@@ -42379,11 +42163,10 @@ Body:
-   - Id: 2075
-     AegisName: E_VADON_X
-     Name: Ragunta
-     Level: 99
-     Hp: 53822010
--    MvpExp: 4999999
-     Attack: 4620
-     Attack2: 2600
-     Defense: 42
-     MagicDefense: 32
-     Str: 200
-@@ -42587,11 +42370,11 @@ Body:
+@@ -42587,11 +42371,11 @@ Body:
        - Item: Snow_Flower
          Rate: 10000
        - Item: Snow_Flower
@@ -2687,20 +1800,7 @@
      AegisName: E_HYDRA
      Name: Strange Hydra
      JapaneseName: Suspicious Hydra
-@@ -42848,11 +42631,11 @@ Body:
-     JapaneseName: Queen Scaraba
-     Level: 140
-     Hp: 2441600
-     BaseExp: 266643
-     JobExp: 116710
--    MvpExp: 205110
-+    MvpExp: 133321
-     Attack: 2834
-     Attack2: 1240
-     Defense: 350
-     MagicDefense: 220
-     Str: 100
-@@ -43139,20 +42922,20 @@ Body:
+@@ -43139,11 +42923,11 @@ Body:
        - Item: Gift_Box_2
          Rate: 1000
        - Item: Gift_Box_3
@@ -2713,297 +1813,7 @@
      AegisName: E_ORK_HERO2
      Name: Orc Hero
      Level: 50
-     Hp: 362000
-     BaseExp: 1005
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 662
-     Attack2: 441
-     Defense: 197
-     MagicDefense: 70
-     Str: 97
-@@ -43206,11 +42989,11 @@ Body:
-     Name: Eddga
-     Level: 65
-     Hp: 947500
-     BaseExp: 1005
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 1509
-     Attack2: 776
-     Defense: 166
-     MagicDefense: 70
-     Str: 92
-@@ -43264,11 +43047,11 @@ Body:
-     Name: Osiris
-     Level: 68
-     Hp: 475840
-     BaseExp: 1005
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 1580
-     Attack2: 903
-     Defense: 172
-     MagicDefense: 164
-     Str: 97
-@@ -43322,11 +43105,11 @@ Body:
-     Name: Dracula
-     Level: 75
-     Hp: 350000
-     BaseExp: 1105
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 1454
-     Attack2: 1812
-     Defense: 152
-     MagicDefense: 146
-     Str: 86
-@@ -43380,11 +43163,11 @@ Body:
-     Name: Doppelganger
-     Level: 77
-     Hp: 380000
-     BaseExp: 1105
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 1803
-     Attack2: 1176
-     Defense: 246
-     MagicDefense: 86
-     Str: 122
-@@ -43438,11 +43221,11 @@ Body:
-     Name: Mistress
-     Level: 78
-     Hp: 378000
-     BaseExp: 1005
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 985
-     Attack2: 1367
-     Defense: 187
-     MagicDefense: 192
-     Str: 76
-@@ -43496,11 +43279,11 @@ Body:
-     Name: Baphomet
-     Level: 81
-     Hp: 668000
-     BaseExp: 1105
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 502
-     Attack: 3150
-     Attack2: 1284
-     Defense: 279
-     MagicDefense: 45
-     Str: 120
-@@ -43553,11 +43336,11 @@ Body:
-     JapaneseName: Lord of Death
-     Level: 94
-     Hp: 603883
-     BaseExp: 1206
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 603
-     Attack: 5351
-     Attack2: 962
-     Defense: 336
-     MagicDefense: 73
-     Str: 140
-@@ -43661,11 +43444,11 @@ Body:
-     Name: Ktullanux
-     Level: 98
-     Hp: 2626000
-     BaseExp: 1206
-     JobExp: 1005
--    MvpExp: 1005
-+    MvpExp: 603
-     Attack: 3754
-     Attack2: 2680
-     Defense: 129
-     MagicDefense: 78
-     Str: 85
-@@ -43720,11 +43503,11 @@ Body:
-     JapaneseName: Dark Snake Lord
-     Level: 105
-     Hp: 1101000
-     BaseExp: 1206
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 603
-     Attack: 2882
-     Attack2: 1986
-     Defense: 314
-     MagicDefense: 185
-     Str: 122
-@@ -43778,11 +43561,11 @@ Body:
-     Name: Turtle General
-     Level: 110
-     Hp: 1442000
-     BaseExp: 1206
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 603
-     Attack: 3169
-     Attack2: 2066
-     Defense: 394
-     MagicDefense: 123
-     Str: 116
-@@ -43836,11 +43619,11 @@ Body:
-     Name: Vesper
-     Level: 128
-     Hp: 3802000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 3668
-     Attack2: 4656
-     Defense: 402
-     MagicDefense: 109
-     Str: 177
-@@ -43895,11 +43678,11 @@ Body:
-     JapaneseName: Fallen Bishop
-     Level: 138
-     Hp: 5655000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 4290
-     Attack2: 4636
-     Defense: 274
-     MagicDefense: 382
-     Str: 186
-@@ -43954,11 +43737,11 @@ Body:
-     Name: Gloom Under Night
-     Level: 139
-     Hp: 3005000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 6592
-     Attack2: 2785
-     Defense: 479
-     MagicDefense: 262
-     Str: 191
-@@ -44007,17 +43790,16 @@ Body:
-       - Item: Echio_Card
-         Rate: 1
-         StealProtected: true
-   - Id: 2109
-     AegisName: E_RANDGRIS
--    Name: Valkyrie Randgris1
--    JapaneseName: Valkyrie Randgris
-+    Name: Valkyrie Randgris
-     Level: 141
-     Hp: 3205000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 7343
-     Attack2: 4412
-     Defense: 588
-     MagicDefense: 506
-     Str: 196
-@@ -44071,11 +43853,11 @@ Body:
-     Name: Ifrit
-     Level: 146
-     Hp: 6935000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 8063
-     Attack2: 3389
-     Defense: 436
-     MagicDefense: 218
-     Str: 180
-@@ -44130,11 +43912,11 @@ Body:
-     JapaneseName: Whitesmith Harword
-     Level: 160
-     Hp: 6750000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 5250
-     Attack2: 1465
-     Defense: 301
-     MagicDefense: 106
-     Str: 275
-@@ -44188,11 +43970,11 @@ Body:
-     Name: Lord Knight Seyren
-     Level: 160
-     Hp: 4680000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 6435
-     Attack2: 2342
-     Defense: 567
-     MagicDefense: 155
-     Str: 303
-@@ -44243,11 +44025,11 @@ Body:
-     Name: Assassin Cross Eremes
-     Level: 160
-     Hp: 4230000
-     BaseExp: 1306
-     JobExp: 1105
--    MvpExp: 1005
-+    MvpExp: 653
-     Attack: 6083
-     Attack2: 1378
-     Defense: 445
-     MagicDefense: 98
-     Str: 211
-@@ -44600,11 +44382,11 @@ Body:
-     Name: Lost Dragon
-     Level: 135
-     Hp: 608920
-     BaseExp: 19500
-     JobExp: 19800
--    MvpExp: 15000
-+    MvpExp: 9750
-     Attack: 1975
-     Attack2: 530
-     Defense: 60
-     MagicDefense: 51
-     Str: 140
-@@ -45397,11 +45179,11 @@ Body:
-     Name: Leak
-     Level: 94
-     Hp: 1266000
-     BaseExp: 236400
-     JobExp: 150060
--    MvpExp: 236400
-+    MvpExp: 118200
-     Attack: 3723
-     Attack2: 1284
-     Defense: 280
-     MagicDefense: 128
-     Str: 122
-@@ -45770,11 +45552,11 @@ Body:
-     Name: Gold Queen Scaraba
-     Level: 140
-     Hp: 6441600
-     BaseExp: 605110
-     JobExp: 336710
--    MvpExp: 2051100
-+    MvpExp: 302555
-     Attack: 4889
-     Attack2: 6440
-     Defense: 350
-     MagicDefense: 220
-     Str: 100
-@@ -46135,11 +45917,11 @@ Body:
+@@ -46135,11 +45919,11 @@ Body:
        - Item: Solid_Shell
          Rate: 74
        - Item: Elunium_Stone
@@ -3016,7 +1826,7 @@
      AegisName: MD_MARSE
      Name: Deep Sea Marse
      JapaneseName: Deepsea Marse
-@@ -46184,11 +45966,11 @@ Body:
+@@ -46184,11 +45968,11 @@ Body:
        - Item: Penetration
          Rate: 2
        - Item: Grape
@@ -3029,7 +1839,7 @@
      AegisName: MD_CRAB
      Name: Deep Sea Crab
      JapaneseName: Deepsea Crab
-@@ -46231,115 +46013,13 @@ Body:
+@@ -46231,115 +46015,13 @@ Body:
        - Item: Sparkling_Dust
          Rate: 8
        - Item: Elunium_Stone
@@ -3147,7 +1957,7 @@
      Name: Deep Sea Kukre
      JapaneseName: Ancient Kukre
      Level: 100
-@@ -46383,11 +46063,11 @@ Body:
+@@ -46383,11 +46065,11 @@ Body:
        - Item: Insect_Feeler
          Rate: 336
        - Item: Earthworm_The_Dude
@@ -3160,7 +1970,7 @@
      AegisName: MD_STROUF
      Name: Deep Sea Strouf
      JapaneseName: Ancient Sea Lord
-@@ -46432,61 +46112,13 @@ Body:
+@@ -46432,61 +46114,13 @@ Body:
        - Item: Skyblue_Jewel
          Rate: 14
        - Item: Gill
@@ -3223,7 +2033,7 @@
      Name: Deep Sea Marc
      JapaneseName: Ancient Seahorse
      Level: 145
-@@ -46530,63 +46162,13 @@ Body:
+@@ -46530,63 +46164,13 @@ Body:
        - Item: Skyblue_Jewel
          Rate: 6
        - Item: White_Herb
@@ -3288,7 +2098,7 @@
      Name: Deep Sea Obeaune
      JapaneseName: Deepsea Mermaid
      Level: 151
-@@ -46630,11 +46212,11 @@ Body:
+@@ -46630,11 +46214,11 @@ Body:
        - Item: Fin
          Rate: 250
        - Item: Witherless_Rose
@@ -3301,7 +2111,7 @@
      AegisName: MD_KAPHA
      Name: Deep Sea Kapha
      JapaneseName: Transform Kapha
-@@ -46679,11 +46261,11 @@ Body:
+@@ -46679,11 +46263,11 @@ Body:
        - Item: Guitar_Of_Blue_Solo
          Rate: 6
        - Item: Jitte_
@@ -3314,7 +2124,7 @@
      AegisName: COELACANTH_N_E
      Name: Coelacanth
      Level: 100
-@@ -46729,11 +46311,11 @@ Body:
+@@ -46729,11 +46313,11 @@ Body:
        - Item: Low_Coin_Pocket
          Rate: 2000
        - Item: Low_Coin_Pocket
@@ -3327,7 +2137,7 @@
      AegisName: COELACANTH_N_A
      Name: Gloomy Coelacanth
      JapaneseName: Dark Coelacanth
-@@ -46833,111 +46415,11 @@ Body:
+@@ -46833,111 +46417,11 @@ Body:
        - Item: Low_Coin_Pocket
          Rate: 5000
        - Item: Black_Coelacanth_Card
@@ -3440,7 +2250,7 @@
      Name: Seaweed
      Level: 100
      Hp: 100000
-@@ -46998,11 +46480,11 @@ Body:
+@@ -46998,11 +46482,11 @@ Body:
        - Item: Chinese_Ink
          Rate: 3750
        - Item: Tentacle
@@ -3453,7 +2263,7 @@
      AegisName: MD_OCTOPUS_LEG
      Name: Octopus Leg
      JapaneseName: Octupus Leg
-@@ -47091,11 +46573,11 @@ Body:
+@@ -47091,11 +46575,11 @@ Body:
        - Item: Low_Coin_Pocket
          Rate: 2000
        - Item: Low_Coin_Pocket
@@ -3466,7 +2276,7 @@
      AegisName: MD_G_KUKRE
      Name: Kukre
      JapaneseName: Ancient Kukre
-@@ -47693,11 +47175,11 @@ Body:
+@@ -47693,11 +47177,11 @@ Body:
        - Item: Awakening_Potion_B
          Rate: 1000
        - Item: Poison_Bottle_B
@@ -3479,7 +2289,7 @@
      AegisName: XMAS_LUNATIC
      Name: Christmas Snow Rabbit
      JapaneseName: Xmas Lunatic
-@@ -47737,11 +47219,11 @@ Body:
+@@ -47737,11 +47221,11 @@ Body:
        - Item: Snow_Flower
          Rate: 500
        - Item: J_Firecracker
@@ -3492,7 +2302,7 @@
      AegisName: E_TEDDY_BEAR
      Name: Christmas Teddy Bear
      JapaneseName: Teddy Bear
-@@ -47780,11 +47262,11 @@ Body:
+@@ -47780,11 +47264,11 @@ Body:
        - Item: Gift_Box
          Rate: 250
        - Item: Old_Violet_Box
@@ -3505,98 +2315,7 @@
      AegisName: E_KNIGHT_OF_WINDSTORM
      Name: Stormy Knight
      JapaneseName: Knight of Windstorm
-@@ -48701,11 +48183,11 @@ Body:
-     Name: Paladin Randel
-     Level: 160
-     Hp: 6870000
-     BaseExp: 3674489
-     JobExp: 2149566
--    MvpExp: 2310750
-+    MvpExp: 1837244
-     Attack: 5537
-     Attack2: 3017
-     Defense: 667
-     MagicDefense: 151
-     Str: 291
-@@ -48760,11 +48242,11 @@ Body:
-     Name: Creator Flamel
-     Level: 160
-     Hp: 4230000
-     BaseExp: 2611785
-     JobExp: 1446694
--    MvpExp: 2611785
-+    MvpExp: 1305892
-     Attack: 2355
-     Attack2: 2514
-     Defense: 253
-     MagicDefense: 113
-     Str: 159
-@@ -48820,11 +48302,11 @@ Body:
-     Name: Professor Celia
-     Level: 160
-     Hp: 3847804
-     BaseExp: 2513654
-     JobExp: 1380385
--    MvpExp: 2513654
-+    MvpExp: 1256827
-     Attack: 2481
-     Attack2: 3114
-     Defense: 201
-     MagicDefense: 543
-     Str: 165
-@@ -48877,11 +48359,11 @@ Body:
-     Level: 160
-     Hp: 4249350
-     Sp: 1553
-     BaseExp: 2556784
-     JobExp: 1614235
--    MvpExp: 2556784
-+    MvpExp: 1278392
-     Attack: 3617
-     Attack2: 1947
-     Defense: 216
-     MagicDefense: 134
-     Str: 180
-@@ -48935,11 +48417,11 @@ Body:
-     Name: Stalker Gertie
-     Level: 160
-     Hp: 4057279
-     BaseExp: 2210349
-     JobExp: 1480200
--    MvpExp: 2210349
-+    MvpExp: 1105174
-     Attack: 6162
-     Attack2: 1274
-     Defense: 251
-     MagicDefense: 107
-     Str: 217
-@@ -48993,11 +48475,11 @@ Body:
-     Name: Clown Alphoccio
-     Level: 160
-     Hp: 3894278
-     BaseExp: 2113018
-     JobExp: 1357934
--    MvpExp: 2113018
-+    MvpExp: 1056509
-     Attack: 2641
-     Attack2: 3749
-     Defense: 201
-     MagicDefense: 109
-     Str: 219
-@@ -49049,11 +48531,11 @@ Body:
-     Name: Gypsy Trentini
-     Level: 160
-     Hp: 3894278
-     BaseExp: 2231879
-     JobExp: 1409702
--    MvpExp: 2231879
-+    MvpExp: 1115939
-     Attack: 2016
-     Attack2: 4036
-     Defense: 181
-     MagicDefense: 112
-     Str: 167
-@@ -49331,11 +48813,11 @@ Body:
+@@ -49331,11 +48815,11 @@ Body:
        - Item: Hometown_Gift
          Rate: 500
        - Item: Korea_Rice_Cake
@@ -3609,7 +2328,7 @@
      AegisName: PYURIEL
      Name: Angry Student Pyuriel
      JapaneseName: Pyuriel
-@@ -50653,11 +50135,11 @@ Body:
+@@ -50653,11 +50137,11 @@ Body:
        - Item: Sg_Blue_Potion_Box
          Rate: 50
        - Item: Woe_Violet_Potion
@@ -3622,7 +2341,7 @@
      AegisName: E_FABRE
      Name: Fabre
      Level: 1
-@@ -51819,57 +51301,11 @@ Body:
+@@ -51819,57 +51303,11 @@ Body:
      WalkSpeed: 165
      AttackDelay: 1430
      AttackMotion: 1080
@@ -3681,7 +2400,7 @@
      Name: Drum
      Level: 1
      Hp: 200
-@@ -51940,38 +51376,11 @@ Body:
+@@ -51940,38 +51378,11 @@ Body:
      AttackMotion: 960
      DamageMotion: 504
      Ai: 21
@@ -3721,7 +2440,7 @@
      Name: Buwaya
      JapaneseName: Fake Buwaya
      Level: 138
-@@ -52298,11 +51707,11 @@ Body:
+@@ -52298,11 +51709,11 @@ Body:
        - Item: Old_Violet_Box
          Rate: 5000
        - Item: RWC_Cele_Fire
@@ -3734,7 +2453,7 @@
      AegisName: MER_DIABOLIC
      Name: Diabolic
      Level: 83
-@@ -52631,11 +52040,11 @@ Body:
+@@ -52631,11 +52042,11 @@ Body:
        - Item: Aqua_Staff2
          Rate: 2500
        - Item: Mace_Of_Judgement2
@@ -3747,7 +2466,7 @@
      AegisName: N_MINOROUS
      Name: Minorous (Nightmare)
      JapaneseName: Nightmare Minorous
-@@ -53842,11 +53251,11 @@ Body:
+@@ -53842,11 +53253,11 @@ Body:
        - Item: Apple
          Rate: 500
        - Item: Red_Herb
@@ -3760,7 +2479,7 @@
  #    AegisName: E_MINI_DEMON
  #  - Id: 2400
  #    AegisName: E_DIABOLIC
-@@ -54060,11 +53469,11 @@ Body:
+@@ -54060,11 +53471,11 @@ Body:
        - Item: Chain_Mail_
          Rate: 1
        - Item: Stiletto
@@ -3773,111 +2492,7 @@
      AegisName: SAILOR_SKELETON
      Name: Sailor Skeleton
      Level: 19
-@@ -55301,11 +54710,11 @@ Body:
-     Name: The Last One
-     Level: 99
-     Hp: 265203
-     BaseExp: 106267
-     JobExp: 87747
--    MvpExp: 106267
-+    MvpExp: 53133
-     Attack: 4220
-     Attack2: 2107
-     Defense: 510
-     MagicDefense: 139
-     Str: 272
-@@ -55352,11 +54761,11 @@ Body:
-     Name: King of the Alley
-     Level: 99
-     Hp: 268800
-     BaseExp: 108810
-     JobExp: 89000
--    MvpExp: 108810
-+    MvpExp: 54405
-     Attack: 5877
-     Attack2: 3526
-     Defense: 410
-     MagicDefense: 192
-     Str: 206
-@@ -55401,11 +54810,11 @@ Body:
-     Name: Aira
-     Level: 99
-     Hp: 270000
-     BaseExp: 110000
-     JobExp: 90000
--    MvpExp: 110000
-+    MvpExp: 55000
-     Attack: 827
-     Attack2: 285
-     Defense: 149
-     MagicDefense: 10
-     Str: 127
-@@ -55441,11 +54850,11 @@ Body:
-     Name: Kuluna
-     Level: 99
-     Hp: 270000
-     BaseExp: 110000
-     JobExp: 90000
--    MvpExp: 110000
-+    MvpExp: 55000
-     Attack: 739
-     Attack2: 153
-     Defense: 109
-     MagicDefense: 10
-     Str: 130
-@@ -55481,11 +54890,11 @@ Body:
-     Name: Mallina
-     Level: 99
-     Hp: 270000
-     BaseExp: 110000
-     JobExp: 90000
--    MvpExp: 110000
-+    MvpExp: 55000
-     Attack: 782
-     Attack2: 253
-     Defense: 117
-     MagicDefense: 9
-     Str: 124
-@@ -55561,11 +54970,11 @@ Body:
-     Name: Lune
-     Level: 99
-     Hp: 270000
-     BaseExp: 110000
-     JobExp: 90000
--    MvpExp: 110000
-+    MvpExp: 55000
-     Attack: 512
-     Attack2: 650
-     Defense: 69
-     MagicDefense: 66
-     Str: 97
-@@ -55601,11 +55010,11 @@ Body:
-     Name: Morin
-     Level: 99
-     Hp: 270000
-     BaseExp: 110000
-     JobExp: 90000
--    MvpExp: 110000
-+    MvpExp: 55000
-     Attack: 644
-     Attack2: 498
-     Defense: 97
-     MagicDefense: 83
-     Str: 113
-@@ -55641,11 +55050,11 @@ Body:
-     Name: Nasarin
-     Level: 99
-     Hp: 270000
-     BaseExp: 110000
-     JobExp: 90000
--    MvpExp: 110000
-+    MvpExp: 55000
-     Attack: 852
-     Attack2: 342
-     Defense: 136
-     MagicDefense: 8
-     Str: 158
-@@ -55783,11 +55192,11 @@ Body:
+@@ -55783,11 +55194,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3890,7 +2505,7 @@
      AegisName: TREASURE_BOX_TE_1
      Name: Treasure Chest
      Level: 99
-@@ -55813,11 +55222,11 @@ Body:
+@@ -55813,11 +55224,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3903,7 +2518,7 @@
      AegisName: TREASURE_BOX_TE_2
      Name: Treasure Chest
      Level: 99
-@@ -55843,11 +55252,11 @@ Body:
+@@ -55843,11 +55254,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3916,7 +2531,7 @@
      AegisName: TREASURE_BOX_TE_3
      Name: Treasure Chest
      Level: 99
-@@ -55873,11 +55282,11 @@ Body:
+@@ -55873,11 +55284,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3929,7 +2544,7 @@
      AegisName: TREASURE_BOX_TE_4
      Name: Treasure Chest
      Level: 99
-@@ -55903,11 +55312,11 @@ Body:
+@@ -55903,11 +55314,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3942,7 +2557,7 @@
      AegisName: TREASURE_BOX_TE_5
      Name: Treasure Chest
      Level: 99
-@@ -55933,11 +55342,11 @@ Body:
+@@ -55933,11 +55344,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3955,7 +2570,7 @@
      AegisName: TREASURE_BOX_TE_6
      Name: Treasure Chest
      Level: 99
-@@ -55963,11 +55372,11 @@ Body:
+@@ -55963,11 +55374,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3968,7 +2583,7 @@
      AegisName: TREASURE_BOX_TE_7
      Name: Treasure Chest
      Level: 99
-@@ -55993,11 +55402,11 @@ Body:
+@@ -55993,11 +55404,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3981,7 +2596,7 @@
      AegisName: TREASURE_BOX_TE_8
      Name: Treasure Chest
      Level: 99
-@@ -56023,11 +55432,11 @@ Body:
+@@ -56023,11 +55434,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -3994,7 +2609,7 @@
      AegisName: TREASURE_BOX_TE_9
      Name: Treasure Chest
      Level: 99
-@@ -56053,11 +55462,11 @@ Body:
+@@ -56053,11 +55464,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -4007,7 +2622,7 @@
      AegisName: TREASURE_BOX_TE_10
      Name: Treasure Chest
      Level: 99
-@@ -56083,11 +55492,11 @@ Body:
+@@ -56083,11 +55494,11 @@ Body:
        - Item: Treasure_Box
          Rate: 1000
        - Item: Old_Card_Album
@@ -4020,20 +2635,7 @@
  #    AegisName: E_BOMBPORING
    - Id: 2464
      AegisName: MG_ZOMBIE
-@@ -56614,11 +56023,11 @@ Body:
-       - Item: CorruptionRoot_Card
-         Rate: 1
-         StealProtected: true
-   - Id: 2476
-     AegisName: MG_AMDARAIS
--    Name: Amdarias
-+    Name: Amdarais
-     Level: 150
-     Hp: 4290000
-     BaseExp: 1145662
-     JobExp: 1208363
-     Attack: 5290
-@@ -57272,214 +56681,11 @@ Body:
+@@ -57272,214 +56683,11 @@ Body:
      Drops:
        - Item: Fluorescent_Liquid
          Rate: 1000
@@ -4249,7 +2851,7 @@
      Name: Monster 3
      JapaneseName: Hidden Mob 3
      Level: 151
-@@ -57851,11 +57057,11 @@ Body:
+@@ -57851,11 +57059,11 @@ Body:
        - Item: Dex_Dish03
          Rate: 600
        - Item: Cookbook06
@@ -4262,7 +2864,7 @@
      AegisName: GUARDDOG2
      Name: 2nd Guard Dog
      Level: 101
-@@ -57898,11 +57104,11 @@ Body:
+@@ -57898,11 +57106,11 @@ Body:
        - Item: Dex_Dish05
          Rate: 466
        - Item: Cookbook07
@@ -4275,7 +2877,7 @@
  #    AegisName: MER_GARM_BABY
  #  - Id: 2548
  #    AegisName: MER_HILLSRION
-@@ -59553,11 +58759,11 @@ Body:
+@@ -59553,11 +58761,11 @@ Body:
        - Item: Carnium
          Rate: 5
        - Item: Sabah_Ring
@@ -4288,7 +2890,7 @@
      AegisName: C2_ZOMBIE_PRISONER
      Name: Solid Zombie Prisoner
      Level: 89
-@@ -59600,11 +58806,11 @@ Body:
+@@ -59600,11 +58808,11 @@ Body:
        - Item: Cuffs
          Rate: 100
        - Item: Elunium
@@ -4301,7 +2903,7 @@
      AegisName: C3_ZOMBIE_MASTER
      Name: Zombie Master Ringleader
      Level: 119
-@@ -59647,11 +58853,11 @@ Body:
+@@ -59647,11 +58855,11 @@ Body:
        - Item: Sg_Violet_Potion_Box
          Rate: 25
        - Item: Tatters_Clothes
@@ -4314,7 +2916,7 @@
      AegisName: C4_ZOMBIE
      Name: Furious Zombie
      Level: 17
-@@ -59690,11 +58896,11 @@ Body:
+@@ -59690,11 +58898,11 @@ Body:
        - Item: White_Jewel
          Rate: 350
        - Item: Wing_Of_Fly
@@ -4327,7 +2929,7 @@
      AegisName: C5_ZAKUDAM
      Name: Elusive Zakudam
      Level: 115
-@@ -59737,11 +58943,11 @@ Body:
+@@ -59737,11 +58945,11 @@ Body:
        - Item: Gate_KeeperDD
          Rate: 15
        - Item: Improved_Tights
@@ -4340,7 +2942,7 @@
      AegisName: C1_YOYO
      Name: Swift Yoyo
      Level: 38
-@@ -59783,11 +58989,11 @@ Body:
+@@ -59783,11 +58991,11 @@ Body:
        - Item: Oridecon_Stone
          Rate: 60
        - Item: Strawberry
@@ -4353,7 +2955,7 @@
      AegisName: C2_YOYO
      Name: Solid Yoyo
      Level: 38
-@@ -59829,11 +59035,11 @@ Body:
+@@ -59829,11 +59037,11 @@ Body:
        - Item: Oridecon_Stone
          Rate: 60
        - Item: Strawberry
@@ -4366,7 +2968,7 @@
      AegisName: C3_WORM_TAIL
      Name: Wormtail Ringleader
      Level: 17
-@@ -59875,11 +59081,11 @@ Body:
+@@ -59875,11 +59083,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Green_Lace
@@ -4379,7 +2981,7 @@
      AegisName: C4_WOOTAN_FIGHTER
      Name: Furious Wootan Fighter
      Level: 67
-@@ -59922,11 +59128,11 @@ Body:
+@@ -59922,11 +59130,11 @@ Body:
        - Item: Great_Leaf
          Rate: 2500
        - Item: Banana_Hat
@@ -4392,7 +2994,7 @@
      AegisName: C5_WOOD_GOBLIN
      Name: Elusive Wood Goblin
      Level: 81
-@@ -59969,11 +59175,11 @@ Body:
+@@ -59969,11 +59177,11 @@ Body:
        - Item: Piece_Of_Egg_Shell
          Rate: 1250
        - Item: Egg
@@ -4405,7 +3007,7 @@
      AegisName: C1_WOLF
      Name: Swift Wolf
      Level: 45
-@@ -60016,11 +59222,11 @@ Body:
+@@ -60016,11 +59224,11 @@ Body:
        - Item: Animal's_Skin
          Rate: 10000
        - Item: Strawberry
@@ -4418,7 +3020,7 @@
      AegisName: C2_WIND_GHOST
      Name: Solid Wind Ghost
      Level: 80
-@@ -60065,11 +59271,11 @@ Body:
+@@ -60065,11 +59273,11 @@ Body:
        - Item: Rough_Wind
          Rate: 250
        - Item: Bone_Wand
@@ -4431,7 +3033,7 @@
      AegisName: C3_WILOW
      Name: Willow Ringleader
      Level: 8
-@@ -60112,11 +59318,11 @@ Body:
+@@ -60112,11 +59320,11 @@ Body:
        - Item: Tree_Of_Archer_2
          Rate: 10000
        - Item: Tree_Of_Archer_1
@@ -4444,7 +3046,7 @@
      AegisName: C4_WILD_ROSE
      Name: Furious Wild Rose
      Level: 70
-@@ -60159,11 +59365,11 @@ Body:
+@@ -60159,11 +59367,11 @@ Body:
        - Item: Monster's_Feed
          Rate: 1500
        - Item: Big_Sis'_Ribbon
@@ -4457,7 +3059,7 @@
      AegisName: C5_WICKED_NYMPH
      Name: Elusive Evil Nymph
      Level: 97
-@@ -60210,11 +59416,11 @@ Body:
+@@ -60210,11 +59418,11 @@ Body:
        - Item: Holy_Scroll_1_5
          Rate: 250
        - Item: Oriental_Lute
@@ -4470,7 +3072,7 @@
      AegisName: C2_WHISPER
      Name: Solid Whisper
      Level: 46
-@@ -60255,11 +59461,11 @@ Body:
+@@ -60255,11 +59463,11 @@ Body:
        - Item: Silver_Robe_
          Rate: 25
        - Item: Wing_Of_Fly
@@ -4483,7 +3085,7 @@
      AegisName: C3_WEAK_SKELETON
      Name: Weak Skeleton Ringleader
      Level: 18
-@@ -60342,11 +59548,11 @@ Body:
+@@ -60342,11 +59550,11 @@ Body:
        - Item: Oridecon
          Rate: 545
        - Item: Muramasa
@@ -4496,7 +3098,7 @@
      AegisName: C5_VIOLY
      Name: Elusive Violy
      Level: 118
-@@ -60390,11 +59596,11 @@ Body:
+@@ -60390,11 +59598,11 @@ Body:
          Rate: 2500
        - Item: Scarlet_Viollin
          Rate: 250
@@ -4509,7 +3111,7 @@
      AegisName: C1_VIOLY
      Name: Swift Violy
      Level: 118
-@@ -60438,11 +59644,11 @@ Body:
+@@ -60438,11 +59646,11 @@ Body:
          Rate: 2500
        - Item: Scarlet_Viollin
          Rate: 250
@@ -4522,7 +3124,7 @@
      AegisName: C2_VIOLY
      Name: Solid Violy
      Level: 118
-@@ -60486,11 +59692,11 @@ Body:
+@@ -60486,11 +59694,11 @@ Body:
          Rate: 2500
        - Item: Scarlet_Viollin
          Rate: 250
@@ -4535,7 +3137,7 @@
      AegisName: C3_VENOMOUS
      Name: Venomous Ringleader
      Level: 87
-@@ -60533,11 +59739,11 @@ Body:
+@@ -60533,11 +59741,11 @@ Body:
        - Item: Tear_Gas
          Rate: 1500
        - Item: Old_Blue_Box
@@ -4548,7 +3150,7 @@
      AegisName: C4_VENATU_1
      Name: Furious Venatu
      Level: 113
-@@ -60580,11 +59786,11 @@ Body:
+@@ -60580,11 +59788,11 @@ Body:
        - Item: Elunium
          Rate: 25
        - Item: High_end_Cooking_Kits
@@ -4561,7 +3163,7 @@
      AegisName: C5_VAVAYAGA
      Name: Elusive Vavayaga
      Level: 87
-@@ -60627,11 +59833,11 @@ Body:
+@@ -60627,11 +59835,11 @@ Body:
        - Item: Milk
          Rate: 3750
        - Item: Bread
@@ -4574,7 +3176,7 @@
      AegisName: C1_VANBERK
      Name: Swift Vanberk
      Level: 123
-@@ -60674,11 +59880,11 @@ Body:
+@@ -60674,11 +59882,11 @@ Body:
        - Item: Bloody_Rune
          Rate: 250
        - Item: Ur_Seal
@@ -4587,7 +3189,7 @@
      AegisName: C2_VADON
      Name: Solid Vadon
      Level: 45
-@@ -60721,11 +59927,11 @@ Body:
+@@ -60721,11 +59929,11 @@ Body:
        - Item: Elunium_Stone
          Rate: 100
        - Item: Wing_Of_Fly
@@ -4600,7 +3202,7 @@
      AegisName: C3_UNGOLIANT
      Name: Ungoliant Ringleader
      Level: 94
-@@ -60770,11 +59976,11 @@ Body:
+@@ -60770,11 +59978,11 @@ Body:
        - Item: Dark_Red_Jewel
          Rate: 3750
        - Item: Boots_
@@ -4613,7 +3215,7 @@
      AegisName: C4_TOUCAN
      Name: Furious Toucan
      Level: 70
-@@ -60813,11 +60019,11 @@ Body:
+@@ -60813,11 +60021,11 @@ Body:
        - Item: Yellow_Herb
          Rate: 250
        - Item: Flower_Ring
@@ -4626,7 +3228,7 @@
      AegisName: C5_TIYANAK
      Name: Elusive Tiyanak
      Level: 105
-@@ -60900,11 +60106,11 @@ Body:
+@@ -60900,11 +60108,11 @@ Body:
        - Item: Iron_Ore
          Rate: 625
        - Item: Wing_Of_Fly
@@ -4639,7 +3241,7 @@
      AegisName: C3_THIEF_BUG
      Name: Thief Bug Ringleader
      Level: 21
-@@ -60949,11 +60155,11 @@ Body:
+@@ -60949,11 +60157,11 @@ Body:
        - Item: Iron_Ore
          Rate: 625
        - Item: Wing_Of_Fly
@@ -4652,7 +3254,7 @@
      AegisName: C4_THIEF_BUG
      Name: Furious Thief Bug
      Level: 21
-@@ -60998,11 +60204,11 @@ Body:
+@@ -60998,11 +60206,11 @@ Body:
        - Item: Iron_Ore
          Rate: 625
        - Item: Wing_Of_Fly
@@ -4665,7 +3267,7 @@
      AegisName: C5_THARA_FROG
      Name: Elusive Thara Frog
      Level: 40
-@@ -61045,11 +60251,11 @@ Body:
+@@ -61045,11 +60253,11 @@ Body:
        - Item: Sticky_Webfoot
          Rate: 5000
        - Item: Wing_Of_Fly
@@ -4678,7 +3280,7 @@
      AegisName: C1_TEDDY_BEAR
      Name: Swift Teddy Bear
      Level: 91
-@@ -61092,11 +60298,11 @@ Body:
+@@ -61092,11 +60300,11 @@ Body:
        - Item: Cursed_Lucky_Brooch
          Rate: 25
        - Item: Elunium
@@ -4691,7 +3293,7 @@
      AegisName: C2_TATACHO
      Name: Solid Tatacho
      Level: 128
-@@ -61139,11 +60345,11 @@ Body:
+@@ -61139,11 +60347,11 @@ Body:
        - Item: Bradium
          Rate: 25
        - Item: Starsand_Of_Witch
@@ -4704,7 +3306,7 @@
      AegisName: C3_TAROU
      Name: Tarou Ringleader
      Level: 22
-@@ -61182,11 +60388,11 @@ Body:
+@@ -61182,11 +60390,11 @@ Body:
        - Item: Ora_Ora
          Rate: 5
        - Item: Wing_Of_Fly
@@ -4717,7 +3319,7 @@
      AegisName: C4_TAMRUAN
      Name: Furious Tamruan
      Level: 73
-@@ -61230,11 +60436,11 @@ Body:
+@@ -61230,11 +60438,11 @@ Body:
        - Item: Chain_Mail_
          Rate: 10
        - Item: Runstone_Mystic
@@ -4730,7 +3332,7 @@
      AegisName: C5_STING
      Name: Elusive Sting
      Level: 104
-@@ -61277,11 +60483,11 @@ Body:
+@@ -61277,11 +60485,11 @@ Body:
        - Item: Silk_Ribbon
          Rate: 25
        - Item: Explosive_Powder
@@ -4743,7 +3345,7 @@
      AegisName: C1_STEM_WORM
      Name: Swift Stem Worm
      Level: 84
-@@ -61325,11 +60531,11 @@ Body:
+@@ -61325,11 +60533,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Seed_Of_Yggdrasil
@@ -4756,7 +3358,7 @@
      AegisName: C2_STEEL_CHONCHON
      Name: Solid Steel Chonchon
      Level: 48
-@@ -61374,11 +60580,11 @@ Body:
+@@ -61374,11 +60582,11 @@ Body:
        - Item: Iron
          Rate: 500
        - Item: Wing_Of_Fly
@@ -4769,7 +3371,7 @@
      AegisName: C3_STAPO
      Name: Stapo Ringleader
      Level: 95
-@@ -61421,11 +60627,11 @@ Body:
+@@ -61421,11 +60629,11 @@ Body:
        - Item: Seismic_Fist
          Rate: 10
        - Item: Pretty_G_Necklace
@@ -4782,7 +3384,7 @@
      AegisName: C4_STALACTIC_GOLEM
      Name: Furious Stalactic Golem
      Level: 68
-@@ -61467,11 +60673,11 @@ Body:
+@@ -61467,11 +60675,11 @@ Body:
        - Item: Round_Buckler
          Rate: 15
        - Item: Elunium
@@ -4795,7 +3397,7 @@
      AegisName: C5_STAINER
      Name: Elusive Stainer
      Level: 21
-@@ -61515,11 +60721,11 @@ Body:
+@@ -61515,11 +60723,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Iron_Ore
@@ -4808,7 +3410,7 @@
      AegisName: C1_SPORE
      Name: Swift Spore
      Level: 18
-@@ -61560,11 +60766,11 @@ Body:
+@@ -61560,11 +60768,11 @@ Body:
        - Item: Poison_Spore
          Rate: 50
        - Item: Strawberry
@@ -4821,7 +3423,7 @@
      AegisName: C2_SOLIDER
      Name: Solid Solider
      Level: 92
-@@ -61608,11 +60814,11 @@ Body:
+@@ -61608,11 +60816,11 @@ Body:
          Rate: 2125
        - Item: Scarlet_Mace
          Rate: 250
@@ -4834,7 +3436,7 @@
      AegisName: C3_SOLDIER_SKELETON
  #   Name: Soldier Skeleton Ringleader
      Name: Soldier Skeleton Ringlea
-@@ -61656,11 +60862,11 @@ Body:
+@@ -61656,11 +60864,11 @@ Body:
        - Item: Chain_Mail_
          Rate: 5
        - Item: Stiletto
@@ -4847,7 +3449,7 @@
      AegisName: C4_SOLDIER_SKELETON
      Name: Furious Soldier Skeleton
      Level: 34
-@@ -61703,11 +60909,11 @@ Body:
+@@ -61703,11 +60911,11 @@ Body:
        - Item: Chain_Mail_
          Rate: 5
        - Item: Stiletto
@@ -4860,7 +3462,7 @@
      AegisName: C5_SOLACE
      Name: Elusive Lady Solace
      Level: 123
-@@ -61752,11 +60958,11 @@ Body:
+@@ -61752,11 +60960,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Cursed_Seal
@@ -4873,7 +3475,7 @@
      AegisName: C1_SOHEE
      Name: Swift Sohee
      Level: 64
-@@ -61801,11 +61007,11 @@ Body:
+@@ -61801,11 +61009,11 @@ Body:
        - Item: Puente_Robe
          Rate: 15
        - Item: Inspector_Certificate
@@ -4886,7 +3488,7 @@
      AegisName: C2_SNOWIER
      Name: Solid Snowier
      Level: 103
-@@ -61848,11 +61054,11 @@ Body:
+@@ -61848,11 +61056,11 @@ Body:
        - Item: Icicle_Fist
          Rate: 10
        - Item: Crystal_Blue
@@ -4899,7 +3501,7 @@
      AegisName: C3_SNAKE
      Name: Boa Ringleader
      Level: 18
-@@ -61895,11 +61101,11 @@ Body:
+@@ -61895,11 +61103,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Strawberry
@@ -4912,7 +3514,7 @@
      AegisName: C4_SMOKIE
      Name: Furious Smokie
      Level: 29
-@@ -61941,11 +61147,11 @@ Body:
+@@ -61941,11 +61149,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Bluish_Green_Jewel
@@ -4925,7 +3527,7 @@
      AegisName: C5_SLEEPER
      Name: Elusive Sleeper
      Level: 81
-@@ -61989,11 +61195,11 @@ Body:
+@@ -61989,11 +61197,11 @@ Body:
        - Item: Hypnotist's_Staff_
          Rate: 15
        - Item: Fine_Sand
@@ -4938,7 +3540,7 @@
      AegisName: C1_SLEEPER
      Name: Swift Sleeper
      Level: 81
-@@ -62037,11 +61243,11 @@ Body:
+@@ -62037,11 +61245,11 @@ Body:
        - Item: Hypnotist's_Staff_
          Rate: 15
        - Item: Fine_Sand
@@ -4951,7 +3553,7 @@
      AegisName: C2_SKOGUL
      Name: Solid Skogul
      Level: 126
-@@ -62086,11 +61292,11 @@ Body:
+@@ -62086,11 +61294,11 @@ Body:
        - Item: Elunium_Stone
          Rate: 1250
        - Item: Blood_Tears
@@ -4964,7 +3566,7 @@
      AegisName: C3_SKELETON_GENERAL
  #   Name: Skeleton General Ringleader
      Name: Skeleton General Ringlea
-@@ -62135,11 +61341,11 @@ Body:
+@@ -62135,11 +61343,11 @@ Body:
        - Item: Sandstorm
          Rate: 40
        - Item: Ghost_Bandana
@@ -4977,7 +3579,7 @@
      AegisName: C4_SKELETON_GENERAL
      Name: Furious Skeleton General
      Level: 139
-@@ -62183,11 +61389,11 @@ Body:
+@@ -62183,11 +61391,11 @@ Body:
        - Item: Sandstorm
          Rate: 40
        - Item: Ghost_Bandana
@@ -4990,7 +3592,7 @@
      AegisName: C5_SKEL_WORKER
      Name: Elusive Skeleton Worker
      Level: 44
-@@ -62230,11 +61436,11 @@ Body:
+@@ -62230,11 +61438,11 @@ Body:
        - Item: Coal
          Rate: 500
        - Item: Wing_Of_Fly
@@ -5003,7 +3605,7 @@
      AegisName: C1_SIROMA
      Name: Swift Siroma
      Level: 98
-@@ -62275,11 +61481,11 @@ Body:
+@@ -62275,11 +61483,11 @@ Body:
        - Item: Detail_Model_Foxtail
          Rate: 20
        - Item: Crystal_Blue
@@ -5016,7 +3618,7 @@
      AegisName: C2_SIDE_WINDER
      Name: Solid Side Winder
      Level: 70
-@@ -62322,11 +61528,11 @@ Body:
+@@ -62322,11 +61530,11 @@ Body:
        - Item: Scale_Of_Snakes
          Rate: 10000
        - Item: White_Herb
@@ -5029,7 +3631,7 @@
      AegisName: C3_SIDE_WINDER
      Name: Side Winder Ringleader
      Level: 70
-@@ -62369,11 +61575,11 @@ Body:
+@@ -62369,11 +61577,11 @@ Body:
        - Item: Scale_Of_Snakes
          Rate: 10000
        - Item: White_Herb
@@ -5042,7 +3644,7 @@
      AegisName: C4_SHINOBI
      Name: Furious Shinobi
      Level: 95
-@@ -62416,11 +61622,11 @@ Body:
+@@ -62416,11 +61624,11 @@ Body:
        - Item: Black_Mask
          Rate: 5000
        - Item: Murasame_
@@ -5055,7 +3657,7 @@
      AegisName: C5_SHELTER
  #   Name: Elusive Mistress of Shelter
      Name: Elusive Mistress of Shel
-@@ -62463,11 +61669,11 @@ Body:
+@@ -62463,11 +61671,11 @@ Body:
        - Item: Skull
          Rate: 2500
        - Item: Cursed_Seal
@@ -5068,7 +3670,7 @@
      AegisName: C1_SHELLFISH
      Name: Swift Shellfish
      Level: 50
-@@ -62510,11 +61716,11 @@ Body:
+@@ -62510,11 +61718,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Elunium_Stone
@@ -5081,7 +3683,7 @@
      AegisName: C2_SHECIL
      Name: Solid Cecil Damon
      Level: 141
-@@ -62557,11 +61763,11 @@ Body:
+@@ -62557,11 +61765,11 @@ Body:
        - Item: Goast_Chill
          Rate: 5
        - Item: Falken_Blitz
@@ -5094,7 +3696,7 @@
      AegisName: C3_SEE_OTTER
      Name: Sea Otter Ringleader
      Level: 48
-@@ -62604,11 +61810,11 @@ Body:
+@@ -62604,11 +61812,11 @@ Body:
        - Item: Glass_Bead
          Rate: 1625
        - Item: Cyfar
@@ -5107,7 +3709,7 @@
      AegisName: C4_SEDORA
      Name: Furious Lamp Rey
      Level: 110
-@@ -62653,11 +61859,11 @@ Body:
+@@ -62653,11 +61861,11 @@ Body:
        - Item: Old_Blue_Box
          Rate: 25
        - Item: Crystal_Blue
@@ -5120,7 +3722,7 @@
      AegisName: C5_SCORPION
      Name: Elusive Scorpion
      Level: 16
-@@ -62704,11 +61910,11 @@ Body:
+@@ -62704,11 +61912,11 @@ Body:
        - Item: Yellow_Herb
          Rate: 500
        - Item: Lusty_Iron
@@ -5133,7 +3735,7 @@
      AegisName: C1_SAVAGE_BABE
      Name: Swift Savage Babe
      Level: 14
-@@ -62750,11 +61956,11 @@ Body:
+@@ -62750,11 +61958,11 @@ Body:
        - Item: Phracon
          Rate: 200
        - Item: Sweet_Milk
@@ -5146,7 +3748,7 @@
      AegisName: C2_SAVAGE
      Name: Solid Savage
      Level: 59
-@@ -62797,11 +62003,11 @@ Body:
+@@ -62797,11 +62005,11 @@ Body:
        - Item: Elunium_Stone
          Rate: 175
        - Item: Royal_Jelly
@@ -5159,7 +3761,7 @@
      AegisName: C3_SAVAGE
      Name: Savage Ringleader
      Level: 59
-@@ -62844,11 +62050,11 @@ Body:
+@@ -62844,11 +62052,11 @@ Body:
        - Item: Elunium_Stone
          Rate: 175
        - Item: Royal_Jelly
@@ -5172,7 +3774,7 @@
      AegisName: C4_SAND_MAN
      Name: Furious Sandman
      Level: 61
-@@ -62891,11 +62097,11 @@ Body:
+@@ -62891,11 +62099,11 @@ Body:
        - Item: Katar_Of_Thornbush
          Rate: 5
        - Item: Hypnotist's_Staff_
@@ -5185,7 +3787,7 @@
      AegisName: C5_SALAMANDER
      Name: Elusive Salamander
      Level: 138
-@@ -62939,11 +62145,11 @@ Body:
+@@ -62939,11 +62147,11 @@ Body:
        - Item: Ring_
          Rate: 5
        - Item: Meteo_Plate_Armor
@@ -5198,7 +3800,7 @@
      AegisName: C1_SAILOR_SKELETON
      Name: Swift Sailor Skeleton
      Level: 19
-@@ -63028,11 +62234,11 @@ Body:
+@@ -63028,11 +62236,11 @@ Body:
        - Item: Detail_Model_Foxtail
          Rate: 100
        - Item: Charm_G_Necklace
@@ -5211,7 +3813,7 @@
      AegisName: C3_RODA_FROG
      Name: Roda Frog Ringleader
      Level: 13
-@@ -63070,11 +62276,11 @@ Body:
+@@ -63070,11 +62278,11 @@ Body:
        - Item: Azure_Jewel
          Rate: 40
        - Item: Wing_Of_Fly
@@ -5224,7 +3826,7 @@
      AegisName: C4_RODA_FROG
      Name: Furious Roda Frog
      Level: 13
-@@ -63112,11 +62318,11 @@ Body:
+@@ -63112,11 +62320,11 @@ Body:
        - Item: Azure_Jewel
          Rate: 40
        - Item: Wing_Of_Fly
@@ -5237,7 +3839,7 @@
      AegisName: C5_ROCKER
      Name: Elusive Rocker
      Level: 15
-@@ -63161,11 +62367,11 @@ Body:
+@@ -63161,11 +62369,11 @@ Body:
        - Item: Grasshopper_Doll
          Rate: 50
        - Item: Hinalle
@@ -5250,7 +3852,7 @@
      AegisName: C1_RIDEWORD
      Name: Swift Rideword
      Level: 74
-@@ -63208,11 +62414,11 @@ Body:
+@@ -63208,11 +62416,11 @@ Body:
        - Item: Bookclip_In_Memory
          Rate: 750
        - Item: Old_Magic_Book
@@ -5263,7 +3865,7 @@
      AegisName: C2_RIDEWORD
      Name: Solid Rideword
      Level: 74
-@@ -63255,11 +62461,11 @@ Body:
+@@ -63255,11 +62463,11 @@ Body:
        - Item: Bookclip_In_Memory
          Rate: 750
        - Item: Old_Magic_Book
@@ -5276,7 +3878,7 @@
      AegisName: C3_RICE_CAKE_BOY
  #   Name: Dumpling Child Ringleader
      Name: Dumpling Child Ringleade
-@@ -63301,11 +62507,11 @@ Body:
+@@ -63301,11 +62509,11 @@ Body:
        - Item: Bun
          Rate: 2500
        - Item: Festival_Mask
@@ -5289,7 +3891,7 @@
      AegisName: C4_RETRIBUTION
  #   Name: Furious Baroness of Retribution
      Name: Furious Baroness of Retr
-@@ -63351,11 +62557,11 @@ Body:
+@@ -63351,11 +62559,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Cursed_Seal
@@ -5302,7 +3904,7 @@
      AegisName: C5_RETRIBUTION
  #   Name: Elusive Baroness of Retribution
      Name: Elusive Baroness of Retr
-@@ -63401,11 +62607,11 @@ Body:
+@@ -63401,11 +62609,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Cursed_Seal
@@ -5315,7 +3917,7 @@
      AegisName: C1_RETRIBUTION
  #   Name: Swift Baroness of Retribution
      Name: Swift Baroness of Retrib
-@@ -63451,11 +62657,11 @@ Body:
+@@ -63451,11 +62659,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Cursed_Seal
@@ -5328,7 +3930,7 @@
      AegisName: C2_REQUIEM
      Name: Solid Requiem
      Level: 71
-@@ -63498,11 +62704,11 @@ Body:
+@@ -63498,11 +62706,11 @@ Body:
        - Item: Mantle_
          Rate: 25
        - Item: Cookbook06
@@ -5341,7 +3943,7 @@
      AegisName: C3_REMOVAL
      Name: Remover Ringleader
      Level: 121
-@@ -63545,11 +62751,11 @@ Body:
+@@ -63545,11 +62753,11 @@ Body:
        - Item: Karvodailnirol
          Rate: 250
        - Item: Fedora_
@@ -5354,7 +3956,7 @@
      AegisName: C5_RED_ERUMA
      Name: Elusive Red Eruma
      Level: 91
-@@ -63592,11 +62798,11 @@ Body:
+@@ -63592,11 +62800,11 @@ Body:
        - Item: Old_Blue_Box
          Rate: 50
        - Item: Bad_Can
@@ -5367,7 +3969,7 @@
      AegisName: C1_RAYDRIC
      Name: Swift Raydric
      Level: 115
-@@ -63639,11 +62845,11 @@ Body:
+@@ -63639,11 +62847,11 @@ Body:
        - Item: Patriotism_Marks
          Rate: 25
        - Item: Brigan
@@ -5380,7 +3982,7 @@
      AegisName: C2_RAYDRIC
      Name: Solid Raydric
      Level: 115
-@@ -63686,11 +62892,11 @@ Body:
+@@ -63686,11 +62894,11 @@ Body:
        - Item: Patriotism_Marks
          Rate: 25
        - Item: Brigan
@@ -5393,7 +3995,7 @@
      AegisName: C3_RAWREL
  #   Name: Laurell Weinder Ringleader
      Name: Laurell Weinder Ringlead
-@@ -63734,11 +62940,11 @@ Body:
+@@ -63734,11 +62942,11 @@ Body:
        - Item: Silver_Robe_
          Rate: 75
        - Item: Clip
@@ -5406,7 +4008,7 @@
      AegisName: C4_RAKE_SCARABA
      Name: Furious Rake Scaraba
      Level: 139
-@@ -63783,11 +62989,11 @@ Body:
+@@ -63783,11 +62991,11 @@ Body:
        - Item: Yellow_Live
          Rate: 250
        - Item: Doram_High_Cape
@@ -5419,7 +4021,7 @@
      AegisName: C5_RAGGLER
      Name: Elusive Raggler
      Level: 48
-@@ -63830,11 +63036,11 @@ Body:
+@@ -63830,11 +63038,11 @@ Body:
        - Item: Goggle_
          Rate: 20
        - Item: Oridecon_Stone
@@ -5432,7 +4034,7 @@
      AegisName: C1_RAFFLESIA
      Name: Swift Rafflesia
      Level: 86
-@@ -63877,11 +63083,11 @@ Body:
+@@ -63877,11 +63085,11 @@ Body:
        - Item: Shoot
          Rate: 1375
        - Item: White_Herb
@@ -5445,7 +4047,7 @@
      AegisName: C3_PORING
      Name: Poring Ringleader
      Level: 1
-@@ -63921,11 +63127,11 @@ Body:
+@@ -63921,11 +63129,11 @@ Body:
        - Item: Apple
          Rate: 750
        - Item: Unripe_Apple
@@ -5458,7 +4060,7 @@
      AegisName: C4_PORING
      Name: Furious Poring
      Level: 1
-@@ -63965,11 +63171,11 @@ Body:
+@@ -63965,11 +63173,11 @@ Body:
        - Item: Apple
          Rate: 750
        - Item: Unripe_Apple
@@ -5471,7 +4073,7 @@
      AegisName: C5_PORING
      Name: Elusive Poring
      Level: 1
-@@ -64009,11 +63215,11 @@ Body:
+@@ -64009,11 +63217,11 @@ Body:
        - Item: Apple
          Rate: 750
        - Item: Unripe_Apple
@@ -5484,7 +4086,7 @@
      AegisName: C1_PORING
      Name: Swift Poring
      Level: 1
-@@ -64053,11 +63259,11 @@ Body:
+@@ -64053,11 +63261,11 @@ Body:
        - Item: Apple
          Rate: 750
        - Item: Unripe_Apple
@@ -5497,7 +4099,7 @@
      AegisName: C2_PORCELLIO
      Name: Solid Porcellio
      Level: 85
-@@ -64101,11 +63307,11 @@ Body:
+@@ -64101,11 +63309,11 @@ Body:
        - Item: Dew_Laden_Moss
          Rate: 5
        - Item: Fluorescent_Liquid
@@ -5510,7 +4112,7 @@
      AegisName: C3_POPORING
      Name: Poporing Ringleader
      Level: 30
-@@ -64148,11 +63354,11 @@ Body:
+@@ -64148,11 +63356,11 @@ Body:
        - Item: Main_Gauche
          Rate: 100
        - Item: Apple
@@ -5523,7 +4125,7 @@
      AegisName: C4_POPORING
      Name: Furious Poporing
      Level: 30
-@@ -64195,11 +63401,11 @@ Body:
+@@ -64195,11 +63403,11 @@ Body:
        - Item: Main_Gauche
          Rate: 100
        - Item: Apple
@@ -5536,7 +4138,7 @@
      AegisName: C5_POPORING
      Name: Elusive Poporing
      Level: 30
-@@ -64242,11 +63448,11 @@ Body:
+@@ -64242,11 +63450,11 @@ Body:
        - Item: Main_Gauche
          Rate: 100
        - Item: Apple
@@ -5549,7 +4151,7 @@
      AegisName: C1_POISON_TOAD
      Name: Swift Poison Toad
      Level: 87
-@@ -64289,11 +63495,11 @@ Body:
+@@ -64289,11 +63497,11 @@ Body:
        - Item: Royal_Jelly
          Rate: 5
        - Item: Cinquedea_
@@ -5562,7 +4164,7 @@
      AegisName: C2_POISON_SPORE
      Name: Solid Poison Spore
      Level: 26
-@@ -64336,11 +63542,11 @@ Body:
+@@ -64336,11 +63544,11 @@ Body:
        - Item: Mushroom_Spore
          Rate: 3000
        - Item: Wing_Of_Fly
@@ -5575,7 +4177,7 @@
      AegisName: C3_PLASMA_Y
      Name: Plasma Ringleader
      Level: 119
-@@ -64381,11 +63587,11 @@ Body:
+@@ -64381,11 +63589,11 @@ Body:
        - Item: Gold
          Rate: 1
        - Item: Light_Granule
@@ -5588,7 +4190,7 @@
      AegisName: C4_PLANKTON
      Name: Furious Plankton
      Level: 40
-@@ -64428,11 +63634,11 @@ Body:
+@@ -64428,11 +63636,11 @@ Body:
        - Item: Dew_Laden_Moss
          Rate: 50
        - Item: Center_Potion
@@ -5601,7 +4203,7 @@
      AegisName: C5_PITMAN
      Name: Elusive Pitman
      Level: 90
-@@ -64475,11 +63681,11 @@ Body:
+@@ -64475,11 +63683,11 @@ Body:
        - Item: Lantern
          Rate: 2500
        - Item: Headlamp
@@ -5614,7 +4216,7 @@
      AegisName: C1_PIRANHA
      Name: Swift Piranha
      Level: 75
-@@ -64522,11 +63728,11 @@ Body:
+@@ -64522,11 +63730,11 @@ Body:
        - Item: Scalpel
          Rate: 5
        - Item: Fisherman's_Dagger
@@ -5627,7 +4229,7 @@
      AegisName: C2_PINGUICULA_D
      Name: Solid Dark Pinguicula
      Level: 113
-@@ -64569,11 +63775,11 @@ Body:
+@@ -64569,11 +63777,11 @@ Body:
        - Item: Elder_Branch
          Rate: 3750
        - Item: Rotha_Shield
@@ -5640,7 +4242,7 @@
      AegisName: C3_PINGUICULA
      Name: Pinguicula Ringleader
      Level: 105
-@@ -64616,11 +63822,11 @@ Body:
+@@ -64616,11 +63824,11 @@ Body:
        - Item: Browny_Root
          Rate: 7500
        - Item: Elder_Branch
@@ -5653,7 +4255,7 @@
      AegisName: C4_PICKY_
      Name: Furious Picky
      Level: 10
-@@ -64663,11 +63869,11 @@ Body:
+@@ -64663,11 +63871,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Tiny_Egg_Shell
@@ -5666,7 +4268,7 @@
      AegisName: C5_PHEN
      Name: Elusive Phen
      Level: 52
-@@ -64708,11 +63914,11 @@ Body:
+@@ -64708,11 +63916,11 @@ Body:
        - Item: Fin
          Rate: 1250
        - Item: Oridecon_Stone
@@ -5679,7 +4281,7 @@
      AegisName: C1_PETIT
      Name: Swift Petite
      Level: 86
-@@ -64756,11 +63962,11 @@ Body:
+@@ -64756,11 +63964,11 @@ Body:
        - Item: Petti_Tail
          Rate: 250
        - Item: Aloebera
@@ -5692,7 +4294,7 @@
      AegisName: C2_PETIT
      Name: Solid Petite
      Level: 86
-@@ -64804,11 +64010,11 @@ Body:
+@@ -64804,11 +64012,11 @@ Body:
        - Item: Petti_Tail
          Rate: 250
        - Item: Aloebera
@@ -5705,7 +4307,7 @@
      AegisName: C3_PENOMENA
      Name: Penomena Ringleader
      Level: 85
-@@ -64851,11 +64057,11 @@ Body:
+@@ -64851,11 +64059,11 @@ Body:
        - Item: Katar_Of_Raging_Blaze
          Rate: 5
        - Item: Red_Gemstone
@@ -5718,7 +4320,7 @@
      AegisName: C4_PENOMENA
      Name: Furious Penomena
      Level: 85
-@@ -64898,11 +64104,11 @@ Body:
+@@ -64898,11 +64106,11 @@ Body:
        - Item: Katar_Of_Raging_Blaze
          Rate: 5
        - Item: Red_Gemstone
@@ -5731,7 +4333,7 @@
      AegisName: C5_PECOPECO
      Name: Elusive Peco Peco
      Level: 25
-@@ -64942,11 +64148,11 @@ Body:
+@@ -64942,11 +64150,11 @@ Body:
        - Item: Wand
          Rate: 250
        - Item: Orange
@@ -5744,7 +4346,7 @@
      AegisName: C1_PASANA
      Name: Swift Pasana
      Level: 79
-@@ -64989,11 +64195,11 @@ Body:
+@@ -64989,11 +64197,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Undershirt
@@ -5757,7 +4359,7 @@
      AegisName: C2_PARASITE
      Name: Solid Parasite
      Level: 76
-@@ -65036,11 +64242,11 @@ Body:
+@@ -65036,11 +64244,11 @@ Body:
        - Item: Bladed_Whip
          Rate: 5
        - Item: Pineapple
@@ -5770,7 +4372,7 @@
      AegisName: C3_OWL_DUKE
      Name: Owl Duke Ringleader
      Level: 92
-@@ -65085,11 +64291,11 @@ Body:
+@@ -65085,11 +64293,11 @@ Body:
        - Item: Scarlet_Staff
          Rate: 250
        - Item: Magician_Hat
@@ -5783,7 +4385,7 @@
      AegisName: C4_ORK_WARRIOR
      Name: Furious Orc Warrior
      Level: 44
-@@ -65132,11 +64338,11 @@ Body:
+@@ -65132,11 +64340,11 @@ Body:
        - Item: Orcish_Axe
          Rate: 15
        - Item: Round_Buckler
@@ -5796,7 +4398,7 @@
      AegisName: C5_ORC_ZOMBIE
      Name: Elusive Orc Zombie
      Level: 51
-@@ -65171,11 +64377,11 @@ Body:
+@@ -65171,11 +64379,11 @@ Body:
        - Item: Sticky_Mucus
          Rate: 7500
        - Item: Emperium
@@ -5809,7 +4411,7 @@
      AegisName: C1_ORC_SKELETON
      Name: Swift Orc Skeleton
      Level: 53
-@@ -65216,11 +64422,11 @@ Body:
+@@ -65216,11 +64424,11 @@ Body:
        - Item: Buster_
          Rate: 25
        - Item: Green_Herb
@@ -5822,7 +4424,7 @@
      AegisName: C2_ORC_LADY
      Name: Solid Orc Lady
      Level: 45
-@@ -65263,11 +64469,11 @@ Body:
+@@ -65263,11 +64471,11 @@ Body:
        - Item: Cookbook06
          Rate: 10
        - Item: Wedding_Dress
@@ -5835,7 +4437,7 @@
      AegisName: C3_OBSERVATION
  #   Name: Dame of Sentinel Ringleader
      Name: Dame of Sentinel Ringlea
-@@ -65312,11 +64518,11 @@ Body:
+@@ -65312,11 +64520,11 @@ Body:
        - Item: Hair_Band
          Rate: 25
        - Item: Golden_Bracelet
@@ -5848,7 +4450,7 @@
      AegisName: C4_NOXIOUS
      Name: Furious Noxious
      Level: 87
-@@ -65359,11 +64565,11 @@ Body:
+@@ -65359,11 +64567,11 @@ Body:
        - Item: Tear_Gas
          Rate: 750
        - Item: Old_Blue_Box
@@ -5861,7 +4463,7 @@
      AegisName: C5_NOVUS
      Name: Elusive Novus
      Level: 90
-@@ -65398,11 +64604,11 @@ Body:
+@@ -65398,11 +64606,11 @@ Body:
        - Item: Cyfar
          Rate: 2590
        - Item: Dragon_Scale
@@ -5874,7 +4476,7 @@
      AegisName: C1_NOVUS
      Name: Swift Novus
      Level: 90
-@@ -65437,11 +64643,11 @@ Body:
+@@ -65437,11 +64645,11 @@ Body:
        - Item: Cyfar
          Rate: 2590
        - Item: Dragon_Scale
@@ -5887,7 +4489,7 @@
      AegisName: C2_NOVUS
      Name: Solid Novus
      Level: 90
-@@ -65476,11 +64682,11 @@ Body:
+@@ -65476,11 +64684,11 @@ Body:
        - Item: Cyfar
          Rate: 2590
        - Item: Dragon_Scale
@@ -5900,7 +4502,7 @@
      AegisName: C3_NOVUS
      Name: Novus Ringleader
      Level: 90
-@@ -65515,11 +64721,11 @@ Body:
+@@ -65515,11 +64723,11 @@ Body:
        - Item: Cyfar
          Rate: 2590
        - Item: Dragon_Scale
@@ -5913,7 +4515,7 @@
      AegisName: C4_NIGHTMARE_TERROR
      Name: Furious Nightmare Terror
      Level: 107
-@@ -65564,11 +64770,11 @@ Body:
+@@ -65564,11 +64772,11 @@ Body:
        - Item: Ghost_Scroll_1_5
          Rate: 250
        - Item: Infiltrator
@@ -5926,7 +4528,7 @@
      AegisName: C5_NG_WRAITH_DEAD
  #   Name: Elusive Wraith Dead (Nightmare)
      Name: Elusive Wraith Dead (Nig
-@@ -65701,11 +64907,11 @@ Body:
+@@ -65701,11 +64909,11 @@ Body:
        - Item: Yellow_Live
          Rate: 125
        - Item: Stem
@@ -5939,7 +4541,7 @@
      AegisName: C3_NECROMANCER
      Name: Necromancer Ringleader
      Level: 133
-@@ -65747,11 +64953,11 @@ Body:
+@@ -65747,11 +64955,11 @@ Body:
        - Item: Amulet
          Rate: 250
        - Item: Rent_Spell_Book
@@ -5952,7 +4554,7 @@
      AegisName: C4_MYSTCASE
      Name: Furious Myst Case
      Level: 39
-@@ -65794,11 +65000,11 @@ Body:
+@@ -65794,11 +65002,11 @@ Body:
        - Item: Crystal_Jewel_
          Rate: 15
        - Item: Candy
@@ -5965,7 +4567,7 @@
      AegisName: C5_MUSCIPULAR
      Name: Elusive Muscipular
      Level: 105
-@@ -65841,11 +65047,11 @@ Body:
+@@ -65841,11 +65049,11 @@ Body:
        - Item: Deadly_Noxious_Herb
          Rate: 10
        - Item: Mandragora_Flowerpot
@@ -5978,7 +4580,7 @@
      AegisName: C1_MUMMY
      Name: Swift Mummy
      Level: 55
-@@ -65886,11 +65092,11 @@ Body:
+@@ -65886,11 +65094,11 @@ Body:
        - Item: Panacea
          Rate: 625
        - Item: Yellow_Herb
@@ -5991,7 +4593,7 @@
      AegisName: C2_MUMMY
      Name: Solid Mummy
      Level: 55
-@@ -65931,11 +65137,11 @@ Body:
+@@ -65931,11 +65139,11 @@ Body:
        - Item: Panacea
          Rate: 625
        - Item: Yellow_Herb
@@ -6004,7 +4606,7 @@
      AegisName: C3_MUKA
      Name: Muka Ringleader
      Level: 23
-@@ -65977,11 +65183,11 @@ Body:
+@@ -65977,11 +65185,11 @@ Body:
        - Item: Guisarme
          Rate: 125
        - Item: Iron_Ore
@@ -6017,7 +4619,7 @@
      AegisName: C4_MOROCC_1
  #   Name: Furious Incarnation of Morocc
      Name: Furious Incarnation of M
-@@ -66156,11 +65362,11 @@ Body:
+@@ -66156,11 +65364,11 @@ Body:
        - Item: Super_Novice_Hat_
          Rate: 125
        - Item: Scarlet_Revolver
@@ -6030,7 +4632,7 @@
      AegisName: C3_MIYABI_NINGYO
      Name: Miyabi Doll Ringleader
      Level: 85
-@@ -66206,11 +65412,11 @@ Body:
+@@ -66206,11 +65414,11 @@ Body:
          Rate: 15
        - Item: Scarlet_Viollin
          Rate: 250
@@ -6043,7 +4645,7 @@
      AegisName: C4_MINOROUS
      Name: Furious Minorous
      Level: 58
-@@ -66253,11 +65459,11 @@ Body:
+@@ -66253,11 +65461,11 @@ Body:
        - Item: Axe
          Rate: 500
        - Item: Lemon
@@ -6056,7 +4658,7 @@
      AegisName: C5_MINOROUS
      Name: Elusive Minorous
      Level: 58
-@@ -66300,11 +65506,11 @@ Body:
+@@ -66300,11 +65508,11 @@ Body:
        - Item: Axe
          Rate: 500
        - Item: Lemon
@@ -6069,7 +4671,7 @@
      AegisName: C1_MINOROUS
      Name: Swift Minorous
      Level: 58
-@@ -66347,11 +65553,11 @@ Body:
+@@ -66347,11 +65555,11 @@ Body:
        - Item: Axe
          Rate: 500
        - Item: Lemon
@@ -6082,7 +4684,7 @@
      AegisName: C2_MINERAL
      Name: Solid Mineral
      Level: 96
-@@ -66394,11 +65600,11 @@ Body:
+@@ -66394,11 +65602,11 @@ Body:
        - Item: Yellow_Gemstone
          Rate: 250
        - Item: Gold
@@ -6095,7 +4697,7 @@
      AegisName: C3_MIMING
      Name: Miming Ringleader
      Level: 140
-@@ -66435,11 +65641,11 @@ Body:
+@@ -66435,11 +65643,11 @@ Body:
        - Item: Gold
          Rate: 1
        - Item: Telekinetic_Orb
@@ -6108,7 +4710,7 @@
      AegisName: C4_MIMIC
      Name: Furious Mimic
      Level: 56
-@@ -66479,11 +65685,11 @@ Body:
+@@ -66479,11 +65687,11 @@ Body:
        - Item: Rosary_
          Rate: 5
        - Item: Elunium_Stone
@@ -6121,7 +4723,7 @@
      AegisName: C5_MIMIC
      Name: Elusive Mimic
      Level: 56
-@@ -66523,11 +65729,11 @@ Body:
+@@ -66523,11 +65731,11 @@ Body:
        - Item: Rosary_
          Rate: 5
        - Item: Elunium_Stone
@@ -6134,7 +4736,7 @@
      AegisName: C1_METALLER
      Name: Swift Metaller
      Level: 55
-@@ -66571,11 +65777,11 @@ Body:
+@@ -66571,11 +65779,11 @@ Body:
        - Item: Shell
          Rate: 7500
        - Item: Guitar_Of_Passion
@@ -6147,7 +4749,7 @@
      AegisName: C2_METALING
      Name: Solid Metaling
      Level: 81
-@@ -66618,11 +65824,11 @@ Body:
+@@ -66618,11 +65826,11 @@ Body:
        - Item: Scarlet_Revolver
          Rate: 250
        - Item: Jubilee
@@ -6160,7 +4762,7 @@
      AegisName: C3_METALING
      Name: Metaling Ringleader
      Level: 81
-@@ -66665,11 +65871,11 @@ Body:
+@@ -66665,11 +65873,11 @@ Body:
        - Item: Scarlet_Revolver
          Rate: 250
        - Item: Jubilee
@@ -6173,7 +4775,7 @@
      AegisName: C4_MERMAN
      Name: Furious Merman
      Level: 60
-@@ -66712,11 +65918,11 @@ Body:
+@@ -66712,11 +65920,11 @@ Body:
        - Item: Trident
          Rate: 10
        - Item: Oridecon_Stone
@@ -6186,7 +4788,7 @@
      AegisName: C5_MENBLATT
      Name: Elusive Menblatt
      Level: 143
-@@ -66801,11 +66007,11 @@ Body:
+@@ -66801,11 +66009,11 @@ Body:
        - Item: Rafini_Staff
          Rate: 15
        - Item: Penetration
@@ -6199,7 +4801,7 @@
      AegisName: C2_MARTIN
      Name: Solid Martin
      Level: 39
-@@ -66848,11 +66054,11 @@ Body:
+@@ -66848,11 +66056,11 @@ Body:
        - Item: Battered_Pot
          Rate: 25
        - Item: Wing_Of_Fly
@@ -6212,7 +4814,7 @@
      AegisName: C3_MARIONETTE
      Name: Marionette Ringleader
      Level: 90
-@@ -66898,11 +66104,11 @@ Body:
+@@ -66898,11 +66106,11 @@ Body:
        - Item: Chrystal_Pumps
          Rate: 5
        - Item: Marionette_Doll
@@ -6225,7 +4827,7 @@
      AegisName: C4_MARIN
      Name: Furious Marin
      Level: 37
-@@ -66945,11 +66151,11 @@ Body:
+@@ -66945,11 +66153,11 @@ Body:
        - Item: Candy
          Rate: 875
        - Item: Poring_Hat
@@ -6238,7 +4840,7 @@
      AegisName: C5_MARDUK
      Name: Elusive Marduk
      Level: 73
-@@ -66992,11 +66198,11 @@ Body:
+@@ -66992,11 +66200,11 @@ Body:
        - Item: Fire_Scroll_1_5
          Rate: 250
        - Item: Book_Of_Devil
@@ -6251,7 +4853,7 @@
      AegisName: C1_MANTIS
      Name: Swift Mantis
      Level: 65
-@@ -67040,11 +66246,11 @@ Body:
+@@ -67040,11 +66248,11 @@ Body:
        - Item: Azure_Jewel
          Rate: 25
        - Item: Red_Herb
@@ -6264,7 +4866,7 @@
      AegisName: C2_MANDRAGORA
      Name: Solid Mandragora
      Level: 13
-@@ -67087,11 +66293,11 @@ Body:
+@@ -67087,11 +66295,11 @@ Body:
        - Item: Four_Leaf_Clover
          Rate: 1
        - Item: Whip_Of_Earth
@@ -6277,7 +4879,7 @@
      AegisName: C3_MANANANGGAL
      Name: Manananggal Ringleader
      Level: 107
-@@ -67181,11 +66387,11 @@ Body:
+@@ -67181,11 +66389,11 @@ Body:
        - Item: Silver_Ring
          Rate: 400
        - Item: Star_Crumb
@@ -6290,7 +4892,7 @@
      AegisName: C5_MAGNOLIA
      Name: Elusive Magnolia
      Level: 53
-@@ -67230,11 +66436,11 @@ Body:
+@@ -67230,11 +66438,11 @@ Body:
        - Item: Yellow_Herb
          Rate: 1000
        - Item: High_end_Cooking_Kits
@@ -6303,7 +4905,7 @@
      AegisName: C1_MAGMARING
      Name: Swift Magmaring
      Level: 110
-@@ -67267,11 +66473,11 @@ Body:
+@@ -67267,11 +66475,11 @@ Body:
        - Item: Burning_Heart
          Rate: 7500
        - Item: Elunium_Stone
@@ -6316,7 +4918,7 @@
      AegisName: C2_LUNATIC
      Name: Solid Lunatic
      Level: 3
-@@ -67312,11 +66518,11 @@ Body:
+@@ -67312,11 +66520,11 @@ Body:
        - Item: Carrot
          Rate: 10000
        - Item: Rainbow_Carrot
@@ -6329,7 +4931,7 @@
      AegisName: C3_LUNATIC
      Name: Lunatic Ringleader
      Level: 3
-@@ -67357,11 +66563,11 @@ Body:
+@@ -67357,11 +66565,11 @@ Body:
        - Item: Carrot
          Rate: 10000
        - Item: Rainbow_Carrot
@@ -6342,7 +4944,7 @@
      AegisName: C4_LUDE
      Name: Furious Lude
      Level: 101
-@@ -67404,11 +66610,11 @@ Body:
+@@ -67404,11 +66612,11 @@ Body:
        - Item: Holy_Scroll_1_3
          Rate: 250
        - Item: Yellow_Powder
@@ -6355,7 +4957,7 @@
      AegisName: C5_LUCIOLA_VESPA
      Name: Elusive Luciola Vespa
      Level: 109
-@@ -67456,11 +66662,11 @@ Body:
+@@ -67456,11 +66664,11 @@ Body:
        - Item: Royal_Jelly
          Rate: 500
        - Item: Solid_Shell
@@ -6368,7 +4970,7 @@
      AegisName: C1_LOLI_RURI
      Name: Swift Loli Ruri
      Level: 109
-@@ -67505,11 +66711,11 @@ Body:
+@@ -67505,11 +66713,11 @@ Body:
        - Item: Lunatic_Brooch
          Rate: 15
        - Item: Sabah_Cloth
@@ -6381,7 +4983,7 @@
      AegisName: C2_LIVE_PEACH_TREE
  #   Name: Solid Enchanted Peach Tree
      Name: Solid Enchanted Peach Tr
-@@ -67551,11 +66757,11 @@ Body:
+@@ -67551,11 +66759,11 @@ Body:
        - Item: Banana_Juice
          Rate: 250
        - Item: Old_Blue_Box
@@ -6394,7 +4996,7 @@
      AegisName: C3_LITTLE_PORING
      Name: Baby Poring Ringleader
      Level: 1
-@@ -67595,11 +66801,11 @@ Body:
+@@ -67595,11 +66803,11 @@ Body:
        - Item: Apple
          Rate: 2500
        - Item: Red_Herb
@@ -6407,7 +5009,7 @@
      AegisName: C4_LITTLE_FATUM
      Name: Furious Little Fatum
      Level: 142
-@@ -67634,11 +66840,11 @@ Body:
+@@ -67634,11 +66842,11 @@ Body:
        - Item: Light_Granule
          Rate: 250
        - Item: Dance_Shoes
@@ -6420,7 +5022,7 @@
      AegisName: C5_LI_ME_MANG_RYANG
      Name: Elusive Jing Guai
      Level: 80
-@@ -67678,11 +66884,11 @@ Body:
+@@ -67678,11 +66886,11 @@ Body:
          Rate: 250
          RandomOptionGroup: Group_5
        - Item: Spike
@@ -6433,7 +5035,7 @@
      AegisName: C1_LES
      Name: Swift Les
      Level: 82
-@@ -67725,11 +66931,11 @@ Body:
+@@ -67725,11 +66933,11 @@ Body:
        - Item: Leaflet_Of_Aloe
          Rate: 1250
        - Item: Blue_Herb
@@ -6446,7 +5048,7 @@
      AegisName: C2_LEIB_OLMAI
      Name: Solid Leib Olmai
      Level: 118
-@@ -67772,11 +66978,11 @@ Body:
+@@ -67772,11 +66980,11 @@ Body:
        - Item: Gold
          Rate: 1
        - Item: Cyfar
@@ -6459,7 +5061,7 @@
      AegisName: C3_LEAF_CAT
      Name: Leaf Cat Ringleader
      Level: 64
-@@ -67819,11 +67025,11 @@ Body:
+@@ -67819,11 +67027,11 @@ Body:
        - Item: Prawn
          Rate: 1250
        - Item: Leaf_Clothes
@@ -6472,7 +5074,7 @@
      AegisName: C4_L_WHIKEBAIN
      Name: Furious Wickebine Tres
      Level: 98
-@@ -67956,11 +67162,11 @@ Body:
+@@ -67956,11 +67164,11 @@ Body:
        - Item: CrossBow_
          Rate: 15
        - Item: Oridecon_Stone
@@ -6485,7 +5087,7 @@
      AegisName: C2_KOBOLD_1
      Name: Solid Kobold
      Level: 107
-@@ -68003,11 +67209,11 @@ Body:
+@@ -68003,11 +67211,11 @@ Body:
        - Item: Buckler_
          Rate: 15
        - Item: Golden_Rod_Orb
@@ -6498,7 +5100,7 @@
      AegisName: C3_KNOCKER
      Name: Knocker Ringleader
      Level: 126
-@@ -68052,11 +67258,11 @@ Body:
+@@ -68052,11 +67260,11 @@ Body:
        - Item: Thorny_Buckler
          Rate: 10
        - Item: Earth_Bow
@@ -6511,7 +5113,7 @@
      AegisName: C4_KIND_OF_BEETLE
      Name: Furious Beetle King
      Level: 55
-@@ -68095,11 +67301,11 @@ Body:
+@@ -68095,11 +67303,11 @@ Body:
        - Item: Worm_Peelings
          Rate: 1250
        - Item: Guard_
@@ -6524,7 +5126,7 @@
      AegisName: C5_KASA
      Name: Elusive Kasa
      Level: 135
-@@ -68143,11 +67349,11 @@ Body:
+@@ -68143,11 +67351,11 @@ Body:
        - Item: Burning_Bow
          Rate: 25
        - Item: Piercing_Staff
@@ -6537,7 +5139,7 @@
      AegisName: C1_KARAKASA
      Name: Swift Karakasa
      Level: 72
-@@ -68190,11 +67396,11 @@ Body:
+@@ -68190,11 +67398,11 @@ Body:
        - Item: Glass_Bead
          Rate: 75
        - Item: Murasame
@@ -6550,7 +5152,7 @@
      AegisName: C2_ISIS
      Name: Solid Isis
      Level: 59
-@@ -68239,11 +67445,11 @@ Body:
+@@ -68239,11 +67447,11 @@ Body:
        - Item: Shining_Scales
          Rate: 2500
        - Item: Crystal_Jewel_
@@ -6563,7 +5165,7 @@
      AegisName: C3_ISILLA
      Name: Isilla Ringleader
      Level: 124
-@@ -68286,11 +67492,11 @@ Body:
+@@ -68286,11 +67494,11 @@ Body:
        - Item: Bloody_Rune
          Rate: 250
        - Item: Ur_Seal
@@ -6576,7 +5178,7 @@
      AegisName: C4_INJUSTICE
      Name: Furious Injustice
      Level: 95
-@@ -68334,11 +67540,11 @@ Body:
+@@ -68334,11 +67542,11 @@ Body:
          Rate: 5
        - Item: Scarlet_Katar
          Rate: 250
@@ -6589,7 +5191,7 @@
      AegisName: C5_INCREASE_SOIL
      Name: Elusive Mi Gao
      Level: 83
-@@ -68375,11 +67581,11 @@ Body:
+@@ -68375,11 +67583,11 @@ Body:
        - Item: Great_Nature
          Rate: 25
        - Item: Gold
@@ -6602,7 +5204,7 @@
      AegisName: C1_ICE_TITAN
      Name: Swift Ice Titan
      Level: 110
-@@ -68422,11 +67628,11 @@ Body:
+@@ -68422,11 +67630,11 @@ Body:
        - Item: Cold_Ice
          Rate: 1250
        - Item: Mistic_Frozen
@@ -6615,7 +5217,7 @@
      AegisName: C2_IARA
      Name: Solid Iara
      Level: 79
-@@ -68468,11 +67674,11 @@ Body:
+@@ -68468,11 +67676,11 @@ Body:
        - Item: Illusion_Flower
          Rate: 25
        - Item: Mage_Coat
@@ -6628,7 +5230,7 @@
      AegisName: C3_HYEGUN
      Name: Yao Jun Ringleader
      Level: 87
-@@ -68513,11 +67719,11 @@ Body:
+@@ -68513,11 +67721,11 @@ Body:
        - Item: Munak_Doll
          Rate: 750
        - Item: Claire_Suits
@@ -6641,7 +5243,7 @@
      AegisName: C4_HUNTER_FLY
      Name: Furious Hunter Fly
      Level: 63
-@@ -68562,11 +67768,11 @@ Body:
+@@ -68562,11 +67770,11 @@ Body:
        - Item: Mini_Propeller
          Rate: 5
        - Item: Damascus_
@@ -6654,7 +5256,7 @@
      AegisName: C5_HORNET
      Name: Elusive Hornet
      Level: 11
-@@ -68612,11 +67818,11 @@ Body:
+@@ -68612,11 +67820,11 @@ Body:
        - Item: Honey
          Rate: 500
        - Item: Wing_Of_Fly
@@ -6667,7 +5269,7 @@
      AegisName: C1_HORN_SCARABA
      Name: Swift Uni-horn Scaraba
      Level: 130
-@@ -68661,11 +67867,11 @@ Body:
+@@ -68661,11 +67869,11 @@ Body:
        - Item: Yellow_Live
          Rate: 250
        - Item: Doram_High_Suit
@@ -6680,7 +5282,7 @@
      AegisName: C2_HORN
      Name: Solid Horn
      Level: 32
-@@ -68710,11 +67916,11 @@ Body:
+@@ -68710,11 +67918,11 @@ Body:
        - Item: Solid_Shell
          Rate: 175
        - Item: Wing_Of_Fly
@@ -6693,7 +5295,7 @@
      AegisName: C3_HODREMLIN
      Name: Hodremlin Ringleader
      Level: 122
-@@ -68759,11 +67965,11 @@ Body:
+@@ -68759,11 +67967,11 @@ Body:
        - Item: Starsand_Of_Witch
          Rate: 5000
        - Item: Shadow_Walk
@@ -6706,7 +5308,7 @@
      AegisName: C4_HODE
      Name: Furious Hode
      Level: 63
-@@ -68806,11 +68012,11 @@ Body:
+@@ -68806,11 +68014,11 @@ Body:
        - Item: Foolishness_Of_Blind
          Rate: 5
        - Item: Fatty_Chubby_Earthworm
@@ -6719,7 +5321,7 @@
      AegisName: C5_HILL_WIND_1
      Name: Elusive Hill Wind
      Level: 101
-@@ -68849,11 +68055,11 @@ Body:
+@@ -68849,11 +68057,11 @@ Body:
        - Item: Blue_Herb
          Rate: 25
        - Item: Golden_Rod_Robe
@@ -6732,7 +5334,7 @@
      AegisName: C1_HILL_WIND_1
      Name: Swift Hill Wind
      Level: 101
-@@ -68892,11 +68098,11 @@ Body:
+@@ -68892,11 +68100,11 @@ Body:
        - Item: Blue_Herb
          Rate: 25
        - Item: Golden_Rod_Robe
@@ -6745,7 +5347,7 @@
      AegisName: C2_HIGH_ORC
      Name: Solid High Orc
      Level: 81
-@@ -68939,11 +68145,11 @@ Body:
+@@ -68939,11 +68147,11 @@ Body:
        - Item: Oridecon_Stone
          Rate: 490
        - Item: Yellow_Herb
@@ -6758,7 +5360,7 @@
      AegisName: C3_HARPY
      Name: Harpy Ringleader
      Level: 83
-@@ -68986,11 +68192,11 @@ Body:
+@@ -68986,11 +68194,11 @@ Body:
        - Item: Izidor
          Rate: 50
        - Item: Electric_Fist
@@ -6771,7 +5373,7 @@
      AegisName: C4_HARPY
      Name: Furious Harpy
      Level: 83
-@@ -69033,11 +68239,11 @@ Body:
+@@ -69033,11 +68241,11 @@ Body:
        - Item: Izidor
          Rate: 50
        - Item: Electric_Fist
@@ -6784,7 +5386,7 @@
      AegisName: C5_GREEN_IGUANA
      Name: Elusive Grove
      Level: 55
-@@ -69080,11 +68286,11 @@ Body:
+@@ -69080,11 +68288,11 @@ Body:
        - Item: Aloebera
          Rate: 25
        - Item: Melon
@@ -6797,7 +5399,7 @@
      AegisName: C1_GREATEST_GENERAL
      Name: Swift Greatest General
      Level: 55
-@@ -69127,11 +68333,11 @@ Body:
+@@ -69127,11 +68335,11 @@ Body:
        - Item: Yellow_Herb
          Rate: 625
        - Item: Earth_Scroll_1_3
@@ -6810,7 +5412,7 @@
      AegisName: C2_GRAND_PECO
      Name: Solid Grand Peco
      Level: 75
-@@ -69170,11 +68376,11 @@ Body:
+@@ -69170,11 +68378,11 @@ Body:
        - Item: Gold
          Rate: 1
        - Item: Orange
@@ -6823,7 +5425,7 @@
      AegisName: C3_GRAND_PECO
      Name: Grand Peco Ringleader
      Level: 75
-@@ -69213,11 +68419,11 @@ Body:
+@@ -69213,11 +68421,11 @@ Body:
        - Item: Gold
          Rate: 1
        - Item: Orange
@@ -6836,7 +5438,7 @@
      AegisName: C4_GOLEM
      Name: Furious Golem
      Level: 61
-@@ -69260,11 +68466,11 @@ Body:
+@@ -69260,11 +68468,11 @@ Body:
        - Item: Yellow_Gemstone
          Rate: 500
        - Item: Iron
@@ -6849,7 +5451,7 @@
      AegisName: C5_GOBLIN_1
      Name: Elusive Goblin
      Level: 48
-@@ -69307,11 +68513,11 @@ Body:
+@@ -69307,11 +68515,11 @@ Body:
        - Item: Buckler_
          Rate: 15
        - Item: Red_Herb
@@ -6862,7 +5464,7 @@
      AegisName: C1_GOBLIN_1
      Name: Swift Goblin
      Level: 48
-@@ -69354,11 +68560,11 @@ Body:
+@@ -69354,11 +68562,11 @@ Body:
        - Item: Buckler_
          Rate: 15
        - Item: Red_Herb
@@ -6875,7 +5477,7 @@
      AegisName: C2_GOAT
      Name: Solid Goat
      Level: 80
-@@ -69399,11 +68605,11 @@ Body:
+@@ -69399,11 +68607,11 @@ Body:
        - Item: Yellow_Herb
          Rate: 6250
        - Item: Green_Herb
@@ -6888,7 +5490,7 @@
      AegisName: C3_GOAT
      Name: Goat Ringleader
      Level: 80
-@@ -69444,11 +68650,11 @@ Body:
+@@ -69444,11 +68652,11 @@ Body:
        - Item: Yellow_Herb
          Rate: 6250
        - Item: Green_Herb
@@ -6901,7 +5503,7 @@
      AegisName: C4_GLD_KOBOLD_2
  #   Name: Furious Dark Hammer Kobold
      Name: Furious Dark Hammer Kobo
-@@ -69675,11 +68881,11 @@ Body:
+@@ -69675,11 +68883,11 @@ Body:
        - Item: Scarlet_Jewel
          Rate: 50
        - Item: Double_Bound
@@ -6914,7 +5516,7 @@
      AegisName: C4_GHOUL
      Name: Furious Ghoul
      Level: 61
-@@ -69722,11 +68928,11 @@ Body:
+@@ -69722,11 +68930,11 @@ Body:
        - Item: Mementos
          Rate: 375
        - Item: Ghoul_Leg
@@ -6927,7 +5529,7 @@
      AegisName: C5_GHOUL
      Name: Elusive Ghoul
      Level: 61
-@@ -69769,11 +68975,11 @@ Body:
+@@ -69769,11 +68977,11 @@ Body:
        - Item: Mementos
          Rate: 375
        - Item: Ghoul_Leg
@@ -6940,7 +5542,7 @@
      AegisName: C1_GEOGRAPHER
      Name: Swift Geographer
      Level: 73
-@@ -69812,11 +69018,11 @@ Body:
+@@ -69812,11 +69020,11 @@ Body:
        - Item: Fancy_Flower
          Rate: 125
        - Item: Holy_Scroll_1_5
@@ -6953,7 +5555,7 @@
      AegisName: C2_GEOGRAPHER
      Name: Solid Geographer
      Level: 73
-@@ -69855,11 +69061,11 @@ Body:
+@@ -69855,11 +69063,11 @@ Body:
        - Item: Fancy_Flower
          Rate: 125
        - Item: Holy_Scroll_1_5
@@ -6966,7 +5568,7 @@
      AegisName: C3_GARGOYLE
      Name: Gargoyle Ringleader
      Level: 100
-@@ -69902,11 +69108,11 @@ Body:
+@@ -69902,11 +69110,11 @@ Body:
        - Item: Silence_Arrow
          Rate: 5000
        - Item: Elunium_Stone
@@ -6979,7 +5581,7 @@
      AegisName: C4_GARGOYLE
      Name: Furious Gargoyle
      Level: 100
-@@ -69949,11 +69155,11 @@ Body:
+@@ -69949,11 +69157,11 @@ Body:
        - Item: Silence_Arrow
          Rate: 5000
        - Item: Elunium_Stone
@@ -6992,7 +5594,7 @@
      AegisName: C5_GALION
      Name: Elusive Galion
      Level: 100
-@@ -69991,11 +69197,11 @@ Body:
+@@ -69991,11 +69199,11 @@ Body:
        - Item: Rough_Wind
          Rate: 25
        - Item: Ulfhedinn
@@ -7005,7 +5607,7 @@
      AegisName: C1_FUR_SEAL
      Name: Swift Seal
      Level: 47
-@@ -70038,11 +69244,11 @@ Body:
+@@ -70038,11 +69246,11 @@ Body:
        - Item: Panacea
          Rate: 500
        - Item: Glass_Bead
@@ -7018,7 +5620,7 @@
      AegisName: C2_FREEZER
      Name: Solid Freezer
      Level: 94
-@@ -70085,11 +69291,11 @@ Body:
+@@ -70085,11 +69293,11 @@ Body:
        - Item: Ice_Fragment
          Rate: 500
        - Item: Cold_Scroll_1_5
@@ -7031,7 +5633,7 @@
      AegisName: C3_FREEZER
      Name: Freezer Ringleader
      Level: 94
-@@ -70132,11 +69338,11 @@ Body:
+@@ -70132,11 +69340,11 @@ Body:
        - Item: Ice_Fragment
          Rate: 500
        - Item: Cold_Scroll_1_5
@@ -7044,7 +5646,7 @@
      AegisName: C4_FERUS_
      Name: Furious Ferus
      Level: 126
-@@ -70179,11 +69385,11 @@ Body:
+@@ -70179,11 +69387,11 @@ Body:
        - Item: Great_Nature
          Rate: 50
        - Item: Dragonball_Green
@@ -7057,7 +5659,7 @@
      AegisName: C5_FARMILIAR
      Name: Elusive Familiar
      Level: 24
-@@ -70229,11 +69435,11 @@ Body:
+@@ -70229,11 +69437,11 @@ Body:
        - Item: Red_Herb
          Rate: 1750
        - Item: Center_Potion
@@ -7070,7 +5672,7 @@
      AegisName: C1_FAKE_ANGEL
      Name: Swift False Angel
      Level: 105
-@@ -70276,11 +69482,11 @@ Body:
+@@ -70276,11 +69484,11 @@ Body:
        - Item: Water_Of_Darkness
          Rate: 2500
        - Item: Carrot_Whip
@@ -7083,7 +5685,7 @@
      AegisName: C2_FABRE
      Name: Solid Fabre
      Level: 6
-@@ -70324,11 +69530,11 @@ Body:
+@@ -70324,11 +69532,11 @@ Body:
        - Item: Clover
          Rate: 5000
        - Item: Club
@@ -7096,7 +5698,7 @@
      AegisName: C3_FABRE
      Name: Fabre Ringleader
      Level: 6
-@@ -70372,11 +69578,11 @@ Body:
+@@ -70372,11 +69580,11 @@ Body:
        - Item: Clover
          Rate: 5000
        - Item: Club
@@ -7109,7 +5711,7 @@
      AegisName: C4_EXPLOSION
      Name: Furious Explosion
      Level: 100
-@@ -70415,11 +69621,11 @@ Body:
+@@ -70415,11 +69623,11 @@ Body:
        - Item: Oridecon_Stone
          Rate: 2000
        - Item: Fruit_Of_Mastela
@@ -7122,7 +5724,7 @@
      AegisName: C5_EVIL_DRUID
      Name: Elusive Evil Druid
      Level: 80
-@@ -70461,11 +69667,11 @@ Body:
+@@ -70461,11 +69669,11 @@ Body:
        - Item: Cookbook07
          Rate: 10
        - Item: White_Herb
@@ -7135,7 +5737,7 @@
      AegisName: C1_ELDER_WILOW
      Name: Swift Elder Willow
      Level: 34
-@@ -70505,11 +69711,11 @@ Body:
+@@ -70505,11 +69713,11 @@ Body:
        - Item: Fire_Scroll_1_3
          Rate: 250
        - Item: Branch_Of_Dead_Tree
@@ -7148,7 +5750,7 @@
      AegisName: C2_ELDER_WILOW
      Name: Solid Elder Willow
      Level: 34
-@@ -70549,11 +69755,11 @@ Body:
+@@ -70549,11 +69757,11 @@ Body:
        - Item: Fire_Scroll_1_3
          Rate: 250
        - Item: Branch_Of_Dead_Tree
@@ -7161,7 +5763,7 @@
      AegisName: C3_ECHIO
      Name: Echio Ringleader
      Level: 126
-@@ -70596,11 +69802,11 @@ Body:
+@@ -70596,11 +69804,11 @@ Body:
        - Item: Bloody_Rune
          Rate: 250
        - Item: Divine_Cloth
@@ -7174,7 +5776,7 @@
      AegisName: C4_DUSTINESS
      Name: Furious Dustiness
      Level: 62
-@@ -70643,11 +69849,11 @@ Body:
+@@ -70643,11 +69851,11 @@ Body:
        - Item: Sparkling_Dust
          Rate: 25
        - Item: Red_Herb
@@ -7187,7 +5789,7 @@
      AegisName: C1_DRYAD
      Name: Swift Dryad
      Level: 68
-@@ -70690,11 +69896,11 @@ Body:
+@@ -70690,11 +69898,11 @@ Body:
        - Item: Centimental_Leaf
          Rate: 25
        - Item: Sharp_Leaf
@@ -7200,7 +5802,7 @@
      AegisName: C2_DROSERA
      Name: Solid Drosera
      Level: 101
-@@ -70737,11 +69943,11 @@ Body:
+@@ -70737,11 +69945,11 @@ Body:
        - Item: Stem
          Rate: 2500
        - Item: Mandragora_Flowerpot
@@ -7213,7 +5815,7 @@
      AegisName: C3_DROPS
      Name: Drops Ringleader
      Level: 2
-@@ -70780,11 +69986,11 @@ Body:
+@@ -70780,11 +69988,11 @@ Body:
        - Item: Apple
          Rate: 2000
        - Item: Orange_Juice
@@ -7226,7 +5828,7 @@
      AegisName: C4_DRILLER
      Name: Furious Driller
      Level: 65
-@@ -70819,11 +70025,11 @@ Body:
+@@ -70819,11 +70027,11 @@ Body:
        - Item: Yellow_Gemstone
          Rate: 9700
        - Item: Red_Gemstone
@@ -7239,7 +5841,7 @@
      AegisName: C5_DRAINLIAR
      Name: Elusive Drainliar
      Level: 47
-@@ -70866,11 +70072,11 @@ Body:
+@@ -70866,11 +70074,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Oridecon_Stone
@@ -7252,7 +5854,7 @@
      AegisName: C1_DRAGON_TAIL
      Name: Swift Dragon Tail
      Level: 86
-@@ -70911,11 +70117,11 @@ Body:
+@@ -70911,11 +70119,11 @@ Body:
        - Item: Fancy_Flower
          Rate: 20
        - Item: Cap
@@ -7265,7 +5867,7 @@
      AegisName: C2_DRACO
      Name: Solid Draco
      Level: 114
-@@ -70958,11 +70164,11 @@ Body:
+@@ -70958,11 +70166,11 @@ Body:
        - Item: Honey
          Rate: 1250
        - Item: Dragon_Vest
@@ -7278,7 +5880,7 @@
      AegisName: C3_DOLOMEDES
      Name: Dolomedes Ringleader
      Level: 132
-@@ -71007,11 +70213,11 @@ Body:
+@@ -71007,11 +70215,11 @@ Body:
        - Item: Bradium
          Rate: 1250
        - Item: Stem_Whip
@@ -7291,7 +5893,7 @@
      AegisName: C4_DOKEBI
      Name: Furious Dokebi
      Level: 68
-@@ -71056,11 +70262,11 @@ Body:
+@@ -71056,11 +70264,11 @@ Body:
        - Item: Horn_Protector
          Rate: 25
        - Item: Hammer_Of_Blacksmith
@@ -7304,7 +5906,7 @@
      AegisName: C5_DISGUISE
      Name: Elusive Disguise
      Level: 103
-@@ -71105,11 +70311,11 @@ Body:
+@@ -71105,11 +70313,11 @@ Body:
        - Item: Muffler_
          Rate: 5
        - Item: Rider_Insignia
@@ -7317,7 +5919,7 @@
      AegisName: C1_DIMIK_1
      Name: Swift Dimik
      Level: 116
-@@ -71152,11 +70358,11 @@ Body:
+@@ -71152,11 +70360,11 @@ Body:
        - Item: Oridecon
          Rate: 25
        - Item: Imperial_Cooking_Kits
@@ -7330,7 +5932,7 @@
      AegisName: C2_DEVIRUCHI
      Name: Solid Deviruchi
      Level: 93
-@@ -71201,11 +70407,11 @@ Body:
+@@ -71201,11 +70409,11 @@ Body:
        - Item: Strange_Foxtail
          Rate: 100
        - Item: Oridecon_Stone
@@ -7343,7 +5945,7 @@
      AegisName: C3_DESERT_WOLF_B
  #   Name: Baby Desert Wolf Ringleader
      Name: Baby Desert Wolf Ringlea
-@@ -71250,11 +70456,11 @@ Body:
+@@ -71250,11 +70458,11 @@ Body:
        - Item: Asura_
          Rate: 15
        - Item: Orange
@@ -7356,7 +5958,7 @@
      AegisName: C4_DESERT_WOLF_B
      Name: Furious Baby Desert Wolf
      Level: 14
-@@ -71298,11 +70504,11 @@ Body:
+@@ -71298,11 +70506,11 @@ Body:
        - Item: Asura_
          Rate: 15
        - Item: Orange
@@ -7369,7 +5971,7 @@
      AegisName: C5_DENIRO
      Name: Elusive Deniro
      Level: 31
-@@ -71348,11 +70554,11 @@ Body:
+@@ -71348,11 +70556,11 @@ Body:
        - Item: Iron_Ore
          Rate: 1125
        - Item: Elunium_Stone
@@ -7382,7 +5984,7 @@
      AegisName: C1_DEATHWORD
      Name: Swift Death Word
      Level: 114
-@@ -71395,11 +70601,11 @@ Body:
+@@ -71395,11 +70603,11 @@ Body:
        - Item: Cookbook08
          Rate: 5
        - Item: Cookbook09
@@ -7395,7 +5997,7 @@
      AegisName: C2_DEATHWORD
      Name: Solid Death Word
      Level: 114
-@@ -71442,11 +70648,11 @@ Body:
+@@ -71442,11 +70650,11 @@ Body:
        - Item: Cookbook08
          Rate: 5
        - Item: Cookbook09
@@ -7408,7 +6010,7 @@
      AegisName: C3_DEATHWORD
      Name: Death Word Ringleader
      Level: 114
-@@ -71489,11 +70695,11 @@ Body:
+@@ -71489,11 +70697,11 @@ Body:
        - Item: Cookbook08
          Rate: 5
        - Item: Cookbook09
@@ -7421,7 +6023,7 @@
      AegisName: C4_DARK_PRIEST
      Name: Furious Dark Priest
      Level: 98
-@@ -71536,11 +70742,11 @@ Body:
+@@ -71536,11 +70744,11 @@ Body:
        - Item: Glittering_Clothes
          Rate: 15
        - Item: Skull
@@ -7434,7 +6036,7 @@
      AegisName: C5_DANCING_DRAGON
      Name: Elusive Zhu Po Long
      Level: 82
-@@ -71579,11 +70785,11 @@ Body:
+@@ -71579,11 +70787,11 @@ Body:
        - Item: Dragon_Scale
          Rate: 2500
        - Item: Yarn
@@ -7447,7 +6049,7 @@
      AegisName: C1_CREAMY
      Name: Swift Creamy
      Level: 23
-@@ -71624,11 +70830,11 @@ Body:
+@@ -71624,11 +70832,11 @@ Body:
        - Item: Flower
          Rate: 2500
        - Item: Wind_Scroll_1_3
@@ -7460,7 +6062,7 @@
      AegisName: C2_CORNUTUS
      Name: Solid Cornutus
      Level: 48
-@@ -71671,11 +70877,11 @@ Body:
+@@ -71671,11 +70879,11 @@ Body:
        - Item: Solid_Shell
          Rate: 2500
        - Item: Wing_Of_Fly
@@ -7473,7 +6075,7 @@
      AegisName: C3_COOKIE
      Name: Cookie Ringleader
      Level: 35
-@@ -71718,11 +70924,11 @@ Body:
+@@ -71718,11 +70926,11 @@ Body:
        - Item: Holy_Scroll_1_3
          Rate: 250
        - Item: Candy
@@ -7486,7 +6088,7 @@
      AegisName: C4_CONSTANT
      Name: Furious Constant
      Level: 108
-@@ -71759,11 +70965,11 @@ Body:
+@@ -71759,11 +70967,11 @@ Body:
        - Item: Tube
          Rate: 25
        - Item: Steel
@@ -7499,7 +6101,7 @@
      AegisName: C5_COMODO
      Name: Elusive Comodo
      Level: 81
-@@ -71802,11 +71008,11 @@ Body:
+@@ -71802,11 +71010,11 @@ Body:
        - Item: Scell
          Rate: 10000
        - Item: Spawn
@@ -7512,7 +6114,7 @@
      AegisName: C1_COCO
      Name: Swift Coco
      Level: 38
-@@ -71848,11 +71054,11 @@ Body:
+@@ -71848,11 +71056,11 @@ Body:
        - Item: Sandals_
          Rate: 65
        - Item: Wing_Of_Fly
@@ -7525,7 +6127,7 @@
      AegisName: C2_COCO
      Name: Solid Coco
      Level: 38
-@@ -71894,11 +71100,11 @@ Body:
+@@ -71894,11 +71102,11 @@ Body:
        - Item: Sandals_
          Rate: 65
        - Item: Wing_Of_Fly
@@ -7538,7 +6140,7 @@
      AegisName: C3_CLOCK
      Name: Clock Ringleader
      Level: 81
-@@ -71941,11 +71147,11 @@ Body:
+@@ -71941,11 +71149,11 @@ Body:
        - Item: Underground_Key
          Rate: 75
        - Item: Elunium
@@ -7551,7 +6153,7 @@
      AegisName: C4_CLOCK
      Name: Furious Clock
      Level: 81
-@@ -71988,11 +71194,11 @@ Body:
+@@ -71988,11 +71196,11 @@ Body:
        - Item: Underground_Key
          Rate: 75
        - Item: Elunium
@@ -7564,7 +6166,7 @@
      AegisName: C5_CHONCHON
      Name: Elusive Chonchon
      Level: 5
-@@ -72035,11 +71241,11 @@ Body:
+@@ -72035,11 +71243,11 @@ Body:
        - Item: Chonchon_Doll
          Rate: 30
        - Item: Iron_Ore
@@ -7577,7 +6179,7 @@
      AegisName: C1_CENTIPEDE
      Name: Swift Centipede
      Level: 125
-@@ -72084,11 +71290,11 @@ Body:
+@@ -72084,11 +71292,11 @@ Body:
        - Item: Bradium
          Rate: 25
        - Item: Solid_Shell
@@ -7590,7 +6192,7 @@
      AegisName: C2_CENERE
      Name: Solid Cenere
      Level: 146
-@@ -72129,11 +71335,11 @@ Body:
+@@ -72129,11 +71337,11 @@ Body:
        - Item: Air_Pollutant
          Rate: 5000
        - Item: Yggdrasil_Dust
@@ -7603,7 +6205,7 @@
      AegisName: C3_CELIA
      Name: Celia Ringleader
      Level: 141
-@@ -72222,11 +71428,11 @@ Body:
+@@ -72222,11 +71430,11 @@ Body:
        - Item: Old_Blue_Box
          Rate: 10
        - Item: Glove_Of_Shura
@@ -7616,7 +6218,7 @@
      AegisName: C5_CARAT
      Name: Elusive Carat
      Level: 103
-@@ -72271,11 +71477,11 @@ Body:
+@@ -72271,11 +71479,11 @@ Body:
        - Item: Robe_Of_Judgement
          Rate: 25
        - Item: White_Herb
@@ -7629,7 +6231,7 @@
      AegisName: C1_CARAMEL
      Name: Swift Caramel
      Level: 25
-@@ -72317,11 +71523,11 @@ Body:
+@@ -72317,11 +71525,11 @@ Body:
        - Item: Pike_
          Rate: 50
        - Item: Wing_Of_Fly
@@ -7642,7 +6244,7 @@
      AegisName: C2_BUNGISNGIS
      Name: Solid Bungisngis
      Level: 121
-@@ -72404,11 +71610,11 @@ Body:
+@@ -72404,11 +71612,11 @@ Body:
        - Item: Centimental_Flower
          Rate: 25
        - Item: Rough_Wind
@@ -7655,7 +6257,7 @@
      AegisName: C4_BREEZE
      Name: Furious Breeze
      Level: 92
-@@ -72451,11 +71657,11 @@ Body:
+@@ -72451,11 +71659,11 @@ Body:
        - Item: Centimental_Flower
          Rate: 25
        - Item: Rough_Wind
@@ -7668,7 +6270,7 @@
      AegisName: C5_BRADIUM_GOLEM
      Name: Elusive Bradium Golem
      Level: 133
-@@ -72496,11 +71702,11 @@ Body:
+@@ -72496,11 +71704,11 @@ Body:
        - Item: Runstone_Rare
          Rate: 25
        - Item: Bradium
@@ -7681,7 +6283,7 @@
      AegisName: C1_BLOOD_BUTTERFLY
      Name: Swift Bloody Butterfly
      Level: 94
-@@ -72547,11 +71753,11 @@ Body:
+@@ -72547,11 +71755,11 @@ Body:
        - Item: Strange_Foxtail
          Rate: 30
        - Item: Detail_Model_Foxtail
@@ -7694,7 +6296,7 @@
      AegisName: C3_BIGFOOT
      Name: Bigfoot Ringleader
      Level: 29
-@@ -72592,11 +71798,11 @@ Body:
+@@ -72592,11 +71800,11 @@ Body:
        - Item: Honey
          Rate: 1125
        - Item: Oridecon_Stone
@@ -7707,7 +6309,7 @@
      AegisName: C4_BATHORY
      Name: Furious Bathory
      Level: 86
-@@ -72639,11 +71845,11 @@ Body:
+@@ -72639,11 +71847,11 @@ Body:
        - Item: Old_Magic_Book
          Rate: 40
        - Item: Old_Broom
@@ -7720,7 +6322,7 @@
      AegisName: C5_BANSHEE_MASTER
      Name: Elusive Banshee Master
      Level: 118
-@@ -72688,11 +71894,11 @@ Body:
+@@ -72688,11 +71896,11 @@ Body:
        - Item: Brigan
          Rate: 10000
        - Item: Shadow_Guard
@@ -7733,7 +6335,7 @@
      AegisName: C1_BANSHEE
      Name: Swift Banshee
      Level: 130
-@@ -72735,11 +71941,11 @@ Body:
+@@ -72735,11 +71943,11 @@ Body:
        - Item: Mementos
          Rate: 3750
        - Item: Brigan
@@ -7746,7 +6348,7 @@
      AegisName: C2_BANASPATY
      Name: Solid Banaspaty
      Level: 85
-@@ -72780,11 +71986,11 @@ Body:
+@@ -72780,11 +71988,11 @@ Body:
        - Item: Oridecon_Stone
          Rate: 3750
        - Item: Fire_Arrow_Container
@@ -7759,7 +6361,7 @@
      AegisName: C3_ASSULTER
      Name: Assaulter Ringleader
      Level: 100
-@@ -72827,11 +72033,11 @@ Body:
+@@ -72827,11 +72035,11 @@ Body:
        - Item: Huuma_Bird_Wing
          Rate: 15
        - Item: Old_Blue_Box
@@ -7772,7 +6374,7 @@
      AegisName: C4_ARGOS
      Name: Furious Argos
      Level: 47
-@@ -72874,11 +72080,11 @@ Body:
+@@ -72874,11 +72082,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 2500
        - Item: Bark_Shorts
@@ -7785,7 +6387,7 @@
      AegisName: C5_ARGIOPE
      Name: Elusive Argiope
      Level: 75
-@@ -72921,11 +72127,11 @@ Body:
+@@ -72921,11 +72129,11 @@ Body:
        - Item: Green_Herb
          Rate: 3750
        - Item: Violet_Jewel
@@ -7798,7 +6400,7 @@
      AegisName: C1_ARGIOPE
      Name: Swift Argiope
      Level: 75
-@@ -72968,11 +72174,11 @@ Body:
+@@ -72968,11 +72176,11 @@ Body:
        - Item: Green_Herb
          Rate: 3750
        - Item: Violet_Jewel
@@ -7811,7 +6413,7 @@
      AegisName: C2_ARCLOUSE
      Name: Solid Arclouze
      Level: 107
-@@ -73015,11 +72221,11 @@ Body:
+@@ -73015,11 +72223,11 @@ Body:
        - Item: Great_Nature
          Rate: 50
        - Item: Zargon
@@ -7824,7 +6426,7 @@
      AegisName: C3_ARCLOUSE
      Name: Arclouze Ringleader
      Level: 107
-@@ -73062,11 +72268,11 @@ Body:
+@@ -73062,11 +72270,11 @@ Body:
        - Item: Great_Nature
          Rate: 50
        - Item: Zargon
@@ -7837,7 +6439,7 @@
      AegisName: C4_APOCALIPS
      Name: Furious Apocalypse
      Level: 121
-@@ -73109,11 +72315,11 @@ Body:
+@@ -73109,11 +72317,11 @@ Body:
        - Item: Manteau_
          Rate: 50
        - Item: Runstone_Ancient
@@ -7850,7 +6452,7 @@
      AegisName: C5_ANTLER_SCARABA
      Name: Elusive Antler Scaraba
      Level: 136
-@@ -73156,11 +72362,11 @@ Body:
+@@ -73156,11 +72364,11 @@ Body:
        - Item: Elder_Branch
          Rate: 250
        - Item: Yellow_Live
@@ -7863,7 +6465,7 @@
      AegisName: C1_ANTIQUE_BOOK
      Name: Swift Antique Book
      Level: 148
-@@ -73283,11 +72489,11 @@ Body:
+@@ -73283,11 +72491,11 @@ Body:
        - Item: Brooch_
          Rate: 5
        - Item: Oridecon
@@ -7876,7 +6478,7 @@
      AegisName: C5_ANGRA_MANTIS
      Name: Elusive Angra Mantis
      Level: 144
-@@ -73326,11 +72532,11 @@ Body:
+@@ -73326,11 +72534,11 @@ Body:
        - Item: Great_Nature
          Rate: 25
        - Item: Sura_Rampage
@@ -7889,7 +6491,7 @@
      AegisName: C1_ANGRA_MANTIS
      Name: Swift Angra Mantis
      Level: 144
-@@ -73369,11 +72575,11 @@ Body:
+@@ -73369,11 +72577,11 @@ Body:
        - Item: Great_Nature
          Rate: 25
        - Item: Sura_Rampage
@@ -7902,7 +6504,7 @@
      AegisName: C2_ANDRE
      Name: Solid Andre
      Level: 33
-@@ -73419,11 +72625,11 @@ Body:
+@@ -73419,11 +72627,11 @@ Body:
        - Item: Iron_Ore
          Rate: 875
        - Item: Elunium_Stone
@@ -7915,7 +6517,7 @@
      AegisName: C3_ANCIENT_MIMIC
      Name: Ancient Mimic Ringleader
      Level: 112
-@@ -73466,11 +72672,11 @@ Body:
+@@ -73466,11 +72674,11 @@ Body:
        - Item: Fricco_Shoes
          Rate: 25
        - Item: Gold_Ring
@@ -7928,7 +6530,7 @@
      AegisName: C4_ANACONDAQ
      Name: Furious Anacondaq
      Level: 100
-@@ -73513,11 +72719,11 @@ Body:
+@@ -73513,11 +72721,11 @@ Body:
        - Item: Doram_Only_Suit
          Rate: 100
        - Item: Oridecon_Stone
@@ -7941,7 +6543,7 @@
      AegisName: C5_AMBERNITE
      Name: Elusive Ambernite
      Level: 19
-@@ -73561,11 +72767,11 @@ Body:
+@@ -73561,11 +72769,11 @@ Body:
        - Item: Elunium_Stone
          Rate: 100
        - Item: Iron_Ore
@@ -7954,7 +6556,7 @@
      AegisName: C1_ALNOLDI
      Name: Swift Rafflesia Arnoldi
      Level: 80
-@@ -73608,11 +72814,11 @@ Body:
+@@ -73608,11 +72816,11 @@ Body:
        - Item: Leaflet_Of_Aloe
          Rate: 625
        - Item: Centimental_Flower
@@ -7967,7 +6569,7 @@
      AegisName: C2_ALLIGATOR
      Name: Solid Alligator
      Level: 57
-@@ -73651,11 +72857,11 @@ Body:
+@@ -73651,11 +72859,11 @@ Body:
        - Item: Seed_Of_Yggdrasil
          Rate: 5
        - Item: Oridecon_Stone
@@ -7980,7 +6582,7 @@
      AegisName: C3_ALIZA
      Name: Aliza Ringleader
      Level: 112
-@@ -73698,11 +72904,11 @@ Body:
+@@ -73698,11 +72906,11 @@ Body:
        - Item: Sway_Apron
          Rate: 5
        - Item: Orleans_Server
@@ -7993,7 +6595,7 @@
      AegisName: C4_ALICEL
      Name: Furious Alicel
      Level: 115
-@@ -73747,11 +72953,11 @@ Body:
+@@ -73747,11 +72955,11 @@ Body:
        - Item: Elunium
          Rate: 25
        - Item: Vali's_Manteau
@@ -8006,7 +6608,7 @@
      AegisName: C5_ALARM
      Name: Elusive Alarm
      Level: 88
-@@ -73792,11 +72998,11 @@ Body:
+@@ -73792,11 +73000,11 @@ Body:
        - Item: Key_Of_Clock_Tower
          Rate: 50
        - Item: Zargon
@@ -8019,7 +6621,7 @@
      AegisName: C1_AGAV
      Name: Swift Agav
      Level: 128
-@@ -73839,11 +73045,11 @@ Body:
+@@ -73839,11 +73047,11 @@ Body:
        - Item: Bloody_Rune
          Rate: 250
        - Item: Starsand_Of_Witch
@@ -8032,7 +6634,7 @@
      AegisName: C2_ACIDUS_
      Name: Solid Acidus
      Level: 130
-@@ -73886,11 +73092,11 @@ Body:
+@@ -73886,11 +73094,11 @@ Body:
        - Item: Rough_Wind
          Rate: 50
        - Item: Dragonball_Blue
@@ -8045,7 +6647,7 @@
      AegisName: C3_ACIDUS_
      Name: Acidus Ringleader
      Level: 130
-@@ -73933,11 +73139,11 @@ Body:
+@@ -73933,11 +73141,11 @@ Body:
        - Item: Rough_Wind
          Rate: 50
        - Item: Dragonball_Blue
@@ -8058,7 +6660,7 @@
      AegisName: E_GEFFEN_MAGE_3_1
      Name: Geffen Shoplifter
      Level: 50
-@@ -74782,11 +73988,11 @@ Body:
+@@ -74782,11 +73990,11 @@ Body:
        - Item: Pumpkin_Bucket
          Rate: 2000
        - Item: Halloween_Coin
@@ -8071,7 +6673,7 @@
      AegisName: M_LOKI
      Name: M Loki
      Level: 145
-@@ -74984,42 +74190,11 @@ Body:
+@@ -74984,42 +74192,11 @@ Body:
        CanMove: true
      Drops:
        - Item: Evil_Fanatics_Card
@@ -8115,7 +6717,7 @@
  #  - Id: 2945
  #    AegisName: J_MUMMY
  #  - Id: 2946
-@@ -75458,42 +74633,11 @@ Body:
+@@ -75458,42 +74635,11 @@ Body:
          Rate: 10000
        - Item: Shard_of_Gray
          Rate: 10000
@@ -8159,7 +6761,7 @@
      Name: Torturous Redeemer
      Level: 120
      Hp: 103342
-@@ -76135,50 +75279,11 @@ Body:
+@@ -76135,50 +75281,11 @@ Body:
        - Item: Fruit_Of_Mastela
          Rate: 200
        - Item: Morocc's_Minion_Card
@@ -8211,7 +6813,7 @@
      Name: Morocc's Ghoul
      Level: 158
      Hp: 295240
-@@ -77093,58 +76198,11 @@ Body:
+@@ -77093,58 +76200,11 @@ Body:
        IgnoreMisc: true
        IgnoreRanged: true
      Drops:
@@ -8271,7 +6873,7 @@
  #  - Id: 3031
  #    AegisName: MUTANT_NECROMANCER
  #  - Id: 3032
-@@ -78134,74 +77192,11 @@ Body:
+@@ -78134,74 +77194,11 @@ Body:
      AttackDelay: 1000
      AttackMotion: 500
      DamageMotion: 600
@@ -8347,7 +6949,7 @@
  #    Name: Mm Brinaranea Core
  #    Level: 160
  #    Hp: 300
-@@ -78308,42 +77303,11 @@ Body:
+@@ -78308,42 +77305,11 @@ Body:
        Mvp: true
      Drops:
        - Item: M_Morocc_Card
@@ -8391,7 +6993,7 @@
      Name: Morroc of the Genesis
      Level: 160
      Hp: 3258000
-@@ -78426,82 +77390,11 @@ Body:
+@@ -78426,82 +77392,11 @@ Body:
  #    Modes:
  #      IgnoreMagic: true
  #      IgnoreMelee: true
@@ -8475,7 +7077,7 @@
  #    Name: Mm Mana Blue
  #    Level: 1
  #    Hp: 30
-@@ -79033,235 +77926,11 @@ Body:
+@@ -79033,235 +77928,11 @@ Body:
      WalkSpeed: 150
      AttackDelay: 676
      AttackMotion: 2400
@@ -8712,7 +7314,7 @@
  #  - Id: 3130
  #    AegisName: ORC_ARCHER_ANNIV
  #  - Id: 3131
-@@ -79382,88 +78051,11 @@ Body:
+@@ -79382,88 +78053,11 @@ Body:
          Rate: 1
        - Item: Oridecon_Stone
          Rate: 1
@@ -8802,7 +7404,7 @@
      Name: Ruin Grace Believer
      Level: 100
      Hp: 61350
-@@ -79564,39 +78156,11 @@ Body:
+@@ -79564,39 +78158,11 @@ Body:
        IgnoreMisc: true
        IgnoreRanged: true
        NoRandomWalk: true
@@ -8843,7 +7445,7 @@
  #  - Id: 3163
  #    AegisName: GORILLA
  #  - Id: 3164
-@@ -79980,53 +78544,11 @@ Body:
+@@ -79980,53 +78546,11 @@ Body:
  #    AegisName: E2_G_S_NYDHOG
  #  - Id: 3188
  #    AegisName: E2_FELOCK
@@ -8898,7 +7500,7 @@
      Name: Gigantes
      Level: 160
      Hp: 6653400
-@@ -80456,11 +78978,11 @@ Body:
+@@ -80456,11 +78980,11 @@ Body:
        - Item: Gift_Box_1
          Rate: 100
        - Item: Yellow_Slim_Potion
@@ -8911,7 +7513,7 @@
      AegisName: INORGANIC_JAKK
      Name: Inorganic Pumpkin
      Level: 10
-@@ -80495,11 +79017,11 @@ Body:
+@@ -80495,11 +79019,11 @@ Body:
        - Item: Gift_Box_1
          Rate: 100
        - Item: Yellow_Slim_Potion
@@ -8924,7 +7526,7 @@
  #    AegisName: PIXY_PINK_PORING
  #    Name: Poring
  #    SkillRange: 10
-@@ -80587,310 +79109,11 @@ Body:
+@@ -80587,310 +79111,11 @@ Body:
  #        Rate: 1000
  #      - Item: Ancient_Gold_Deco
  #        Rate: 500
@@ -9236,7 +7838,7 @@
      Name: Guillotine Cross Eremes
      JapaneseName: V G Eremes
      Level: 189
-@@ -81388,367 +79611,11 @@ Body:
+@@ -81388,367 +79613,11 @@ Body:
        - Item: Swordman_Soul
          Rate: 10000
        - Item: RuneKnight_Card
@@ -9605,7 +8207,7 @@
      Name: Royal Guard Randel
      JapaneseName: V G Randel
      Level: 188
-@@ -83052,11 +80919,11 @@ Body:
+@@ -83052,11 +80921,11 @@ Body:
        - Item: Apple
          Rate: 150
        - Item: Unripe_Apple
@@ -9618,7 +8220,7 @@
      AegisName: MIN_LUNATIC
      Name: Lunatic
      Level: 100
-@@ -83100,11 +80967,11 @@ Body:
+@@ -83100,11 +80969,11 @@ Body:
        - Item: Carrot
          Rate: 3000
        - Item: Rainbow_Carrot
@@ -9631,7 +8233,7 @@
      AegisName: MIN_FABRE
      Name: Fabre
      Level: 100
-@@ -83148,11 +81015,11 @@ Body:
+@@ -83148,11 +81017,11 @@ Body:
        - Item: Clover
          Rate: 1000
        - Item: Club
@@ -9644,7 +8246,7 @@
      AegisName: MIN_PICKY
      Name: Picky
      Level: 100
-@@ -83197,11 +81064,11 @@ Body:
+@@ -83197,11 +81066,11 @@ Body:
        - Item: Yellow_Gemstone
          Rate: 60
        - Item: Wing_Of_Fly
@@ -9657,7 +8259,7 @@
      AegisName: MIN_CONDOR
      Name: Condor
      Level: 101
-@@ -83295,11 +81162,11 @@ Body:
+@@ -83295,11 +81164,11 @@ Body:
        - Item: Tree_Of_Archer_2
          Rate: 2000
        - Item: Tree_Of_Archer_1
@@ -9670,7 +8272,7 @@
      AegisName: MIN_SPORE
      Name: Spore
      Level: 101
-@@ -83344,11 +81211,11 @@ Body:
+@@ -83344,11 +81213,11 @@ Body:
        - Item: Poison_Spore
          Rate: 10
        - Item: Strawberry
@@ -9683,7 +8285,7 @@
      AegisName: MIN_POPORING
      Name: Poporing
      Level: 101
-@@ -83393,11 +81260,11 @@ Body:
+@@ -83393,11 +81262,11 @@ Body:
        - Item: Main_Gauche
          Rate: 20
        - Item: Apple
@@ -9696,7 +8298,7 @@
      AegisName: MIN_SMOKIE
      Name: Smokie
      Level: 102
-@@ -83685,11 +81552,11 @@ Body:
+@@ -83685,11 +81554,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 500
        - Item: Strawberry
@@ -9709,7 +8311,7 @@
      AegisName: MIN_ANACONDAQ
      Name: Anacondaq
      Level: 103
-@@ -84171,11 +82038,11 @@ Body:
+@@ -84171,11 +82040,11 @@ Body:
        - Item: Chonchon_Doll
          Rate: 6
        - Item: Iron_Ore
@@ -9722,7 +8324,7 @@
      AegisName: MIN_METALLER
      Name: Metaller
      Level: 106
-@@ -84829,13 +82696,11 @@ Body:
+@@ -84829,13 +82698,11 @@ Body:
      WalkSpeed: 200
      AttackDelay: 1236
      AttackMotion: 336
@@ -9737,7 +8339,7 @@
          Rate: 25
        - Item: Shattered_Rune
          Rate: 10000
-@@ -84879,13 +82744,11 @@ Body:
+@@ -84879,13 +82746,11 @@ Body:
      WalkSpeed: 150
      AttackDelay: 1048
      AttackMotion: 648
@@ -9752,7 +8354,7 @@
          Rate: 100
        - Item: Claw_Of_Wolves
          Rate: 4000
-@@ -84929,13 +82792,11 @@ Body:
+@@ -84929,13 +82794,11 @@ Body:
      WalkSpeed: 200
      AttackDelay: 1080
      AttackMotion: 648
@@ -9767,7 +8369,7 @@
          Rate: 25
        - Item: Grasshopper's_Leg
          Rate: 4000
-@@ -84979,13 +82840,11 @@ Body:
+@@ -84979,13 +82842,11 @@ Body:
      WalkSpeed: 200
      AttackDelay: 1456
      AttackMotion: 456
@@ -9782,7 +8384,7 @@
          Rate: 100
        - Item: Shattered_Rune
          Rate: 10000
-@@ -85028,13 +82887,11 @@ Body:
+@@ -85028,13 +82889,11 @@ Body:
      WalkSpeed: 200
      AttackDelay: 772
      AttackMotion: 672
@@ -9797,7 +8399,7 @@
          Rate: 2668
        - Item: Slender_Snake
          Rate: 1250
-@@ -85964,65 +83821,11 @@ Body:
+@@ -85964,65 +83823,11 @@ Body:
      WalkSpeed: 200
      AttackDelay: 1152
      AttackMotion: 1536
@@ -9864,7 +8466,7 @@
      Name: Immotal Corps
      Level: 158
      Hp: 198410
-@@ -86066,11 +83869,11 @@ Body:
+@@ -86066,11 +83871,11 @@ Body:
        - Item: Crystal_Jewel__
          Rate: 3
        - Item: Old_Blue_Box
@@ -9877,7 +8479,7 @@
      AegisName: ZOMBIE_GUARD
      Name: Zombie Guard
      Level: 145
-@@ -86461,11 +84264,11 @@ Body:
+@@ -86461,11 +84266,11 @@ Body:
      DamageMotion: 432
      Ai: 09
      Class: Boss
@@ -9890,7 +8492,7 @@
      AegisName: AS_ZOMBIE_MASTER
      Name: Immortal Zombie Assault
      Level: 160
-@@ -87039,11 +84842,11 @@ Body:
+@@ -87039,11 +84844,11 @@ Body:
        - Item: Apple
          Rate: 150
        - Item: Apple
@@ -9903,7 +8505,7 @@
      AegisName: DR_LUNATIC
      Name: Leaf Lunatic
      Level: 3
-@@ -87083,11 +84886,11 @@ Body:
+@@ -87083,11 +84888,11 @@ Body:
        - Item: Carrot
          Rate: 3000
        - Item: Phracon
@@ -9916,7 +8518,7 @@
      AegisName: DR_FABRE
      Name: Grass Fabre
      Level: 7
-@@ -87128,11 +84931,11 @@ Body:
+@@ -87128,11 +84933,11 @@ Body:
        - Item: Green_Herb
          Rate: 3000
        - Item: Clover
@@ -9929,7 +8531,7 @@
      AegisName: DR_HORNET
      Name: Wild Hornet
      Level: 11
-@@ -87178,11 +84981,11 @@ Body:
+@@ -87178,11 +84983,11 @@ Body:
        - Item: Honey
          Rate: 100
        - Item: Wing_Of_Fly
@@ -9942,7 +8544,7 @@
      AegisName: DR_RODA_FROG
      Name: Sweet Roda Frog
      Level: 14
-@@ -87224,11 +85027,11 @@ Body:
+@@ -87224,11 +85029,11 @@ Body:
        - Item: Abundantly_Foxtail
          Rate: 100
        - Item: Long_Foxtail
@@ -9955,7 +8557,7 @@
      AegisName: DR_DESERT_WOLF_B
      Name: Hunter Desert Wolf
      Level: 17
-@@ -87267,11 +85070,11 @@ Body:
+@@ -87267,11 +85072,11 @@ Body:
        - Item: Wing_Of_Fly
          Rate: 500
        - Item: Orange
@@ -9968,7 +8570,7 @@
      AegisName: DR_SPORE
      Name: Trans Spore
      Level: 18
-@@ -87312,11 +85115,11 @@ Body:
+@@ -87312,11 +85117,11 @@ Body:
        - Item: Poison_Spore
          Rate: 10
        - Item: Emveretarcon
@@ -9981,7 +8583,7 @@
      AegisName: DR_BASILISK1
      Name: Scout Basilisk
      Level: 20
-@@ -87356,248 +85159,13 @@ Body:
+@@ -87356,248 +85161,13 @@ Body:
        - Item: Red_Eco_Boots
          Rate: 100
        - Item: Dr_Life_Potion_02
@@ -10034,8 +8636,8 @@
 -      - Item: Ex_Model_Foxtail
 -        Rate: 1
 -      - Item: Basilisk2_Card
-         Rate: 1
-         StealProtected: true
+-        Rate: 1
+-        StealProtected: true
 -  - Id: 3504
 -    AegisName: DR_BASILISK3
 -    Name: Combat Basilisk
@@ -10127,8 +8729,8 @@
 -      - Item: Old_Blue_Box
 -        Rate: 100
 -      - Item: Big_Eggring_Card
--        Rate: 1
--        StealProtected: true
+         Rate: 1
+         StealProtected: true
 -  - Id: 3506
 -    AegisName: DR_MANDRAGORA
 -    Name: Jungle Madragora
@@ -10231,7 +8833,7 @@
      Name: Eggring
      Level: 20
      Hp: 220
-@@ -87845,70 +85413,11 @@ Body:
+@@ -87845,70 +85415,11 @@ Body:
  #    AegisName: V_G_ALPHOCCIO_
  #  - Id: 3619
  #    AegisName: V_G_TRENTINI_
@@ -10303,7 +8905,7 @@
      Name: Special Guard
      Level: 100
      Hp: 21914
-@@ -88029,166 +85538,11 @@ Body:
+@@ -88029,166 +85540,11 @@ Body:
      Modes:
        IgnoreMagic: true
        IgnoreMelee: true
@@ -10471,7 +9073,7 @@
      Name: Grudge of Broken Gun
      Level: 110
      Hp: 24911
-@@ -88244,166 +85598,11 @@ Body:
+@@ -88244,166 +85600,11 @@ Body:
      AttackDelay: 864
      AttackMotion: 1268
      DamageMotion: 480
@@ -10639,72 +9241,7 @@
  #  - Id: 3635
  #    AegisName: EVENT_KOBOLD
    - Id: 3636
-@@ -88721,11 +85920,11 @@ Body:
-     AttackDelay: 900
-     AttackMotion: 770
-     DamageMotion: 550
-     Ai: 04
-     Drops:
--      - Item: Crude_Ammo
-+      - Item: CrudeAmmo
-         Rate: 2500
-       - Item: Vigilante_Bow
-         Rate: 50
-       - Item: Thunder_P_
-         Rate: 5
-@@ -88766,11 +85965,11 @@ Body:
-     AttackDelay: 1200
-     AttackMotion: 672
-     DamageMotion: 480
-     Ai: 04
-     Drops:
--      - Item: Bandits_Scarf
-+      - Item: BanditsScarf
-         Rate: 2500
-       - Item: Brigan
-         Rate: 1000
-       - Item: Monokage
-         Rate: 50
-@@ -88811,11 +86010,11 @@ Body:
-     AttackDelay: 800
-     AttackMotion: 420
-     DamageMotion: 360
-     Ai: 04
-     Drops:
--      - Item: Brown_Muffler
-+      - Item: BrownMuffler
-         Rate: 2500
-       - Item: Brigan
-         Rate: 1000
-       - Item: Origin_Of_Elemental
-         Rate: 50
-@@ -88860,11 +86059,11 @@ Body:
-     Modes:
-       Angry: true
-       ChangeTargetChase: true
-       ChangeTargetMelee: true
-     Drops:
--      - Item: Clean_Bone
-+      - Item: CleanBone
-         Rate: 2500
-       - Item: Rotten_Meat
-         Rate: 1500
-       - Item: Rough_Wind
-         Rate: 5
-@@ -88905,11 +86104,11 @@ Body:
-     AttackDelay: 1100
-     AttackMotion: 650
-     DamageMotion: 500
-     Ai: 04
-     Drops:
--      - Item: Deadly_Poison_Powder
-+      - Item: DeadlyPoisonPowder
-         Rate: 2500
-       - Item: Mould_Powder
-         Rate: 1500
-       - Item: Anodyne
-         Rate: 25
-@@ -88922,60 +86121,11 @@ Body:
+@@ -88922,60 +86123,11 @@ Body:
        - Item: Old_Blue_Box
          Rate: 1
        - Item: Gaster_Card
@@ -10766,2457 +9303,4 @@
      Name: Purple Ore
      JapaneseName: Purplestone
      Level: 1
-@@ -89139,11 +86289,11 @@ Body:
-     AttackDelay: 2050
-     AttackMotion: 500
-     DamageMotion: 660
-     Ai: 04
-     Drops:
--      - Item: Broken_Shotgun
-+      - Item: BrokenShotgun
-         Rate: 2500
-       - Item: Brigan
-         Rate: 2000
-       - Item: Vigilante_Bow
-         Rate: 100
-@@ -89186,11 +86336,11 @@ Body:
-     AttackDelay: 1000
-     AttackMotion: 500
-     DamageMotion: 600
-     Ai: 04
-     Drops:
--      - Item: Worn_Revolver
-+      - Item: WornRevolver
-         Rate: 2500
-       - Item: Brigan
-         Rate: 2000
-       - Item: Monokage
-         Rate: 100
-@@ -89233,11 +86383,11 @@ Body:
-     AttackDelay: 1500
-     AttackMotion: 600
-     DamageMotion: 500
-     Ai: 04
-     Drops:
--      - Item: Crude_Scimitar
-+      - Item: CrudeScimiter
-         Rate: 2500
-       - Item: Brigan
-         Rate: 2000
-       - Item: Mine_Worker_Pickax
-         Rate: 1
-@@ -89248,273 +86398,998 @@ Body:
-       - Item: Roasted_Beef
-         Rate: 10
-       - Item: E_Cowraiders3_Card
-         Rate: 1
-         StealProtected: true
--#  - Id: 3750
--#    AegisName: ILL_DRAINLIAR
--#  - Id: 3751
--#    AegisName: ILL_ZOMBIE_C
--#  - Id: 3752
--#    AegisName: ILL_ZOMBIE
--#  - Id: 3753
--#    AegisName: ILL_GHOUL
--#  - Id: 3754
--#    AegisName: ILL_NIGHTMARE
--#  - Id: 3755
--#    AegisName: ILL_BLACK_MUSHROOM
--#  - Id: 3756
--#    AegisName: ILL_BOMI
--#  - Id: 3757
--#    AegisName: ILL_DRACULA
--#  - Id: 3758
--#    AegisName: ILL_MOONLIGHT
--#  - Id: 3759
--#    AegisName: ILL_NINE_TAIL
--#  - Id: 3760
--#    AegisName: ILL_MUNAK
--#  - Id: 3761
--#    AegisName: ILL_BON_GUN
--#  - Id: 3762
--#    AegisName: ILL_SOHEE
--#  - Id: 3763
--#    AegisName: ILL_ARCHER_SKELETON
--#  - Id: 3764
--#    AegisName: ILL_HIGHWIZARD
--#  - Id: 3765
--#    AegisName: ILL_FURY_HERO
--#  - Id: 3766
--#    AegisName: JP_E_MONSTER_53
--#  - Id: 3767
--#    AegisName: JP_E_MONSTER_54
--#  - Id: 3768
--#    AegisName: JP_E_MONSTER_55
--#  - Id: 3769
--#    AegisName: JP_E_MONSTER_56
--#  - Id: 3770
--#    AegisName: JP_E_MONSTER_57
--#  - Id: 3771
--#    AegisName: JP_E_MONSTER_58
--#  - Id: 3772
--#    AegisName: JP_E_MONSTER_59
--#  - Id: 3773
--#    AegisName: JP_E_MONSTER_60
--#  - Id: 3774
--#    AegisName: JP_E_MONSTER_61
--#  - Id: 3775
--#    AegisName: JP_E_MONSTER_62
--#  - Id: 3776
--#    AegisName: JP_E_MONSTER_63
--#  - Id: 3777
--#    AegisName: JP_E_MONSTER_64
--#  - Id: 3778
--#    AegisName: JP_E_MONSTER_65
--#  - Id: 3779
--#    AegisName: JP_E_MONSTER_66
--#  - Id: 3780
--#    AegisName: JP_E_MONSTER_67
--#  - Id: 3781
--#    AegisName: JP_E_MONSTER_68
--#  - Id: 3782
--#    AegisName: JP_E_MONSTER_69
--#  - Id: 3783
--#    AegisName: JP_E_MONSTER_70
--#  - Id: 3784
--#    AegisName: JP_E_MONSTER_71
--#  - Id: 3785
--#    AegisName: JP_E_MONSTER_72
--#  - Id: 3786
--#    AegisName: E_TURPECO
--  - Id: 3787
--    AegisName: RR_ARCLOUSE
--    Name: Swamp Arclouze
--    JapaneseName: Rr Arclouse
--    Level: 106
--    Hp: 1120
--    BaseExp: 864
--    JobExp: 900
--    Attack: 316
--    Attack2: 31
--    Defense: 76
--    MagicDefense: 36
--    Str: 41
--    Agi: 73
--    Vit: 23
--    Int: 29
--    Dex: 122
--    Luk: 15
-+  - Id: 3750
-+    AegisName: ILL_DRAINLIAR
-+    Name: Matt Drainliar
-+    Level: 131
-+    Hp: 42246
-+    BaseExp: 3928
-+    JobExp: 3769
-+    Attack: 1241
-+    Attack2: 170
-+    Defense: 150
-+    MagicDefense: 45
-+    Str: 91
-+    Agi: 129
-+    Vit: 96
-+    Int: 92
-+    Dex: 168
-+    Luk: 90
-     AttackRange: 1
-     SkillRange: 10
-     ChaseRange: 12
--    Size: Medium
--    Race: Insect
-+    Size: Small
-+    Race: Brute
-     RaceGroups:
--      Rockridge: true
--    Element: Earth
-+      Illusion_Vampire: true
-+    Element: Dark
-     ElementLevel: 2
--    WalkSpeed: 100
--    AttackDelay: 960
--    AttackMotion: 500
--    DamageMotion: 480
--    Ai: 04
--    Modes:
--      Detector: true
-+    WalkSpeed: 250
-+    AttackDelay: 1280
-+    AttackMotion: 576
-+    DamageMotion: 384
-+    Ai: 19
-     Drops:
--      - Item: Swamp_Bug_Shell
--        Rate: 2500
--      - Item: Sticky_Mucus
-+      - Item: Carnium
-+        Rate: 5000
-+      - Item: Tooth_Of_Bat
-+        Rate: 5000
-+      - Item: Red_Jewel
-+        Rate: 50
-+      - Item: Wing_Of_Red_Bat
-+        Rate: 5000
-+      - Item: Short_Bat_Fur
-         Rate: 1500
--      - Item: Solid_Shell
--        Rate: 100
--      - Item: Great_Nature
-+      - Item: MattDrainliar_Card
-         Rate: 1
--      - Item: Hippie_Guitar
--        Rate: 20
--      - Item: Rr_Arclouse_Card
-+        StealProtected: true
-+  - Id: 3751
-+    AegisName: ILL_ZOMBIE_C
-+    Name: Living Dead
-+    Level: 133
-+    Hp: 53926
-+    BaseExp: 4189
-+    JobExp: 3947
-+    Attack: 1445
-+    Attack2: 181
-+    Defense: 90
-+    MagicDefense: 24
-+    Str: 175
-+    Agi: 90
-+    Vit: 192
-+    Int: 14
-+    Dex: 184
-+    Luk: 14
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    RaceGroups:
-+      Illusion_Vampire: true
-+    Element: Undead
-+    ElementLevel: 1
-+    WalkSpeed: 400
-+    AttackDelay: 500
-+    AttackMotion: 912
-+    DamageMotion: 288
-+    Ai: 19
-+    Drops:
-+      - Item: Dried_Leaf_Of_Ygg
-+        Rate: 2000
-+      - Item: Cardinal_Jewel_
-+        Rate: 50
-+      - Item: SuspiciousMagicCircle
-+        Rate: 2000
-+      - Item: Skul_Ring_
-+        Rate: 5
-+      - Item: Poison_Herb_Rantana
-+        Rate: 60
-+      - Item: Poison_Herb_Makulata
-+        Rate: 60
-+      - Item: LivingDead_Card
-         Rate: 1
-         StealProtected: true
--  - Id: 3788
--    AegisName: RR_CRAMP
--    Name: Brown Rat
--    JapaneseName: Rr Cramp
--    Level: 101
--    Hp: 988
--    BaseExp: 681
--    JobExp: 720
--    Attack: 185
--    Attack2: 29
--    Defense: 68
--    MagicDefense: 42
--    Str: 38
--    Agi: 43
--    Vit: 17
--    Int: 15
--    Dex: 97
-+  - Id: 3752
-+    AegisName: ILL_ZOMBIE
-+    Name: Starving Living Dead
-+    Level: 130
-+    Hp: 40984
-+    BaseExp: 3621
-+    JobExp: 3177
-+    Attack: 1205
-+    Attack2: 153
-+    Defense: 60
-+    MagicDefense: 20
-+    Str: 150
-+    Agi: 70
-+    Vit: 160
-+    Int: 7
-+    Dex: 150
-+    Luk: 7
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    RaceGroups:
-+      Illusion_Vampire: true
-+    Element: Undead
-+    ElementLevel: 1
-+    WalkSpeed: 400
-+    AttackDelay: 924
-+    AttackMotion: 912
-+    DamageMotion: 288
-+    Ai: 19
-+    Drops:
-+      - Item: Dried_Leaf_Of_Ygg
-+        Rate: 1500
-+      - Item: Cardinal_Jewel_
-+        Rate: 50
-+      - Item: SuspiciousMagicCircle
-+        Rate: 300
-+      - Item: Skul_Ring
-+        Rate: 5
-+      - Item: LivingDead_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3753
-+    AegisName: ILL_GHOUL
-+    Name: Living Dead
-+    Level: 136
-+    Hp: 67379
-+    BaseExp: 4422
-+    JobExp: 3937
-+    Attack: 1413
-+    Attack2: 203
-+    Defense: 90
-+    MagicDefense: 30
-+    Str: 156
-+    Agi: 42
-+    Vit: 109
-+    Int: 101
-+    Dex: 99
-     Luk: 30
-     AttackRange: 1
-     SkillRange: 10
-     ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    RaceGroups:
-+      Illusion_Vampire: true
-+    Element: Undead
-+    ElementLevel: 2
-+    WalkSpeed: 250
-+    AttackDelay: 2456
-+    AttackMotion: 912
-+    DamageMotion: 504
-+    Ai: 19
-+    Drops:
-+      - Item: Dried_Leaf_Of_Ygg
-+        Rate: 2000
-+      - Item: Bradium
-+        Rate: 100
-+      - Item: SuspiciousMagicCircle
-+        Rate: 400
-+      - Item: Ghoul_Leg
-+        Rate: 10
-+      - Item: Skul_Ring
-+        Rate: 5
-+      - Item: Poison_Herb_Scopolia
-+        Rate: 30
-+      - Item: Skul_Ring_
-+        Rate: 1
-+      - Item: LivingDead_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3754
-+    AegisName: ILL_NIGHTMARE
-+    Name: Sweet Nightmare
-+    Level: 135
-+    Hp: 61334
-+    BaseExp: 4023
-+    JobExp: 4022
-+    Attack: 1310
-+    Attack2: 597
-+    Defense: 116
-+    MagicDefense: 30
-+    Str: 144
-+    Agi: 94
-+    Vit: 84
-+    Int: 50
-+    Dex: 189
-+    Luk: 68
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Large
-+    Race: Demon
-+    RaceGroups:
-+      Illusion_Vampire: true
-+    Element: Ghost
-+    ElementLevel: 2
-+    WalkSpeed: 150
-+    AttackDelay: 1826
-+    AttackMotion: 816
-+    DamageMotion: 432
-+    Ai: 19
-+    Modes:
-+      Detector: true
-+    Drops:
-+      - Item: Horseshoe
-+        Rate: 5000
-+      - Item: Blue_Potion
-+        Rate: 30
-+      - Item: Carnium
-+        Rate: 200
-+      - Item: NightmareOfLump
-+        Rate: 1500
-+      - Item: Infiltrator
-+        Rate: 10
-+      - Item: Infiltrator_
-+        Rate: 2
-+      - Item: SweetNightM_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3755
-+    AegisName: ILL_BLACK_MUSHROOM
-+    Name: Black Mushroom
-+    Level: 130
-+    Hp: 150000
-+    BaseExp: 2437
-+    JobExp: 2284
-+    Defense: 418
-+    MagicDefense: 76
-+    Vit: 150
-+    Int: 103
-+    Luk: 88
-+    AttackRange: 1
-     Size: Small
--    Race: Brute
-+    Race: Plant
-     RaceGroups:
--      Rockridge: true
--    Element: Poison
-+      Illusion_Vampire: true
-+    Element: Earth
-+    ElementLevel: 1
-+    WalkSpeed: 1000
-+    AttackMotion: 1
-+    Drops:
-+      - Item: Alchol
-+        Rate: 50
-+      - Item: Detrimindexta
-+        Rate: 50
-+      - Item: Dew_Laden_Moss
-+        Rate: 20
-+      - Item: Mushroom_Spore
-+        Rate: 5000
-+      - Item: Shining_Spore
-+        Rate: 1000
-+      - Item: Poison_Spore
-+        Rate: 500
-+      - Item: IllusoryStone
-+        Rate: 500
-+  - Id: 3756
-+    AegisName: ILL_BOMI
-+    Name: Bomi
-+    Level: 137
-+    Hp: 378510
-+    BaseExp: 15034
-+    JobExp: 13533
-+    Attack: 3709
-+    Attack2: 1683
-+    Defense: 60
-+    MagicDefense: 60
-+    Str: 90
-+    Agi: 87
-+    Vit: 40
-+    Int: 140
-+    Dex: 199
-+    Luk: 91
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    RaceGroups:
-+      Illusion_Vampire: true
-+    Element: Undead
-     ElementLevel: 2
--    WalkSpeed: 100
-+    WalkSpeed: 200
-     AttackDelay: 1000
--    AttackMotion: 500
--    DamageMotion: 1000
--    Ai: 04
-+    AttackMotion: 864
-+    DamageMotion: 480
-+    Ai: 19
-+    Class: Boss
-+    Modes:
-+      IgnoreMisc: true
-+      KnockBackImmune: true
-     Drops:
--      - Item: Brown_Rat_Tail
--        Rate: 2500
--      - Item: Monster's_Feed
-+      - Item: Dark_Red_Jewel
-+        Rate: 2000
-+      - Item: Vampire's_Servant
-         Rate: 100
--      - Item: Meat
-+      - Item: Torn_Diary
-+        Rate: 3000
-+      - Item: Bradium
-+        Rate: 100
-+      - Item: Carnium
-+        Rate: 100
-+      - Item: Bloodsuck_Plant_Seed
-         Rate: 500
--      - Item: Blue_Herb
-+      - Item: Cape_Of_Ancient_Lord_
-+        Rate: 50
-+      - Item: Bomi_Card
-         Rate: 1
--      - Item: Hippie_Rope
--        Rate: 20
--      - Item: Rr_Cramp_Card
-+        StealProtected: true
-+  - Id: 3757
-+    AegisName: ILL_DRACULA
-+    Name: Dracula of Rage
-+    Level: 139
-+    Hp: 6909690
-+    BaseExp: 2682753
-+    JobExp: 1817882
-+    MvpExp: 1341376
-+    Attack: 6396
-+    Attack2: 2765
-+    Defense: 252
-+    MagicDefense: 146
-+    Str: 195
-+    Agi: 239
-+    Vit: 174
-+    Int: 201
-+    Dex: 270
-+    Luk: 195
-+    AttackRange: 3
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Large
-+    Race: Demon
-+    RaceGroups:
-+      Illusion_Vampire: true
-+    Element: Dark
-+    ElementLevel: 4
-+    WalkSpeed: 145
-+    AttackDelay: 1290
-+    AttackMotion: 1140
-+    DamageMotion: 576
-+    Ai: 19
-+    Class: Boss
-+    Modes:
-+      Mvp: true
-+    MvpDrops:
-+      - Item: Old_Violet_Box
-+        Rate: 5000
-+      - Item: IllusionStone
-+        Rate: 500
-+    Drops:
-+      - Item: Yggdrasilberry
-+        Rate: 5000
-+      - Item: Dried_Clover
-+        Rate: 2000
-+      - Item: Balistar_
-+        Rate: 80
-+      - Item: Cape_Of_Ancient_Lord_
-+        Rate: 80
-+      - Item: Ring_
-+        Rate: 80
-+      - Item: Book_Of_The_Apocalypse
-+        Rate: 80
-+      - Item: Vampire's_Servant
-+        Rate: 100
-+      - Item: Ill_Dracula_Card
-         Rate: 1
-         StealProtected: true
--#  - Id: 3789
--#    AegisName: ESCAPED_LETTER
--  - Id: 3790
--    AegisName: SWEETS_DROPS
--    Name: Sweets Drops
--    Level: 1
--    Hp: 20
--    Attack: 12
--    Attack2: 13
--    Defense: 16
-+  - Id: 3758
-+    AegisName: ILL_MOONLIGHT
-+    Name: Angry Moonlight Flower
-+    Level: 118
-+    Hp: 4287803
-+    BaseExp: 1403238
-+    JobExp: 962759
-+    MvpExp: 701619
-+    Attack: 4878
-+    Attack2: 2797
-+    Defense: 254
-+    MagicDefense: 81
-+    Str: 166
-+    Agi: 205
-+    Vit: 150
-+    Int: 167
-+    Dex: 290
-+    Luk: 240
-     AttackRange: 1
-     SkillRange: 10
-     ChaseRange: 12
-     Size: Medium
--    Race: Plant
-+    Race: Demon
-     Element: Fire
--    ElementLevel: 1
--    WalkSpeed: 440
--    AttackDelay: 1372
--    AttackMotion: 672
--    DamageMotion: 480
--    Ai: 02
-+    ElementLevel: 3
-+    WalkSpeed: 150
-+    AttackDelay: 1276
-+    AttackMotion: 576
-+    DamageMotion: 288
-+    Ai: 19
-+    Class: Boss
-     Modes:
--      IgnoreMagic: true
--      IgnoreMelee: true
--      IgnoreMisc: true
--      IgnoreRanged: true
-+      Mvp: true
-+    MvpDrops:
-+      - Item: Old_Violet_Box
-+        Rate: 5000
-+      - Item: Yggdrasilberry
-+        Rate: 2000
-+      - Item: IllusionStone
-+        Rate: 500
-     Drops:
--      - Item: Stolen_Cacao
--        Rate: 10000
--      - Item: Stolen_Cacao
--        Rate: 7000
--#  - Id: 3791
--#    AegisName: JP_E_MONSTER_73
--#  - Id: 3792
--#    AegisName: ILL_GAZETI
--#  - Id: 3793
--#    AegisName: ILL_SNOWIER
--#  - Id: 3794
--#    AegisName: ILL_ICE_TITAN
--#  - Id: 3795
--#    AegisName: ILL_ICEICLE
--#  - Id: 3796
--#    AegisName: ILL_KTULLANUX
--#  - Id: 3797
--#    AegisName: ILL_FROZEN_KN
--#  - Id: 3798
--#    AegisName: ILL_FROZEN_GC
--#  - Id: 3799
--#    AegisName: ILL_ASSULTER
--#  - Id: 3800
--#    AegisName: ILL_PERMETER
--#  - Id: 3801
--#    AegisName: ILL_FREEZER
--#  - Id: 3802
--#    AegisName: ILL_SOLIDER
--#  - Id: 3803
--#    AegisName: ILL_HEATER
--#  - Id: 3804
--#    AegisName: ILL_TURTLE_GENERAL
--#  - Id: 3805
--#    AegisName: E_HAPPY_EGG
--#  - Id: 3806
--#    AegisName: E_STRANGE_EGG
--#  - Id: 3807
--#    AegisName: E_LUNATIC_CLOVER
--#  - Id: 3808
--#    AegisName: E_POPORING_CLOVER
--#  - Id: 3809
--#    AegisName: FATAL_BUG
--#  - Id: 3810
--#    AegisName: MD_KING_PORING
--#  - Id: 3811
--#    AegisName: MD_GOLDRING
--#  - Id: 3812
--#    AegisName: MD_AMERING
--#  - Id: 3813
--#    AegisName: MD_DROPS
--#  - Id: 3814
--#    AegisName: MD_POPORING
--#  - Id: 3815
--#    AegisName: MD_PORING
--#  - Id: 3816
--#    AegisName: MD_MARIN
--#  - Id: 3817
--#    AegisName: DALCOM
--#  - Id: 3818
--#    AegisName: BIG_DALCOM
--#  - Id: 3819
--#    AegisName: E_MAGIC_PLANT
--#  - Id: 3820
--#    AegisName: MILD_IMP
--#  - Id: 3821
--#    AegisName: MILD_EXPLOSION
--#  - Id: 3822
-+      - Item: Bradium
-+        Rate: 5000
-+      - Item: Hazy_Dream_Fragment
-+        Rate: 3000
-+      - Item: Spectral_Spear
-+        Rate: 500
-+      - Item: Moonlight_Sword
-+        Rate: 100
-+      - Item: Silver_Knife_Of_Chaste
-+        Rate: 600
-+      - Item: Staff_Of_Bordeaux
-+        Rate: 100
-+      - Item: AngerMoonlight_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3759
-+    AegisName: ILL_NINE_TAIL
-+    Name: Angry Nine Tail
-+    Level: 116
-+    Hp: 21875
-+    BaseExp: 2315
-+    JobExp: 2169
-+    Attack: 965
-+    Attack2: 214
-+    Defense: 95
-+    MagicDefense: 40
-+    Str: 121
-+    Agi: 73
-+    Vit: 64
-+    Int: 42
-+    Dex: 212
-+    Luk: 100
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Brute
-+    Element: Fire
-+    ElementLevel: 3
-+    WalkSpeed: 150
-+    AttackDelay: 840
-+    AttackMotion: 540
-+    DamageMotion: 480
-+    Ai: 19
-+    Drops:
-+      - Item: Fox_Tail
-+        Rate: 3000
-+      - Item: Glass_Bead
-+        Rate: 200
-+      - Item: Branch_Of_Dead_Tree
-+        Rate: 100
-+      - Item: Carnium
-+        Rate: 100
-+      - Item: IllusoryStone
-+        Rate: 200
-+      - Item: Hazy_Dream_Fragment
-+        Rate: 500
-+      - Item: AngerNineTail_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3760
-+    AegisName: ILL_MUNAK
-+    Name: Resentful Munak
-+    Level: 110
-+    Hp: 17728
-+    BaseExp: 1843
-+    JobExp: 1876
-+    Attack: 637
-+    Attack2: 105
-+    Defense: 77
-+    MagicDefense: 15
-+    Str: 103
-+    Agi: 18
-+    Vit: 50
-+    Int: 20
-+    Dex: 66
-+    Luk: 20
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    Element: Undead
-+    ElementLevel: 1
-+    WalkSpeed: 200
-+    AttackDelay: 2468
-+    AttackMotion: 768
-+    DamageMotion: 288
-+    Ai: 19
-+    Drops:
-+      - Item: HazyMooncake
-+        Rate: 1000
-+      - Item: Munak_Turban
-+        Rate: 10
-+      - Item: Amulet
-+        Rate: 20
-+      - Item: HazyMooncake
-+        Rate: 1000
-+      - Item: Salty_Rice_Cake
-+        Rate: 150
-+      - Item: Poison_Herb_Seratum
-+        Rate: 150
-+      - Item: BitterMunak_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3761
-+    AegisName: ILL_BON_GUN
-+    Name: Resentful Bongun
-+    Level: 112
-+    Hp: 19077
-+    BaseExp: 2137
-+    JobExp: 1869
-+    Attack: 826
-+    Attack2: 215
-+    Defense: 88
-+    MagicDefense: 5
-+    Str: 125
-+    Agi: 52
-+    Vit: 49
-+    Int: 22
-+    Dex: 78
-+    Luk: 40
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    Element: Undead
-+    ElementLevel: 1
-+    WalkSpeed: 190
-+    AttackDelay: 1720
-+    AttackMotion: 500
-+    DamageMotion: 420
-+    Ai: 19
-+    Drops:
-+      - Item: HazyMooncake
-+        Rate: 1750
-+      - Item: Old_Portrait
-+        Rate: 60
-+      - Item: Bongun_Hat
-+        Rate: 3
-+      - Item: Amulet
-+        Rate: 10
-+      - Item: Munak_Doll
-+        Rate: 20
-+      - Item: Light_Granule
-+        Rate: 200
-+      - Item: BitterBonGun_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3762
-+    AegisName: ILL_SOHEE
-+    Name: Resentful Sohee
-+    Level: 114
-+    Hp: 22414
-+    BaseExp: 2004
-+    JobExp: 2373
-+    Attack: 779
-+    Attack2: 115
-+    Defense: 83
-+    MagicDefense: 84
-+    Str: 122
-+    Agi: 49
-+    Vit: 49
-+    Int: 40
-+    Dex: 84
-+    Luk: 56
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demon
-+    Element: Water
-+    ElementLevel: 2
-+    WalkSpeed: 250
-+    AttackDelay: 912
-+    AttackMotion: 2112
-+    DamageMotion: 576
-+    Ai: 19
-+    Drops:
-+      - Item: Bloody_Love_Letter
-+        Rate: 2000
-+      - Item: Skirt_Of_Virgin
-+        Rate: 300
-+      - Item: Nurse_Cap
-+        Rate: 10
-+      - Item: Puente_Robe
-+        Rate: 10
-+      - Item: Hearty_Rice_Cake
-+        Rate: 200
-+      - Item: Poison_Herb_Nerium
-+        Rate: 200
-+      - Item: Heartbroken_Tears
-+        Rate: 200
-+      - Item: BitterSohee_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3763
-+    AegisName: ILL_ARCHER_SKELETON
-+    Name: Resentful Soldier
-+    Level: 115
-+    Hp: 20843
-+    BaseExp: 2010
-+    JobExp: 2570
-+    Attack: 767
-+    Attack2: 516
-+    Defense: 47
-+    MagicDefense: 10
-+    Str: 60
-+    Agi: 61
-+    Vit: 30
-+    Int: 20
-+    Dex: 101
-+    Luk: 12
-+    AttackRange: 9
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    Element: Undead
-+    ElementLevel: 1
-+    WalkSpeed: 300
-+    AttackDelay: 2864
-+    AttackMotion: 864
-+    DamageMotion: 576
-+    Ai: 19
-+    Drops:
-+      - Item: Broken_Arrow
-+        Rate: 2000
-+      - Item: Carnium
-+        Rate: 10
-+      - Item: Apple_Of_Archer
-+        Rate: 6
-+      - Item: Poison_Herb_Amoena
-+        Rate: 200
-+      - Item: Fire_Arrow
-+        Rate: 3000
-+      - Item: Fire_Arrow
-+        Rate: 2000
-+      - Item: Fire_Arrow
-+        Rate: 1000
-+      - Item: BitterArcherSk_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3764
-+    AegisName: ILL_HIGHWIZARD
-+    Name: Wizard of the Truth
-+    Level: 118
-+    Hp: 121847
-+    BaseExp: 8599
-+    JobExp: 7695
-+    Attack: 1977
-+    Attack2: 362
-+    Defense: 20
-+    MagicDefense: 90
-+    Str: 101
-+    Agi: 89
-+    Vit: 60
-+    Int: 205
-+    Dex: 255
-+    Luk: 124
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    Element: Dark
-+    ElementLevel: 1
-+    WalkSpeed: 140
-+    AttackDelay: 768
-+    AttackMotion: 864
-+    DamageMotion: 288
-+    Ai: 19
-+    Drops:
-+      - Item: Red_Gemstone
-+        Rate: 3000
-+      - Item: Yellow_Gemstone
-+        Rate: 3000
-+      - Item: Vermilion_10_Scroll
-+        Rate: 200
-+      - Item: Meteor_10_Scroll
-+        Rate: 50
-+      - Item: Storm_10_Scroll
-+        Rate: 50
-+      - Item: Fire_Scroll_3_5
-+        Rate: 200
-+      - Item: CandyCaneRod
-+        Rate: 10
-+      - Item: WizardOfVeritas_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3765
-+    AegisName: ILL_FURY_HERO
-+    Name: Deranged Adventurer
-+    Level: 117
-+    Hp: 24078
-+    BaseExp: 2381
-+    JobExp: 2288
-+    Attack: 837
-+    Attack2: 113
-+    Defense: 340
-+    MagicDefense: 20
-+    Str: 180
-+    Agi: 42
-+    Vit: 126
-+    Int: 66
-+    Dex: 149
-+    Luk: 50
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Undead
-+    Element: Undead
-+    ElementLevel: 3
-+    WalkSpeed: 150
-+    AttackDelay: 1450
-+    AttackMotion: 864
-+    DamageMotion: 288
-+    Ai: 19
-+    Drops:
-+      - Item: Recruitment_Leaflet
-+        Rate: 2000
-+      - Item: Light_Granule
-+        Rate: 200
-+      - Item: Runstone_Quality
-+        Rate: 1000
-+      - Item: Runstone_Rare
-+        Rate: 200
-+      - Item: Empty_Potion
-+        Rate: 500
-+      - Item: Rotten_Bandage
-+        Rate: 500
-+      - Item: FuryHero_Card
-+        Rate: 1
-+        StealProtected: true
-+#  - Id: 3766
-+#    AegisName: JP_E_MONSTER_53
-+#  - Id: 3767
-+#    AegisName: JP_E_MONSTER_54
-+#  - Id: 3768
-+#    AegisName: JP_E_MONSTER_55
-+#  - Id: 3769
-+#    AegisName: JP_E_MONSTER_56
-+#  - Id: 3770
-+#    AegisName: JP_E_MONSTER_57
-+#  - Id: 3771
-+#    AegisName: JP_E_MONSTER_58
-+#  - Id: 3772
-+#    AegisName: JP_E_MONSTER_59
-+#  - Id: 3773
-+#    AegisName: JP_E_MONSTER_60
-+#  - Id: 3774
-+#    AegisName: JP_E_MONSTER_61
-+#  - Id: 3775
-+#    AegisName: JP_E_MONSTER_62
-+#  - Id: 3776
-+#    AegisName: JP_E_MONSTER_63
-+#  - Id: 3777
-+#    AegisName: JP_E_MONSTER_64
-+#  - Id: 3778
-+#    AegisName: JP_E_MONSTER_65
-+#  - Id: 3779
-+#    AegisName: JP_E_MONSTER_66
-+#  - Id: 3780
-+#    AegisName: JP_E_MONSTER_67
-+#  - Id: 3781
-+#    AegisName: JP_E_MONSTER_68
-+#  - Id: 3782
-+#    AegisName: JP_E_MONSTER_69
-+#  - Id: 3783
-+#    AegisName: JP_E_MONSTER_70
-+#  - Id: 3784
-+#    AegisName: JP_E_MONSTER_71
-+#  - Id: 3785
-+#    AegisName: JP_E_MONSTER_72
-+#  - Id: 3786
-+#    AegisName: E_TURPECO
-+  - Id: 3787
-+    AegisName: RR_ARCLOUSE
-+    Name: Swamp Arclouze
-+    JapaneseName: Rr Arclouse
-+    Level: 106
-+    Hp: 1120
-+    BaseExp: 864
-+    JobExp: 900
-+    Attack: 316
-+    Attack2: 31
-+    Defense: 76
-+    MagicDefense: 36
-+    Str: 41
-+    Agi: 73
-+    Vit: 23
-+    Int: 29
-+    Dex: 122
-+    Luk: 15
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Insect
-+    RaceGroups:
-+      Rockridge: true
-+    Element: Earth
-+    ElementLevel: 2
-+    WalkSpeed: 100
-+    AttackDelay: 960
-+    AttackMotion: 500
-+    DamageMotion: 480
-+    Ai: 04
-+    Modes:
-+      Detector: true
-+    Drops:
-+      - Item: SwampBugPeelings
-+        Rate: 2500
-+      - Item: Sticky_Mucus
-+        Rate: 1500
-+      - Item: Solid_Shell
-+        Rate: 100
-+      - Item: Great_Nature
-+        Rate: 1
-+      - Item: Hippie_Guitar
-+        Rate: 20
-+      - Item: Rr_Arclouse_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 3788
-+    AegisName: RR_CRAMP
-+    Name: Brown Rat
-+    JapaneseName: Rr Cramp
-+    Level: 101
-+    Hp: 988
-+    BaseExp: 681
-+    JobExp: 720
-+    Attack: 185
-+    Attack2: 29
-+    Defense: 68
-+    MagicDefense: 42
-+    Str: 38
-+    Agi: 43
-+    Vit: 17
-+    Int: 15
-+    Dex: 97
-+    Luk: 30
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Small
-+    Race: Brute
-+    RaceGroups:
-+      Rockridge: true
-+    Element: Poison
-+    ElementLevel: 2
-+    WalkSpeed: 100
-+    AttackDelay: 1000
-+    AttackMotion: 500
-+    DamageMotion: 1000
-+    Ai: 04
-+    Drops:
-+      - Item: BrownRatTail
-+        Rate: 2500
-+      - Item: Monster's_Feed
-+        Rate: 100
-+      - Item: Meat
-+        Rate: 500
-+      - Item: Blue_Herb
-+        Rate: 1
-+      - Item: Hippie_Rope
-+        Rate: 20
-+      - Item: Rr_Cramp_Card
-+        Rate: 1
-+        StealProtected: true
-+#  - Id: 3789
-+#    AegisName: ESCAPED_LETTER
-+  - Id: 3790
-+    AegisName: SWEETS_DROPS
-+    Name: Sweets Drops
-+    Level: 1
-+    Hp: 20
-+    Attack: 12
-+    Attack2: 13
-+    Defense: 16
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Plant
-+    Element: Fire
-+    ElementLevel: 1
-+    WalkSpeed: 440
-+    AttackDelay: 1372
-+    AttackMotion: 672
-+    DamageMotion: 480
-+    Ai: 02
-+    Modes:
-+      IgnoreMagic: true
-+      IgnoreMelee: true
-+      IgnoreMisc: true
-+      IgnoreRanged: true
-+    Drops:
-+      - Item: Stolen_Cacao
-+        Rate: 10000
-+      - Item: Stolen_Cacao
-+        Rate: 7000
-+#  - Id: 3791
-+#    AegisName: JP_E_MONSTER_73
-+#  - Id: 3792
-+#    AegisName: ILL_GAZETI
-+#  - Id: 3793
-+#    AegisName: ILL_SNOWIER
-+#  - Id: 3794
-+#    AegisName: ILL_ICE_TITAN
-+#  - Id: 3795
-+#    AegisName: ILL_ICEICLE
-+#  - Id: 3796
-+#    AegisName: ILL_KTULLANUX
-+#  - Id: 3797
-+#    AegisName: ILL_FROZEN_KN
-+#  - Id: 3798
-+#    AegisName: ILL_FROZEN_GC
-+#  - Id: 3799
-+#    AegisName: ILL_ASSULTER
-+#  - Id: 3800
-+#    AegisName: ILL_PERMETER
-+#  - Id: 3801
-+#    AegisName: ILL_FREEZER
-+#  - Id: 3802
-+#    AegisName: ILL_SOLIDER
-+#  - Id: 3803
-+#    AegisName: ILL_HEATER
-+#  - Id: 3804
-+#    AegisName: ILL_TURTLE_GENERAL
-+#  - Id: 3805
-+#    AegisName: E_HAPPY_EGG
-+#  - Id: 3806
-+#    AegisName: E_STRANGE_EGG
-+#  - Id: 3807
-+#    AegisName: E_LUNATIC_CLOVER
-+#  - Id: 3808
-+#    AegisName: E_POPORING_CLOVER
-+#  - Id: 3809
-+#    AegisName: FATAL_BUG
-+#  - Id: 3810
-+#    AegisName: MD_KING_PORING
-+#  - Id: 3811
-+#    AegisName: MD_GOLDRING
-+#  - Id: 3812
-+#    AegisName: MD_AMERING
-+#  - Id: 3813
-+#    AegisName: MD_DROPS
-+#  - Id: 3814
-+#    AegisName: MD_POPORING
-+#  - Id: 3815
-+#    AegisName: MD_PORING
-+#  - Id: 3816
-+#    AegisName: MD_MARIN
-+#  - Id: 3817
-+#    AegisName: DALCOM
-+#  - Id: 3818
-+#    AegisName: BIG_DALCOM
-+#  - Id: 3819
-+#    AegisName: E_MAGIC_PLANT
-+#  - Id: 3820
-+#    AegisName: MILD_IMP
-+#  - Id: 3821
-+#    AegisName: MILD_EXPLOSION
-+#  - Id: 3822
- #    AegisName: E_PICKY
- #  - Id: 3823
- #    AegisName: E_IMP
- #  - Id: 3824
- #    AegisName: E_EXPLOSION
-@@ -90524,64 +88399,1038 @@ Body:
- #    AegisName: DELETER2_MJ
- #  - Id: 20338
- #    AegisName: NIGHTMARE_TERROR_MJ
- #  - Id: 20339
- #    AegisName: BLAZZER_MJ
--#  - Id: 20340
--#    AegisName: MD_EL_A17T
--#  - Id: 20341
--#    AegisName: MD_E_EA1L
--#  - Id: 20342
--#    AegisName: MD_E_EA2S
--#  - Id: 20343
--#    AegisName: MD_E_13EN0
--#  - Id: 20344
--#    AegisName: MD_VENOM_BUG
--#  - Id: 20345
--#    AegisName: MD_CONSTANT
--#  - Id: 20346
--#    AegisName: MD_MIGUEL
--#  - Id: 20347
--#    AegisName: MD_MIGUEL_G
--#  - Id: 20348
--#    AegisName: MD_A013_CAPUT
--#  - Id: 20349
--#    AegisName: MD_A013_DOLOR
--#  - Id: 20350
--#    AegisName: MD_A013_BELLARE
--#  - Id: 20351
--#    AegisName: MD_MANHOLE2
--#  - Id: 20352
--#    AegisName: MD_POMPOM
--#  - Id: 20353
--#    AegisName: MD_CROB
-+  - Id: 20340
-+    AegisName: MD_EL_A17T
-+    Name: EL1-A17T
-+    Level: 118
-+    Hp: 16412000
-+    BaseExp: 2639829
-+    JobExp: 2292824
-+    Attack: 1543
-+    Attack2: 854
-+    Defense: 355
-+    MagicDefense: 42
-+    Str: 173
-+    Agi: 143
-+    Vit: 77
-+    Int: 148
-+    Dex: 202
-+    Luk: 84
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Large
-+    Race: Formless
-+    Element: Neutral
-+    ElementLevel: 3
-+    WalkSpeed: 220
-+    AttackDelay: 128
-+    AttackMotion: 1004
-+    DamageMotion: 240
-+    Ai: 21
-+    Class: Boss
-+    Drops:
-+      - Item: Old_Steel_Plate
-+        Rate: 3500
-+      - Item: EP17_1_EVT02
-+        Rate: 2500
-+      - Item: EP17_1_EVT01
-+        Rate: 100
-+      - Item: EP17_1_EVT39
-+        Rate: 1000
-+      - Item: Crushed_Can_Iron_Plate
-+        Rate: 1500
-+      - Item: EL_A17T_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20341
-+    AegisName: MD_E_EA1L
-+    Name: E-EA1L
-+    Level: 116
-+    Hp: 24810
-+    BaseExp: 2688
-+    JobExp: 2453
-+    Attack: 1042
-+    Attack2: 185
-+    Defense: 75
-+    MagicDefense: 37
-+    Str: 80
-+    Agi: 46
-+    Vit: 45
-+    Int: 71
-+    Dex: 95
-+    Luk: 32
-+    AttackRange: 2
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Formless
-+    Element: Neutral
-+    ElementLevel: 4
-+    WalkSpeed: 110
-+    AttackDelay: 741
-+    AttackMotion: 1536
-+    DamageMotion: 480
-+    Ai: 04
-+    Drops:
-+      - Item: Needle_Pouch
-+        Rate: 1250
-+      - Item: EP17_1_EVT02
-+        Rate: 10
-+      - Item: Scarlet_Dyestuffs
-+        Rate: 30
-+      - Item: E_EA1L_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20342
-+    AegisName: MD_E_EA2S
-+    Name: E-EA2S
-+    Level: 117
-+    Hp: 26200
-+    BaseExp: 2724
-+    JobExp: 2395
-+    Attack: 1073
-+    Attack2: 190
-+    Defense: 101
-+    MagicDefense: 37
-+    Str: 110
-+    Agi: 75
-+    Vit: 47
-+    Int: 49
-+    Dex: 86
-+    Luk: 61
-+    AttackRange: 2
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Large
-+    Race: Formless
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 165
-+    AttackDelay: 1552
-+    AttackMotion: 1152
-+    DamageMotion: 336
-+    Ai: 04
-+    Drops:
-+      - Item: Screw
-+        Rate: 1250
-+      - Item: Burnt_Parts
-+        Rate: 1000
-+      - Item: EP17_1_EVT02
-+        Rate: 10
-+      - Item: E_EA2S_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20343
-+    AegisName: MD_E_13EN0
-+    Name: E-13EN0
-+    Level: 118
-+    Hp: 26840
-+    BaseExp: 2785
-+    JobExp: 2496
-+    Attack: 1082
-+    Attack2: 198
-+    Defense: 72
-+    MagicDefense: 29
-+    Str: 95
-+    Agi: 76
-+    Vit: 38
-+    Int: 76
-+    Dex: 86
-+    Luk: 61
-+    AttackRange: 2
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Fish
-+    Element: Water
-+    ElementLevel: 4
-+    WalkSpeed: 200
-+    AttackDelay: 432
-+    AttackMotion: 864
-+    DamageMotion: 360
-+    Ai: 04
-+    Drops:
-+      - Item: Sticky_Mucus
-+        Rate: 1250
-+      - Item: Sticky_Poison
-+        Rate: 1000
-+      - Item: Fluorescent_Liquid
-+        Rate: 800
-+      - Item: Elunium_Stone
-+        Rate: 120
-+      - Item: Elunium
-+        Rate: 20
-+      - Item: EP17_1_EVT39
-+        Rate: 3
-+  - Id: 20344
-+    AegisName: MD_VENOM_BUG
-+    Name: Chemical Poison
-+    Level: 110
-+    Hp: 10000
-+    Defense: 200
-+    MagicDefense: 200
-+    Str: 100
-+    Agi: 100
-+    Vit: 100
-+    Int: 100
-+    Dex: 100
-+    Luk: 100
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Small
-+    Race: Formless
-+    Element: Poison
-+    ElementLevel: 1
-+    WalkSpeed: 1000
-+    AttackDelay: 101
-+    DamageMotion: 480
-+    Modes:
-+      IgnoreMagic: true
-+      IgnoreMelee: true
-+      IgnoreMisc: true
-+      IgnoreRanged: true
-+      KnockBackImmune: true
-+      TeleportBlock: true
-+  - Id: 20345
-+    AegisName: MD_CONSTANT
-+    Name: Bio Battery
-+    Level: 110
-+    Hp: 10000
-+    Defense: 200
-+    MagicDefense: 200
-+    Str: 100
-+    Agi: 100
-+    Vit: 100
-+    Int: 100
-+    Dex: 100
-+    Luk: 100
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Small
-+    Race: Formless
-+    Element: Neutral
-+    ElementLevel: 3
-+    WalkSpeed: 150
-+    AttackDelay: 720
-+    AttackMotion: 360
-+    DamageMotion: 360
-+    Modes:
-+      IgnoreMagic: true
-+      IgnoreMelee: true
-+      IgnoreMisc: true
-+      IgnoreRanged: true
-+      KnockBackImmune: true
-+      TeleportBlock: true
-+  - Id: 20346
-+    AegisName: MD_MIGUEL
-+    Name: Miguel
-+    Level: 115
-+    Hp: 8600000
-+    BaseExp: 1200000
-+    JobExp: 900000
-+    Attack: 4350
-+    Attack2: 2450
-+    Defense: 216
-+    MagicDefense: 95
-+    Str: 192
-+    Agi: 115
-+    Vit: 28
-+    Int: 66
-+    Dex: 179
-+    Luk: 85
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Wind
-+    ElementLevel: 4
-+    WalkSpeed: 250
-+    AttackDelay: 872
-+    AttackMotion: 1044
-+    DamageMotion: 432
-+    Ai: 21
-+    Class: Boss
-+    Drops:
-+      - Item: Tiger's_Skin
-+        Rate: 3000
-+      - Item: EP17_1_EVT02
-+        Rate: 2500
-+      - Item: EP17_1_EVT01
-+        Rate: 100
-+      - Item: EP17_1_EVT39
-+        Rate: 1000
-+      - Item: Miguel_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20347
-+    AegisName: MD_MIGUEL_G
-+    Name: Miguel G.
-+    Level: 115
-+    Hp: 8600000
-+    Attack: 4350
-+    Attack2: 2450
-+    Defense: 216
-+    MagicDefense: 95
-+    Str: 192
-+    Agi: 115
-+    Vit: 28
-+    Int: 66
-+    Dex: 179
-+    Luk: 85
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Wind
-+    ElementLevel: 4
-+    WalkSpeed: 250
-+    AttackDelay: 872
-+    AttackMotion: 1044
-+    DamageMotion: 432
-+    Class: Boss
-+    Ai: 21
-+  - Id: 20348
-+    AegisName: MD_A013_CAPUT
-+    Name: A013 - Caput
-+    Level: 110
-+    Hp: 31000
-+    BaseExp: 260
-+    JobExp: 250
-+    Attack: 900
-+    Attack2: 150
-+    Defense: 79
-+    MagicDefense: 40
-+    Str: 115
-+    Agi: 85
-+    Vit: 81
-+    Int: 92
-+    Dex: 121
-+    Luk: 47
-+    AttackRange: 2
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Dark
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 1872
-+    AttackMotion: 360
-+    DamageMotion: 864
-+    Ai: 04
-+    Drops:
-+      - Item: Rune_Of_Darkness
-+        Rate: 1250
-+      - Item: Piece_Of_Darkness
-+        Rate: 1000
-+      - Item: Tooth_Of_
-+        Rate: 800
-+      - Item: Tendon
-+        Rate: 2000
-+      - Item: EP17_1_EVT39
-+        Rate: 3
-+  - Id: 20349
-+    AegisName: MD_A013_DOLOR
-+    Name: A013 - Dolor
-+    Level: 111
-+    Hp: 31000
-+    BaseExp: 2650
-+    JobExp: 2400
-+    Attack: 800
-+    Attack2: 200
-+    Defense: 42
-+    MagicDefense: 65
-+    Str: 105
-+    Agi: 45
-+    Vit: 42
-+    Int: 88
-+    Dex: 180
-+    Luk: 65
-+    AttackRange: 5
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Poison
-+    ElementLevel: 3
-+    WalkSpeed: 250
-+    AttackDelay: 1872
-+    AttackMotion: 672
-+    DamageMotion: 480
-+    Ai: 04
-+    Drops:
-+      - Item: Tough_Scalelike_Stem
-+        Rate: 1250
-+      - Item: Sticky_Poison
-+        Rate: 1000
-+      - Item: Wooden_Block
-+        Rate: 1000
-+      - Item: EP17_1_EVT39
-+        Rate: 3
-+      - Item: Bloody_Rune
-+        Rate: 800
-+  - Id: 20350
-+    AegisName: MD_A013_BELLARE
-+    Name: A013 - Bellare
-+    Level: 112
-+    Hp: 38000
-+    BaseExp: 3250
-+    JobExp: 3000
-+    Attack: 1140
-+    Attack2: 160
-+    Defense: 76
-+    MagicDefense: 15
-+    Str: 107
-+    Agi: 82
-+    Vit: 44
-+    Int: 29
-+    Dex: 148
-+    Luk: 62
-+    AttackRange: 7
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 206
-+    AttackMotion: 384
-+    DamageMotion: 288
-+    Ai: 04
-+    Drops:
-+      - Item: Heart_Hunter_Seal
-+        Rate: 1250
-+      - Item: Elunium_Stone
-+        Rate: 150
-+      - Item: Elunium
-+        Rate: 12
-+      - Item: CrudeAmmo
-+        Rate: 800
-+      - Item: Explosive_Powder
-+        Rate: 30
-+      - Item: EP17_1_EVT02
-+        Rate: 7
-+  - Id: 20351
-+    AegisName: MD_MANHOLE2
-+    Name: Manhole   #!todo check english name
-+    Level: 1
-+    Hp: 1000
-+    AttackRange: 2
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Formless
-+    Element: Neutral
-+    ElementLevel: 1
-+    WalkSpeed: 1000
-+    AttackDelay: 76
-+    AttackMotion: 384
-+    DamageMotion: 288
-+    Class: Boss
-+    Modes:
-+      IgnoreMagic: true
-+      IgnoreMelee: true
-+      IgnoreMisc: true
-+      IgnoreRanged: true
-+      KnockBackImmune: true
-+      TeleportBlock: true
-+  - Id: 20352
-+    AegisName: MD_POMPOM
-+    Name: Fatal Pompom
-+    Level: 112
-+    Hp: 35000
-+    Attack: 855
-+    Attack2: 185
-+    Defense: 85
-+    MagicDefense: 42
-+    Str: 63
-+    Agi: 84
-+    Vit: 12
-+    Int: 55
-+    Dex: 138
-+    Luk: 12
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Formless
-+    Element: Poison
-+    ElementLevel: 3
-+    WalkSpeed: 200
-+    AttackDelay: 1100
-+    AttackMotion: 650
-+    DamageMotion: 500
-+    Ai: 04
-+  - Id: 20353
-+    AegisName: MD_CROB
-+    Name: Sorrow Crob
-+    Level: 111
-+    Hp: 3441000
-+    BaseExp: 1175400
-+    JobExp: 587000
-+    Attack: 3400
-+    Attack2: 1900
-+    Defense: 42
-+    MagicDefense: 65
-+    Str: 160
-+    Agi: 77
-+    Vit: 100
-+    Int: 40
-+    Dex: 235
-+    Luk: 55
-+    AttackRange: 5
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 250
-+    AttackDelay: 1872
-+    AttackMotion: 672
-+    DamageMotion: 480
-+    Ai: 21
-+    Class: Boss
- #  - Id: 20354
- #    AegisName: E_FINE_DUST
--#  - Id: 20355
--#    AegisName: EP17_1_BELLARE1
--#  - Id: 20356
--#    AegisName: EP17_1_BELLARE2
--#  - Id: 20357
--#    AegisName: EP17_1_SANARE1
--#  - Id: 20358
--#    AegisName: EP17_1_SANARE2
--#  - Id: 20359
--#    AegisName: EP17_1_PLAGA1
--#  - Id: 20360
--#    AegisName: EP17_1_PLAGA2
--#  - Id: 20361
--#    AegisName: EP17_1_DOLOR1
--#  - Id: 20362
--#    AegisName: EP17_1_DOLOR2
--#  - Id: 20363
--#    AegisName: EP17_1_VENENUM1
--#  - Id: 20364
--#    AegisName: EP17_1_VENENUM2
--#  - Id: 20365
--#    AegisName: EP17_1_TWIN_CAPUT1
--#  - Id: 20366
--#    AegisName: EP17_1_TWIN_CAPUT2
-+  - Id: 20355
-+    AegisName: EP17_1_BELLARE1
-+    Name: Heart Hunter Bellare
-+    Level: 120
-+    Hp: 29619
-+    BaseExp: 3291
-+    JobExp: 2633
-+    Attack: 840
-+    Attack2: 424
-+    Defense: 146
-+    MagicDefense: 27
-+    Str: 56
-+    Agi: 72
-+    Vit: 43
-+    Int: 53
-+    Dex: 131
-+    Luk: 67
-+    AttackRange: 9
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 864
-+    AttackMotion: 1268
-+    DamageMotion: 480
-+    Ai: 19
-+    Drops:
-+      - Item: Heart_Hunter_Seal
-+        Rate: 1250
-+      - Item: Elunium_Stone
-+        Rate: 150
-+      - Item: Elunium
-+        Rate: 12
-+      - Item: EP17_1_EVT39
-+        Rate: 5
-+      - Item: EP17_1_EVT02
-+        Rate: 10
-+      - Item: Explosive_Powder
-+        Rate: 30
-+      - Item: Bellare_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20356
-+    AegisName: EP17_1_BELLARE2
-+    Name: High Hunter Bellare
-+    Level: 165
-+    Hp: 473302
-+    BaseExp: 43027
-+    JobExp: 30119
-+    Attack: 2454
-+    Attack2: 869
-+    Defense: 263
-+    MagicDefense: 37
-+    Str: 119
-+    Agi: 101
-+    Vit: 90
-+    Int: 79
-+    Dex: 172
-+    Luk: 93
-+    AttackRange: 9
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Neutral
-+    ElementLevel: 3
-+    WalkSpeed: 175
-+    AttackDelay: 1270
-+    AttackMotion: 1268
-+    DamageMotion: 480
-+    Ai: 19
-+    Drops:
-+      - Item: Heart_Hunter_Seal
-+        Rate: 2500
-+      - Item: Elunium_Stone
-+        Rate: 300
-+      - Item: Elunium
-+        Rate: 24
-+      - Item: EP17_1_EVT39
-+        Rate: 10
-+      - Item: Explosive_Powder
-+        Rate: 60
-+      - Item: EP17_1_EVT02
-+        Rate: 30
-+      - Item: High_Bellare_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20357
-+    AegisName: EP17_1_SANARE1
-+    Name: Heart Hunter Sanare
-+    Level: 120
-+    Hp: 30159
-+    BaseExp: 3351
-+    JobExp: 2681
-+    Attack: 765
-+    Attack2: 504
-+    Defense: 200
-+    MagicDefense: 27
-+    Str: 51
-+    Agi: 51
-+    Vit: 70
-+    Int: 63
-+    Dex: 117
-+    Luk: 77
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 432
-+    AttackMotion: 1268
-+    DamageMotion: 480
-+    Ai: 19
-+    Drops:
-+      - Item: CrudeAmmo
-+        Rate: 1000
-+      - Item: Heart_Hunter_Seal
-+        Rate: 1250
-+      - Item: Oridecon_Stone
-+        Rate: 150
-+      - Item: Oridecon
-+        Rate: 12
-+      - Item: EP17_1_EVT02
-+        Rate: 10
-+      - Item: Explosive_Powder
-+        Rate: 30
-+      - Item: Sanare_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20358
-+    AegisName: EP17_1_SANARE2
-+    Name: High Hunter Sanare
-+    Level: 168
-+    Hp: 482327
-+    BaseExp: 43848
-+    JobExp: 30694
-+    Attack: 2289
-+    Attack2: 1579
-+    Defense: 276
-+    MagicDefense: 41
-+    Str: 109
-+    Agi: 97
-+    Vit: 96
-+    Int: 141
-+    Dex: 139
-+    Luk: 77
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Angel
-+    Element: Dark
-+    ElementLevel: 3
-+    WalkSpeed: 175
-+    AttackDelay: 432
-+    AttackMotion: 1268
-+    DamageMotion: 480
-+    Ai: 19
-+    Drops:
-+      - Item: Heart_Hunter_Seal
-+        Rate: 2500
-+      - Item: Elunium_Stone
-+        Rate: 300
-+      - Item: Elunium
-+        Rate: 24
-+      - Item: EP17_1_EVT39
-+        Rate: 10
-+      - Item: Explosive_Powder
-+        Rate: 60
-+      - Item: EP17_1_EVT02
-+        Rate: 30
-+      - Item: High_Sanare_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20359
-+    AegisName: EP17_1_PLAGA1
-+    Name: Plaga
-+    Level: 164
-+    Hp: 466948
-+    BaseExp: 42450
-+    JobExp: 29715
-+    Attack: 2952
-+    Attack2: 1235
-+    Defense: 160
-+    MagicDefense: 38
-+    Str: 144
-+    Agi: 60
-+    Vit: 39
-+    Int: 113
-+    Dex: 125
-+    Luk: 70
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Dragon
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 1280
-+    AttackMotion: 1080
-+    DamageMotion: 240
-+    Ai: 19
-+    Drops:
-+      - Item: Fluorescent_Liquid
-+        Rate: 1250
-+      - Item: Solid_Shell
-+        Rate: 800
-+      - Item: Dragon's_Skin
-+        Rate: 1000
-+      - Item: Azure_Jewel
-+        Rate: 50
-+      - Item: EP17_1_EVT39
-+        Rate: 5
-+      - Item: Plaga_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20360
-+    AegisName: EP17_1_PLAGA2
-+    Name: Mutant Plaga
-+    Level: 178
-+    Hp: 760548
-+    BaseExp: 69141
-+    JobExp: 48399
-+    Attack: 4383
-+    Attack2: 1626
-+    Defense: 215
-+    MagicDefense: 71
-+    Str: 197
-+    Agi: 93
-+    Vit: 63
-+    Int: 137
-+    Dex: 172
-+    Luk: 90
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Dragon
-+    Element: Neutral
-+    ElementLevel: 2
-+    WalkSpeed: 175
-+    AttackDelay: 1289
-+    AttackMotion: 1080
-+    DamageMotion: 240
-+    Ai: 19
-+    Drops:
-+      - Item: Fluorescent_Liquid
-+        Rate: 2500
-+      - Item: Solid_Shell
-+        Rate: 800
-+      - Item: Dragon's_Skin
-+        Rate: 1000
-+      - Item: Azure_Jewel
-+        Rate: 50
-+      - Item: EP17_1_EVT39
-+        Rate: 10
-+      - Item: Mutant_Plaga_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20361
-+    AegisName: EP17_1_DOLOR1
-+    Name: Dolor
-+    Level: 122
-+    Hp: 40204
-+    BaseExp: 4467
-+    JobExp: 3574
-+    Attack: 1129
-+    Attack2: 561
-+    Defense: 227
-+    MagicDefense: 28
-+    Str: 74
-+    Agi: 71
-+    Vit: 83
-+    Int: 69
-+    Dex: 111
-+    Luk: 2
-+    AttackRange: 5
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Poison
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 1768
-+    AttackMotion: 768
-+    DamageMotion: 576
-+    Ai: 19
-+    Drops:
-+      - Item: Tough_Scalelike_Stem
-+        Rate: 1250
-+      - Item: Sticky_Poison
-+        Rate: 1000
-+      - Item: Wooden_Block
-+        Rate: 1000
-+      - Item: EP17_1_EVT39
-+        Rate: 5
-+      - Item: Bloody_Rune
-+        Rate: 800
-+      - Item: Dolor_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20362
-+    AegisName: EP17_1_DOLOR2
-+    Name: Mutant Dolor
-+    Level: 173
-+    Hp: 742501
-+    BaseExp: 67500
-+    JobExp: 47250
-+    Attack: 3655
-+    Attack2: 1396
-+    Defense: 305
-+    MagicDefense: 68
-+    Str: 169
-+    Agi: 103
-+    Vit: 109
-+    Int: 121
-+    Dex: 161
-+    Luk: 6
-+    AttackRange: 5
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Brute
-+    Element: Poison
-+    ElementLevel: 3
-+    WalkSpeed: 150
-+    AttackDelay: 1781
-+    AttackMotion: 768
-+    DamageMotion: 576
-+    Ai: 19
-+    Drops:
-+      - Item: Tough_Scalelike_Stem
-+        Rate: 2500
-+      - Item: Sticky_Poison
-+        Rate: 2000
-+      - Item: Wooden_Block
-+        Rate: 2000
-+      - Item: EP17_1_EVT39
-+        Rate: 5
-+      - Item: Bloody_Rune
-+        Rate: 1600
-+      - Item: Mt_Dolor_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20363
-+    AegisName: EP17_1_VENENUM1
-+    Name: Venenum
-+    Level: 123
-+    Hp: 40720
-+    BaseExp: 4449
-+    JobExp: 3574
-+    Attack: 1184
-+    Attack2: 320
-+    Defense: 242
-+    MagicDefense: 27
-+    Str: 77
-+    Agi: 37
-+    Vit: 90
-+    Int: 39
-+    Dex: 103
-+    Luk: 3
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Brute
-+    Element: Poison
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 768
-+    AttackMotion: 792
-+    DamageMotion: 432
-+    Ai: 19
-+    Drops:
-+      - Item: Sticky_Mucus
-+        Rate: 1250
-+      - Item: Sticky_Poison
-+        Rate: 1000
-+      - Item: Fluorescent_Liquid
-+        Rate: 800
-+      - Item: Elunium_Stone
-+        Rate: 120
-+      - Item: Elunium
-+        Rate: 10
-+      - Item: EP17_1_EVT39
-+        Rate: 5
-+      - Item: Venenum_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20364
-+    AegisName: EP17_1_VENENUM2
-+    Name: Mutant Venenum
-+    Level: 176
-+    Hp: 755670
-+    BaseExp: 68697
-+    JobExp: 48088
-+    Attack: 3894
-+    Attack2: 1396
-+    Defense: 314
-+    MagicDefense: 69
-+    Str: 177
-+    Agi: 91
-+    Vit: 113
-+    Int: 119
-+    Dex: 193
-+    Luk: 9
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Neutral
-+    ElementLevel: 3
-+    WalkSpeed: 150
-+    AttackDelay: 768
-+    AttackMotion: 792
-+    DamageMotion: 432
-+    Ai: 19
-+    Drops:
-+      - Item: Sticky_Mucus
-+        Rate: 2500
-+      - Item: Sticky_Poison
-+        Rate: 2000
-+      - Item: Fluorescent_Liquid
-+        Rate: 1600
-+      - Item: Elunium_Stone
-+        Rate: 240
-+      - Item: Elunium
-+        Rate: 20
-+      - Item: EP17_1_EVT39
-+        Rate: 10
-+      - Item: Mt_Venenum_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20365
-+    AegisName: EP17_1_TWIN_CAPUT1
-+    Name: Twin Caput
-+    Level: 125
-+    Hp: 41735
-+    BaseExp: 4637
-+    JobExp: 3710
-+    Attack: 1047
-+    Attack2: 408
-+    Defense: 269
-+    MagicDefense: 27
-+    Str: 67
-+    Agi: 45
-+    Vit: 103
-+    Int: 49
-+    Dex: 90
-+    Luk: 30
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Dark
-+    ElementLevel: 2
-+    WalkSpeed: 220
-+    AttackDelay: 936
-+    AttackMotion: 1020
-+    DamageMotion: 420
-+    Ai: 19
-+    Drops:
-+      - Item: Rune_Of_Darkness
-+        Rate: 1250
-+      - Item: Piece_Of_Darkness
-+        Rate: 1000
-+      - Item: Tooth_Of_
-+        Rate: 800
-+      - Item: Tendon
-+        Rate: 1000
-+      - Item: EP17_1_EVT39
-+        Rate: 5
-+      - Item: Caput_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20366
-+    AegisName: EP17_1_TWIN_CAPUT2
-+    Name: Mutant Twin Caput
-+    Level: 175
-+    Hp: 750501
-+    BaseExp: 68227
-+    JobExp: 47759
-+    Attack: 4091
-+    Attack2: 1412
-+    Defense: 290
-+    MagicDefense: 68
-+    Str: 187
-+    Agi: 90
-+    Vit: 101
-+    Int: 121
-+    Dex: 143
-+    Luk: 45
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Demihuman
-+    Element: Dark
-+    ElementLevel: 2
-+    WalkSpeed: 200
-+    AttackDelay: 936
-+    AttackMotion: 1020
-+    DamageMotion: 420
-+    Ai: 19
-+    Drops:
-+      - Item: Rune_Of_Darkness
-+        Rate: 2500
-+      - Item: Piece_Of_Darkness
-+        Rate: 2000
-+      - Item: Tooth_Of_
-+        Rate: 1600
-+      - Item: Tendon
-+        Rate: 2000
-+      - Item: EP17_1_EVT39
-+        Rate: 10
-+      - Item: Mt_Caput_Card
-+        Rate: 1
-+        StealProtected: true
- #  - Id: 20367
- #    AegisName: RAYDRIC_H
- #  - Id: 20368
- #    AegisName: RAYDRIC_ARCHER_H
- #  - Id: 20369
-@@ -90606,15 +89455,86 @@ Body:
- #    AegisName: LAVA_GOLEM_H
- #  - Id: 20379
- #    AegisName: ICE_GHOST_H
- #  - Id: 20380
- #    AegisName: FLAME_GHOST_H
--#  - Id: 20381
--#    AegisName: EP17_1_R4885_BESTIA
--#    DamageTaken: 10
--#  - Id: 20382
--#    AegisName: G_TWIN_CAPUT2
-+  - Id: 20381
-+    AegisName: EP17_1_R4885_BESTIA
-+    Name: R48-85-Bestia
-+    Level: 174
-+    Hp: 8885000
-+    BaseExp: 8003000
-+    JobExp: 6009000
-+    MvpExp: 4001500
-+    Attack: 4520
-+    Attack2: 4150
-+    Defense: 855
-+    MagicDefense: 124
-+    Str: 220
-+    Agi: 244
-+    Vit: 72
-+    Int: 118
-+    Dex: 255
-+    Luk: 95
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Large
-+    Race: Brute
-+    Element: Neutral
-+    ElementLevel: 4
-+    WalkSpeed: 150
-+    AttackDelay: 1020
-+    AttackMotion: 144
-+    DamageMotion: 288
-+    DamageTaken: 10
-+    Ai: 21
-+    Class: Boss
-+    Modes:
-+      Mvp: true
-+    MvpDrops:
-+      - Item: Old_Violet_Box
-+        Rate: 4000
-+      - Item: Seed_Of_Yggdrasil
-+        Rate: 3000
-+    Drops:
-+      - Item: Piece_Of_Bone_Armor
-+        Rate: 4000
-+      - Item: EP17_1_EVT02
-+        Rate: 5000
-+      - Item: Zelunium
-+        Rate: 5000
-+      - Item: R48_85_Bestia_Card
-+        Rate: 1
-+        StealProtected: true
-+  - Id: 20382
-+    AegisName: G_TWIN_CAPUT2
-+    Name: Twin Capute
-+    Level: 175
-+    Hp: 603341
-+    Attack: 3619
-+    Attack2: 1206
-+    Defense: 618
-+    MagicDefense: 196
-+    Str: 197
-+    Agi: 90
-+    Vit: 139
-+    Int: 35
-+    Dex: 143
-+    Luk: 45
-+    AttackRange: 1
-+    SkillRange: 10
-+    ChaseRange: 12
-+    Size: Medium
-+    Race: Formless
-+    Element: Neutral
-+    ElementLevel: 3
-+    WalkSpeed: 300
-+    AttackDelay: 1028
-+    AttackMotion: 1020
-+    DamageMotion: 420
-+    Ai: 21
- #  - Id: 20383
- #    AegisName: E_WICKED_NYMPH
- #  - Id: 20384
- #    AegisName: E_WICKED_NYMPH_BOSS
- #  - Id: 20385
 
