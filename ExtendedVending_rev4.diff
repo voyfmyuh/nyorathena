@@ -3,12 +3,12 @@
 
 ######## Login options and server-specific options ########
 
-master Taiwan - twRO: Sarah, Alice, Bakili, Charles, Poli
+master
 server
 username
 password
 loginPinCode
-char 0
+char
 
 # Poseidon Settings: https://openkore.com/wiki/Poseidon
 # They must be the same as Query Server config in Poseidon.txt
@@ -20,10 +20,10 @@ forceMapIP
 
 # 1 = hook into RO client, 2 = Act as stand-alone proxy, proxy = act as true proxy
 # https://openkore.com/wiki/XKore
-XKore 1
-XKore_port 2700
+XKore 0
+XKore_port 2350
 XKore_dll NetRedirect.dll
-XKore_injectDLL 0
+XKore_injectDLL 1
 XKore_autoAttachIfOneExe 1
 XKore_silent 1
 XKore_bypassBotDetection 0
@@ -37,7 +37,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword frigrauk
+adminPassword
 callSign
 commandPrefix ;
 callSignGM 0
@@ -83,9 +83,6 @@ attackRouteMaxPathDistance 13
 attackLooters 0
 attackChangeTarget 1
 aggressiveAntiKS 0
-UKoreKillSteal 0
-# Note: UKoreKillSteal 1 = KS
-# Note: UKoreKillSteal 0 = NOT KS (Default)
 
 attackUpdateMonsterPos 1
 
@@ -156,7 +153,7 @@ cachePlayerNames_maxSize 100
 
 clientSight 15
 
-dcPause 0
+dcPause 1
 dcOnDeath 0
 dcOnDualLogin 0
 dcOnDisconnect 0
@@ -165,7 +162,7 @@ dcOnMaxReconnections 0
 dcOnMute 0
 dcOnPM 0
 dcOnZeny 0
-dcOnStorageFull 0
+dcOnStorageFull 1
 dcOnPlayer 0
 dcOnServerShutDown 0
 dcOnServerClose 0
@@ -187,15 +184,15 @@ itemsTakeAuto 2
 itemsTakeAuto_party 0
 itemsGatherAuto 2
 itemsGatherAuto_notInTown 0
-itemsMaxWeight 99
-itemsMaxWeight_sellOrStore 69
+itemsMaxWeight 89
+itemsMaxWeight_sellOrStore 48
 itemsMaxNum_sellOrStore 99
 cartMaxWeight 7900
 itemsTakeAuto_new 0
-itemsTakeGreed 1
+itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap 
+lockMap
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -227,7 +224,7 @@ runFromTarget_minStep 7
 runFromTarget_maxStep 11
 runFromTarget_maxPathDistance 13
 
-saveMap 
+saveMap
 saveMap_warpToBuyOrSell 1
 saveMap_warpChatCommand
 memo1
@@ -503,430 +500,6 @@ pet_return 20
 # You can copy & paste any block multiple times. So if you want to
 # configure two attack skills, just duplicate the attackSkillSlot block.
 
-##### Acolyte - Priest #####
-useSelf_skill PR_MAGNIFICAT {
-	lvl 5
-	whenStatusInactive EFST_MAGNIFICAT
-	inLockOnly 1
-}
-
-partySkill ALL_RESURRECTION {
-	lvl 4
-	target
-	target_dead 1
-}
-
-partySkill PR_STRECOVERY {
-	lvl 1
-	target
-	target_whenStatusActive Frozen, Petrified, Sleeping, Stone Curse, Stun
-}
-
-partySkill AL_CURE {
-	lvl 1
-	dist <= 9
-	target
-	target_isJob
-	target_whenStatusActive Cursed, Blinded, Chaos, Silenced
-	target_isNotJob Acolyte, Champion, Monk, Priest
-}
-
-useSelf_skill Heal {
-	lvl 10
-	hp <= 70%
-}
-
-useSelf_skill AL_BLESSING {
-	lvl 10
-	whenStatusInactive EFST_BLESSING
-}
-
-useSelf_skill AL_INCAGI {
-	lvl 10
-	whenStatusInactive EFST_INC_AGI
-}
-
-useSelf_skill AL_CURE {
-	lvl 1
-	whenStatusActive Cursed, Blinded, Chaos, Silenced
-}
-
-partySkill Heal {
-	lvl 5
-	dist <= 9
-	target
-	target_hp <= 70%
-	target_isNotJob Acolyte, Priest, Monk, Champion
-}
-
-partySkill AL_BLESSING {
-	lvl 10
-	dist <= 9
-	target
-	timeout 240
-	target_isJob
-	target_whenStatusInactive EFST_BLESSING
-	target_isNotJob Acolyte, Priest
-	inLockOnly 1
-}
-
-partySkill AL_INCAGI {
-	lvl 10
-	dist <= 9
-	target
-	timeout 240
-	target_isJob
-	target_whenStatusInactive EFST_INC_AGI
-	target_isNotJob Acolyte, Priest
-	inLockOnly 1
-}
-
-partySkill PR_SUFFRAGIUM {
-	lvl 3
-	sp >= 20%
-	dist <= 9
-	target
-	target_whenStatusInactive EFST_SUFFRAGIUM
-	target_isJob Mage, Wizard
-	inLockOnly 1
-}
-
-useSelf_skill PR_GLORIA {
-	lvl 10
-	sp >= 20%
-	whenStatusInactive EFST_GLORIA
-	inLockOnly 1
-}
-
-useSelf_skill AL_ANGELUS {
-	lvl 10
-	sp >= 20%
-	whenStatusInactive EFST_ANGELUS
-	inLockOnly 1
-}
-
-# useSelf_skill PR_IMPOSITIO {
-lvl 5
-sp <= 70%
-whenStatusInactive Maximize Power
-inLockOnly 1
-}
-
-# Delete the Hashtag(#) and the space to activate this skill for battle priest.
-
-partySkill PR_IMPOSITIO {
-	lvl 5
-	sp >= 20%
-	dist <= 9
-	target
-	target_whenStatusInactive EFST_IMPOSITIO
-	target_isJob Archer, Hunter, Thief, Assassin, Swordsman, Knight, Merchant, Blacksmith
-	inLockOnly 1
-}
-
-useSelf_skill PR_KYRIE {
-	lvl 10
-	sp >= 20%
-	whenStatusInactive EFST_KYRIE
-	inLockOnly 1
-}
-
-partySkill PR_KYRIE {
-	lvl 10
-	sp > 20%
-	inLockOnly 1
-	target
-	target_isJob
-	target_whenStatusInactive EFST_KYRIE
-}
-
-# attackSkillSlot Heal {
-lvl 5
-dist 1.5,2,3,4,5,6
-sp <= 70%
-inLockOnly 1
-notInTown 0
-target
-target_isJob
-monsters Evil Druid, Ghoul, Wraith, Zombie, Zombie Prisoner
-}
-
-##### Archer - Hunter #####
-useSelf_skill AC_CONCENTRATION {
-	lvl 10
-	sp > 10%
-	whenStatusInactive Improve Concentration
-	onAction attack
-}
-
-attackSkillSlot AC_DOUBLE {
-	lvl 10
-	sp > 10%
-	monsters Sohee, Munak, Bigfoot, Elder Willow
-	notMonsters
-	maxUses 1
-	inLockOnly 1
-	notInTown 1
-}
-
-attackSkillSlot AC_SHOWER {
-	lvl 10
-	sp >= 30%
-	monsters
-	aggressives => 3
-	inLockOnly 1
-	notInTown 1
-}
-
-useSelf_skill SN_SIGHT {
-	lvl 10
-	sp > 10%
-	whenStatusInactive EFST_TRUESIGHT
-	onAction attack
-}
-
-##### Mage - Wizard #####
-attackSkillSlot MG_FIREBOLT {
-	lvl 10
-	sp >= 10%
-	monsters Sandman, Hode
-}
-
-attackSkillSlot MG_LIGHTNINGBOLT {
-	lvl 10
-	sp >= 10%
-	monsters Marina, Vadon
-}
-
-attackSkillSlot MG_COLDBOLT {
-	lvl 10
-	sp >= 10%
-	monsters Elder Willow, Greatest General
-}
-
-attackSkillSlot MG_SOULSTRIKE {
-	lvl 10
-	sp >= 10%
-	monsters Poring, Lunatic
-}
-
-attackSkillSlot WZ_JUPITEL {
-	lvl 10
-	sp >= 10%
-	monsters Merman, Obeaune
-}
-
-attackSkillSlot WZ_STORMGUST {
-	lvl 10
-	sp >= 10%
-	aggressives 4
-	monsters Zenorc, Orc Skeleton
-}
-
-#NOTE!!: change level of skills and monsters name
-
-##### Merchant - Blacksmith #####
-useSelf_skill BS_ADRENALINE {
-	lvl 5
-	whenStatusInactive EFST_ADRENALINE
-	inLockOnly 1
-	onAction attack
-}
-
-useSelf_skill MC_LOUD {
-	lvl 1
-	whenStatusInactive EFST_SHOUT
-	inLockOnly 1
-	onAction attack
-}
-
-attackSkillSlot MC_CARTREVOLUTION {
-	lvl 1
-	dist 1
-	monsters
-	aggressives => 2
-	maxUses 5
-}
-
-attackSkillSlot NC_AXETORNADO {
-	lvl 5
-	dist
-	monsters
-	aggressives
-	maxUses 10
-}
-
-useSelf_skill BS_WEAPONPERFECT {
-	lvl 5
-	sp >= 25%
-	whenStatusInactive EFST_WEAPONPERFECT
-	inLockOnly 1
-	onAction attack
-}
-
-useSelf_skill BS_OVERTHRUST {
-	lvl 5
-	sp >= 25%
-	whenStatusInactive EFST_OVERTHRUST
-	inLockOnly 1
-	onAction attack
-}
-
-useSelf_skill BS_GREED {
-	lvl 1
-	sp >= 25%
-	onAction take
-}
-
-useSelf_skill WS_CARTBOOST {
-	lvl 5
-	whenStatusInactive EFST_CARTBOOST
-	onAction 
-}
-
-#Power Maximize ON:
-#useSelf_skill Power Maximize {
-lvl 5
-sp <= 70%
-whenStatusInactive EFST_MAXIMIZE
-inLockOnly 1
-}
-
-#Power Maximize OFF:
-#useSelf_skill BS_MAXIMIZE {
-lvl 5
-sp <= 70%
-whenStatusActive EFST_MAXIMIZE
-inLockOnly 1
-}
-
-#NOTE!! = Delete the Hashtag(#) to activate.
-
-##### Swordsman - Knight - Crusader #####
-useSelf_skill KN_TWOHANDQUICKEN {
-	lvl 10
-	whenStatusInactive EFST_TWOHANDQUICKEN
-	onAction attack
-}
-
-useSelf_skill SM_ENDURE {
-	lvl 10
-	sp >= 10%
-	aggressives >= 3
-	timeout 10
-}
-
-attackSkillSlot SM_BASH {
-	lvl 10
-	dist 1.5
-	sp >= 70%
-	monsters Bigfoot, Elder Willow
-	notMonsters
-	maxUses 1
-	inLockOnly 1
-}
-
-attackSkillSlot KN_BOWLINGBASH {
-	lvl 10
-	dist 1.5
-	sp >= 20%
-	monsters
-	aggressives >= 4
-	maxUses 1
-	inLockOnly 1
-}
-
-useSelf_skill SM_MAGNUM {
-	lvl 10
-	dist 1.5
-	sp >= 50%
-	monsters
-	aggressives >= 3
-	maxUses 1
-	inLockOnly 1
-	timeout 10
-}
-
-useSelf_skill CR_SPEARQUICKEN {
-	lvl 10
-	whenStatusInactive EFST_SPEARQUICKEN
-	onAction attack
-}
-
-attackSkillSlot CR_HOLYCROSS {
-	lvl 10
-	dist 1.5
-	sp >= 50%
-	monsters Bigfoot, Elder Willow, Eggyra
-	notMonsters
-	maxUses 1
-	inLockOnly 1
-}
-
-##### Thief - Assassin - Rogue #####
-
-attackSkillSlot AS_SONICBLOW {
-	lvl 10
-	dist 1.5
-	sp >= 50%
-	monsters Argiope, Orc Lady, Orc Warrior
-	notMonsters
-	maxUses 1
-	inLockOnly 1
-}
-
-attackSkillSlot TF_STEAL {
-	lvl 10
-	dist 1.5
-	sp >= 20%
-	monsters Sohee, Bongun, Munak
-	notMonsters
-	maxUses 1
-	inLockOnly 1
-}
-
-useSelf_skill TF_DETOXIFY {
-	lvl 1
-	sp >= 10%
-	whenStatusActive HEALTHSTATE_POISON
-}
-
-partySkill TF_DETOXIFY {
-	lvl 1
-	sp >= 10%
-	target
-	target_whenStatusActive HEALTHSTATE_POISON
-}
-
-useSelf_skill AS_ENCHANTPOISON {
-	lvl 1
-	sp >= 10%
-	whenStatusInactive EFST_ENCHANTPOISON
-	inLockOnly 1
-	onAction attack
-}
-
-partySkill AS_ENCHANTPOISON {
-	lvl 1
-	sp >= 10%
-	target
-	target_isNotJob Acolyte, Archer, Champion, Mage, Monk, Priest
-	target_whenStatusInactive EFST_ENCHANTPOISON
-	inLockOnly 1
-}
-
-attackSkillSlot RG_STEALCOIN {
-	lvl 10
-	dist 1.5
-	sp >= 20%
-	monsters Sohee, Bongun, Munak
-	notMonsters
-	maxUses 1
-	inLockOnly 1
-}
-
-=====================================================================
-
 attackSkillSlot {
 	lvl
 	dist 1
@@ -993,16 +566,6 @@ attackComboSlot {
 	whenPartyMembersNearDist
 }
 
-doCommand send 11 0B F4 07 {
-	inLockOnly 0
-	notInTown 0
-	timeout 0.5
-	disabled 1
-	whenPartyMembersNear
-	whenPartyMembersNearDist
-	inMap
-}
-
 doCommand {
 	hp
 	sp
@@ -1031,21 +594,6 @@ doCommand {
 	inCart
 	inMap
 	manualAI 0
-}
-
-useSelf_skill Heal {
-	lvl 10
-	hp <= 70%
-}
-
-useSelf_skill AL_BLESSING {
-	lvl 10
-	whenStatusInactive EFST_BLESSING
-}
-
-useSelf_skill AL_INCAGI {
-	lvl 10
-	whenStatusInactive EFST_INC_AGI
 }
 
 useSelf_skill {
@@ -1195,145 +743,8 @@ equipAuto {
 	manualAI 0
 }
 
-######## Use Item ########
-
-useSelf_item Battle Manual {
-	whenStatusInactive Field Manual, EFST_CASH_PLUSEXP
-	inLockOnly 1
-	onAction attack
-	timeout 1805
-}
-
-useSelf_item Bubble Gum {
-	whenStatusInactive Bubble Gum, EFST_CASH_RECEIVEITEM
-	inLockOnly 1
-	onAction attack
-	timeout 1805
-}
-
-useSelf_item [Event] Battle Manual {
-	whenStatusInactive Field Manual, EFST_CASH_PLUSEXP
-	inInventory Battle Manual < 1
-	inLockOnly 1
-	onAction attack
-	timeout 1805
-}
-
-useSelf_item [Event] Bubble Gum {
-	whenStatusInactive Bubble Gum, EFST_CASH_RECEIVEITEM
-	inInventory Bubble Gum < 1
-	inLockOnly 1
-	onAction attack
-	timeout 1805
-}
-
-useSelf_item [Event] Battle Bubble {
-	whenStatusInactive Field Manual, Bubble Gum, EFST_CASH_PLUSEXP, EFST_CASH_RECEIVEITEM
-	inInventory [Event] Battle Manual < 1
-	inLockOnly 1
-	onAction attack
-	timeout 1805
-}
-
-useSelf_item [Event] Steamed Tongue {
-	whenStatusInactive Increase STR
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item [Event] Steamed Scorpion {
-	whenStatusInactive Increase AGI
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item [Event] Dragon Breath Cocktail {
-	whenStatusInactive Increase INT
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item [Event] Hwergelmir's Tonic {
-	whenStatusInactive Increase DEX
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item [Event] Cooked Nine Tail's Tail {
-	whenStatusInactive Increase LUK
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item [Event] Stew of Immortality {
-	whenStatusInactive Increase VIT
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item [Event] Orange Potion {
-	hp < 50%
-	sp
-	inInventory Novice Potion < 1
-	manualAI 0
-}
-
-useSelf_item [Event] White Potion {
-	hp < 50%
-	sp
-	inInventory [Event] Orange Potion < 1
-	manualAI 0
-}
-
-useSelf_item LV10 Agil Scroll {
-	whenStatusInactive EFST_INC_AGI
-	inLockOnly 1
-	onAction attack
-}
-
-useSelf_item LV10 Blessing Scroll {
-	whenStatusInactive EFST_BLESSING
-	inLockOnly 1
-	onAction attack
-}
-
-useSelf_item Berserk Potion, Potion Awakening, Potion Concentration, Awakening Potion, Concentration Potion {
-	whenStatusInactive EFST_ATTHASTE_POTION3, EFST_ATTHASTE_POTION2, EFST_ATTHASTE_POTION1
-	inLockOnly 1
-	onAction attack
-	timeout 5
-}
-
-useSelf_item Green Herb {
-	whenStatusActive HEALTHSTATE_POISON
-}
-
-useSelf_item Green Potion {
-	whenStatusActive Poison, Silence, Blinded, Confusion
-}
-
-useSelf_item Red Herb, Yellow Herb, White Herb, Novice Potion, Red Potion, Orange Potion, Yellow Potion, White Potion {
-	hp <= 50%
-}
-
-useSelf_item Strawberry, Blue Herb, Blue Potion, [Event] Blue Potion {
-	sp <= 35%
-}
-
-useSelf_item 初學者專用藥水[活動專用] {
-	hp <= 60%
-}
-
-#NOTE!!: Change all items name to chinese language
-
-useSelf_item  {
-	hp < 70%
+useSelf_item {
+	hp
 	sp
 	homunculus_hp
 	homunculus_sp
@@ -1385,13 +796,13 @@ sellAuto_maxDistance
 sellAuto_npc_steps s
 
 storageAuto 0
-storageAuto_npc 
+storageAuto_npc
 storageAuto_standpoint
 storageAuto_distance 3
 storageAuto_maxDistance
 storageAuto_npc_type 1
 storageAuto_npc_steps
-storageAuto_password 
+storageAuto_password
 storageAuto_keepOpen 0
 storageAuto_useChatCommand
 storageAuto_useItem 0
@@ -1427,13 +838,3 @@ logToFile_Errors
 logToFile_Messages
 logToFile_Warnings
 history_max 50
-macro_orphans terminate
-
-######## Captcha Bypass Support ########
-captcha_bypass 1
-captcha_bypass_key 6250655368566B5970337336763979244226452948404D635166546A576E5A71
-koreShield 1
-alarm_disable 0
-alarm_time
-maintenance_date
-alarm_opk_quit 1
